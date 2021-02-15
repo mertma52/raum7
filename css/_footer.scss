@@ -1,0 +1,59 @@
+.end {
+  background-color: #191919;
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.footer-text {
+  color: white;
+  font-family: "Montserrat-Light";
+  font-size: 22px;
+}
+#footer-fraction-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  .footer-company-title {
+    font-family: "Montserrat-Light";
+    color: white;
+    font-weight: 900;
+  }
+  .adresse {
+    margin: 60px 0px 30px 0px;
+  }
+}
+
+#footer-fraction-middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .social-icons-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    img {
+      height: 50%;
+      object-fit: cover;
+    }
+  }
+}
+
+#footer-fraction-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 20px 0px 0px 0px;
+}
+
+.footer {
+  width: 75%;
+  .footer-wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

@@ -1,0 +1,69 @@
+.Navigationsleiste {
+  display: flex;
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+}
+
+.navbar {
+  height: 55px;
+  width: 55%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .nav-links {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    .burger {
+      padding: 25px 18px 25px 50px;
+      div {
+        width: 27px;
+        height: 5px;
+        background-color: rgb(67, 67, 67);
+        margin: 2px 0;
+        clip-path: polygon(100% 0%, 90% 100%, 0% 100%, 10% 0%);
+      }
+    }
+    .logo {
+      width: 165px;
+      padding-top: 5px;
+    }
+  }
+  .nav-mitte {
+    display: flex;
+    width: 60%;
+    .nav-li {
+      font-size: 14px;
+      margin: 0px 10px;
+      .andereFarbe {
+        color: rgb(153, 153, 153);
+        display: inline-block;
+      }
+    }
+  }
+}
+.sprachenRechts {
+  height: 60px;
+  width: 48%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  .spracheDE {
+    font-size: 15px;
+    color: rgb(153, 153, 153);
+    padding: 0px 12px;
+  }
+  .Trennung {
+    height: 13px;
+    width: 2px;
+    background-color: rgb(153, 153, 153);
+  }
+  .spracheEN {
+    font-size: 15px;
+    color: rgb(153, 153, 153);
+    padding: 0px 30px 0px 12px;
+  }
+}
