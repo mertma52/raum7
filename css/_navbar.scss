@@ -6,8 +6,11 @@
 }
 
 .navbar {
-  height: 55px;
   width: 55%;
+  padding-top: 15px;
+  padding-bottom: 12.5px;
+  padding-left: 50px;
+  padding-right: 5px;
   background-color: white;
   display: flex;
   align-items: center;
@@ -15,28 +18,26 @@
   .nav-links {
     display: flex;
     align-items: center;
-    width: 50%;
-    .burger {
-      padding: 25px 18px 25px 50px;
-      div {
-        width: 27px;
-        height: 5px;
-        background-color: rgb(67, 67, 67);
-        margin: 2px 0;
-        clip-path: polygon(100% 0%, 90% 100%, 0% 100%, 10% 0%);
-      }
+    .burgermenu {
+      width: auto;
+      height: 17px;
+      margin-top: 5px;
+      margin-right: 25px;
     }
     .logo {
       width: 165px;
       padding-top: 5px;
     }
   }
+  //
   .nav-mitte {
     display: flex;
-    width: 60%;
+    white-space: nowrap;
+    margin-top: 4px;
     .nav-li {
+      display: inline-block;
       font-size: 14px;
-      margin: 0px 10px;
+      margin: 0px 15px;
       .andereFarbe {
         color: rgb(153, 153, 153);
         display: inline-block;
@@ -45,7 +46,6 @@
   }
 }
 .sprachenRechts {
-  height: 60px;
   width: 48%;
   background-color: transparent;
   display: flex;

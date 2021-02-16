@@ -1,61 +1,35 @@
-.sprachenRechts {
-  height: 60px;
-  width: 48%;
-  background-color: transparent;
+//arrow
+.arrow-bereich {
+  grid-column: 1/5;
+  grid-row: 2/3;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  .spracheDE {
-    font-size: 15px;
-    color: rgb(153, 153, 153);
-    padding: 0px 12px;
-  }
-  .Trennung {
-    height: 13px;
-    width: 2px;
-    background-color: rgb(153, 153, 153);
-  }
-  .spracheEN {
-    font-size: 15px;
-    color: rgb(153, 153, 153);
-    padding: 0px 30px 0px 12px;
-  }
-}
-//Schrift fuers Bild.
-
-/*.container {
-  position: relative;
-  display: flex;
   justify-content: center;
-  h1 {
-    font-family: "Montserrat-Light";
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 38px;
-    text-align: center;
-    position: absolute;
-    z-index: 999;
-    text-shadow: 2px 2px 35px white, 2px 2px 20px white, 2px 2px 35px white,
-      2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white,
-      2px 2px 35px white, 2px 2px 35px white, 2px 2px 20px white,
-      2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white,
-      2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white,
-      2px 2px 20px white, 2px 2px 35px white, 2px 2px 35px white,
-      2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white,
-      2px 2px 35px white, 2px 2px 20px white, 2px 2px 35px white;
-    top: 17vw;
-    color: #464646;
-    line-height: 38pt;
-    span {
-      font-family: "Montserrat-SemiBold";
-    }
-  }
-}*/
-//Bildergalerie
+  padding-bottom: 75px;
+}
+.arrow {
+  border: solid white;
+  border-width: 0px 5px 5px 0;
+  display: inline-block;
+  padding: 20px;
+  position: absolute;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.thick {
+  border: solid black;
+  border-width: 0px 14px 14px 0;
+  display: inline-block;
+  padding: 20px;
+  position: absolute;
+}
+
+//Bildergalerie mit Text
 .gallery {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
   grid-template-rows: auto;
 }
 .gallery img {
@@ -65,41 +39,93 @@
 }
 .gecko {
   grid-column: 1/5;
+  grid-row: 1/2;
   background-image: url("../img-hauptseite/Layer\ 47.png");
-  height: 38vw;
-  background-size: 100%;
+  height: 37.5vw;
+  background-size: cover;
   background-repeat: no-repeat;
   background-color: rgb(253, 253, 253);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-family: "Montserrat-Light";
+    font-size: 40px;
+    color: #464646;
+    text-align: center;
+    text-shadow: 2px 2px 35px white, 2px 2px 20px white, 2px 2px 35px white,
+      2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white,
+      2px 2px 35px white, 2px 2px 35px white, 2px 2px 20px white,
+      2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white,
+      2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white,
+      2px 2px 20px white, 2px 2px 35px white, 2px 2px 35px white,
+      2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white,
+      2px 2px 35px white, 2px 2px 20px white, 2px 2px 35px white;
+    span {
+      font-family: "Montserrat-SemiBold";
+    }
+  }
 }
 .design {
   grid-column: 1/2;
+  grid-row: 2/3;
   background-image: url("../img-hauptseite/Layer\ 51.jpg");
-  height: 24.8vw;
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
+  padding: 6vh 0vh 0vh 6vh;
+  h2 {
+    display: inline-block;
+    font-family: "Montserrat-SemiBold";
+    color: white;
+    font-size: 28px;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
 }
 .visualisierung {
   grid-column: 3/5;
   grid-row: 2/4;
   background-image: url("../img-hauptseite/Layer\ 53.png");
   height: 49vw;
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
+  padding: 6vh 0vh 0vh 8vh;
+  h2 {
+    display: inline-block;
+    font-family: "Montserrat-SemiBold";
+    color: white;
+    font-size: 28px;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
 }
 .animation {
   grid-column: 2/3;
   grid-row: 2/3;
   background-image: url("../img-hauptseite/Layer\ 52.png");
-  height: 24.8vw;
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
+  padding: 6vh 0vh 0vh 6vh;
+  h2 {
+    display: inline-block;
+    font-family: "Montserrat-SemiBold";
+    color: white;
+    font-size: 28px;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
 }
-.extended-realtiy {
+.extended-reality {
   grid-column: 1/3;
+  grid-row: 3/4;
   background-image: url("../img-hauptseite/Layer\ 50.jpg");
-  height: 24.8vw;
   background-size: 100%;
   background-repeat: no-repeat;
+  padding: 5vh 0vh 0vh 5vh;
+  h2 {
+    display: inline-block;
+    font-family: "Montserrat-SemiBold";
+    color: white;
+    font-size: 28px;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
 }
 //Section Text grau
 .home-text-grau {

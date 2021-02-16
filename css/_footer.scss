@@ -30,17 +30,37 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
   .social-icons-wrapper {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    img {
-      height: 50%;
-      object-fit: cover;
-    }
   }
 }
-
+.vimeo {
+  height: 45px;
+  width: auto;
+  margin: 0px 10px;
+}
+.behance {
+  height: 45px;
+  width: auto;
+  margin: 0px 10px;
+}
+.linkedin {
+  height: 45px;
+  width: auto;
+  margin: 0px 10px;
+}
+.xing {
+  height: 45px;
+  width: auto;
+  margin: 0px 10px;
+}
+.cta {
+  text-align: center;
+  margin-bottom: 20px;
+}
 #footer-fraction-right {
   display: flex;
   flex-direction: column;
