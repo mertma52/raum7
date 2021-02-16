@@ -253,7 +253,7 @@ li {
   text-align: center;
 }
 
-.Navigationsleiste {
+.navigation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -280,7 +280,7 @@ li {
           justify-content: space-between;
 }
 
-.navbar .nav-links {
+.navbar .navbar-left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -289,14 +289,14 @@ li {
           align-items: center;
 }
 
-.navbar .nav-links .burgermenu {
+.navbar .navbar-left .navbar-menu-img {
   width: auto;
   height: 17px;
   margin-top: 5px;
   margin-right: 25px;
 }
 
-.navbar .nav-links .logo {
+.navbar .navbar-left .navbar-logo-img {
   width: 165px;
   padding-top: 5px;
 }

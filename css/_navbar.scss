@@ -1,4 +1,4 @@
-.Navigationsleiste {
+.navigation {
   display: flex;
   position: absolute;
   z-index: 999;
@@ -15,16 +15,16 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  .nav-links {
+  .navbar-left {
     display: flex;
     align-items: center;
-    .burgermenu {
+    .navbar-menu-img {
       width: auto;
       height: 17px;
       margin-top: 5px;
       margin-right: 25px;
     }
-    .logo {
+    .navbar-logo-img {
       width: 165px;
       padding-top: 5px;
     }
