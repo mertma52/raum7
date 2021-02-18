@@ -1,18 +1,15 @@
-@font-face {
+/*@font-face {
   font-family: "Montserrat-Light";
   src: url("/fonts/Montserrat-Light.ttf");
 }
-
 @font-face {
   font-family: "Montserrat-SemiBold";
   src: url("/fonts/Montserrat-SemiBold.ttf");
 }
-
 @font-face {
   font-family: "Montserrat-Bold";
   src: url("/fonts/Montserrat-Bold.ttf");
-}
-
+}*/
 * {
   padding: 0;
   margin: 0;
@@ -21,7 +18,8 @@
 }
 
 body {
-  font-family: "Montserrat-SemiBold";
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
 }
 
 a {
@@ -31,6 +29,7 @@ a {
 
 li {
   list-style: none;
+  font-weight: 600;
 }
 
 .navigation {
@@ -115,6 +114,7 @@ li {
   font-size: 0.78vw;
   color: #999999;
   padding: 0vw 0.7vw;
+  font-weight: 600;
 }
 
 .navigation .navigations-languages .navigations-languages-seperator {
@@ -127,6 +127,7 @@ li {
   font-size: 0.78vw;
   color: #999999;
   padding: 0vw 2vw 0vw 0.7vw;
+  font-weight: 600;
 }
 
 /*Responsive Design*/
@@ -187,15 +188,15 @@ li {
 }
 
 .gecko .gecko-background-h1 {
-  font-family: "Montserrat-Light";
-  font-size: 2vw;
+  font-size: 2.2vw;
+  font-weight: 400;
   color: #464646;
   text-align: center;
   text-shadow: 2px 2px 35px white, 2px 2px 20px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 20px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 20px white, 2px 2px 35px white, 2px 2px 35px white;
 }
 
 .gecko .gecko-background-h1 span {
-  font-family: "Montserrat-SemiBold";
+  font-weight: 600;
 }
 
 .design {
@@ -302,10 +303,10 @@ li {
 }
 
 .text-gray .text-gray-wrapper .text-gray-wrapper-h3 {
-  font-family: "Montserrat-Light";
   color: white;
   font-size: 2.2vw;
   text-align: center;
+  font-weight: 300;
 }
 
 .section-home-video .section-home-video-wrapper {
@@ -333,10 +334,10 @@ li {
 }
 
 .text-white .text-white-wrappper .text-white-wrappper-h3 {
-  font-family: "Montserrat-Light";
   color: #464646;
   font-size: 2.2vw;
   text-align: center;
+  font-weight: 300;
 }
 
 .end {

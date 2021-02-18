@@ -29,8 +29,8 @@
   justify-content: center;
   align-items: center;
   .gecko-background-h1 {
-    font-family: "Montserrat-Light";
-    font-size: 2vw;
+    font-size: 2.2vw;
+    font-weight: 400;
     color: #464646;
     text-align: center;
     text-shadow: 2px 2px 35px white, 2px 2px 20px white, 2px 2px 35px white,
@@ -40,7 +40,7 @@
       2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white,
       2px 2px 20px white, 2px 2px 35px white, 2px 2px 35px white;
     span {
-      font-family: "Montserrat-SemiBold";
+      font-weight: 600;
     }
   }
 }
@@ -113,10 +113,10 @@
   align-items: center;
   .text-gray-wrapper {
     .text-gray-wrapper-h3 {
-      font-family: "Montserrat-Light";
       color: white;
       font-size: 2.2vw;
       text-align: center;
+      font-weight: 300;
     }
   }
 }
@@ -139,10 +139,10 @@
   align-items: center;
   .text-white-wrappper {
     .text-white-wrappper-h3 {
-      font-family: "Montserrat-Light";
       color: #464646;
       font-size: 2.2vw;
       text-align: center;
+      font-weight: 300;
     }
   }
 }
