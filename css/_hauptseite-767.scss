@@ -2,6 +2,10 @@
   .gallery-arrow {
     display: none;
   }
+
+  .gecko{
+      height: 65vw;
+  }
   .gallery {
     display: grid;
     grid-template-columns: 1fr;
@@ -79,4 +83,19 @@
     font-size: 20px;
     line-height: 24px;
   }
+
+  .text-white .text-white-wrappper .text-white-wrappper-h3 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .text-white {
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
 }
+
