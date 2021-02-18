@@ -536,4 +536,51 @@ li {
     display: none;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .gallery {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+  }
+  .gecko {
+    -ms-grid-column: 1;
+    grid-column: 1/1;
+    width: 100vw;
+  }
+  .design {
+    -ms-grid-column: 1;
+    grid-column: 1/1;
+    grid-row: auto;
+    width: 100vw;
+    height: 35vw;
+    background-size: 100%;
+  }
+  .visualisierung {
+    -ms-grid-column: 1;
+    grid-column: 1/1;
+    width: 100vw;
+    height: 35vw;
+    grid-row: auto;
+  }
+  .extended-reality {
+    -ms-grid-column: 1;
+    grid-column: 1/1;
+    width: 100vw;
+    height: 50vw;
+    grid-row: auto;
+    background-size: 100%;
+  }
+  .animation {
+    -ms-grid-column: 1;
+    grid-column: 1/1;
+    width: 100vw;
+    height: 65vw;
+    grid-row: auto;
+    background-size: 100%;
+  }
+}
 /*# sourceMappingURL=styles.css.map */

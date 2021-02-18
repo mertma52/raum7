@@ -1,0 +1,44 @@
+@media screen and (max-width: 767px) {
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+      }
+
+    .gecko {
+        grid-column: 1/1;
+        width: 100vw;
+    }
+
+    .design {
+        grid-column: 1/1;
+        grid-row: auto;
+        width: 100vw;
+        height: 35vw;
+        background-size: 100%;
+    }
+
+    .visualisierung {
+        grid-column: 1/1;
+        width: 100vw;
+        height:35vw;
+        grid-row: auto;
+    }
+
+    .extended-reality {
+        grid-column: 1/1;
+        width: 100vw;
+        height: 50vw;
+        grid-row: auto;
+        background-size: 100%;
+    }
+
+    .animation {
+        grid-column: 1/1;
+        width: 100vw;
+        height: 65vw;
+        grid-row: auto;
+        background-size: 100%;
+    }
+  }
+  
