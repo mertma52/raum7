@@ -594,5 +594,22 @@ li {
   .animation:hover {
     background-size: 110%;
   }
+  .gecko > .gecko-background-h1 {
+    font-size: 20px;
+  }
+  .h2-property-background-img {
+    font-size: 18px;
+  }
+  .text-gray {
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .text-gray > .text-gray-wrapper > .text-gray-wrapper-h3 {
+    font-size: 20px;
+    line-height: 24px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
