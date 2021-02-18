@@ -3,67 +3,66 @@
   position: absolute;
   z-index: 999;
   width: 100%;
-}
-
-.navbar {
-  width: 55%;
-  padding-top: 15px;
-  padding-bottom: 12.5px;
-  padding-left: 50px;
-  padding-right: 5px;
-  background-color: white;
-  display: flex;
-  align-items: center;
   justify-content: space-between;
-  .navbar-left {
+  //Linker Bereich der Navbar
+  .navbar {
+    min-width: 55vw;
+    padding: 1vw 0.1vw 0.7vw 2.4vw;
+    background-color: white;
     display: flex;
     align-items: center;
-    .navbar-menu-img {
-      width: auto;
-      height: 17px;
-      margin-top: 5px;
-      margin-right: 25px;
+    justify-content: space-between;
+    .navbar-left {
+      display: flex;
+      align-items: center;
+      .navbar-left-menu-img {
+        max-width: 100%;
+        height: 0.93vw;
+        margin-right: 1.2vw;
+      }
+      .navbar-left-logo-img {
+        max-width: 100%;
+        height: 0.93vw;
+      }
     }
-    .navbar-logo-img {
-      width: 165px;
-      padding-top: 5px;
-    }
-  }
-  //
-  .nav-mitte {
-    display: flex;
-    white-space: nowrap;
-    margin-top: 4px;
-    .nav-li {
-      display: inline-block;
-      font-size: 14px;
-      margin: 0px 15px;
-      .andereFarbe {
-        color: rgb(153, 153, 153);
+    //Rechter Bereich der Navigation
+    .navbar-right-ul {
+      display: flex;
+      white-space: nowrap;
+
+      .nav-right-element {
         display: inline-block;
+        font-size: 0.77vw;
+        margin: 0vw 0.7vw;
+        .andere-farbe {
+          color: rgb(153, 153, 153);
+          display: inline-block;
+        }
       }
     }
   }
+  //Rechter Bereich der Navbar
+  .navigations-languages {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .navigations-languages-left {
+      font-size: 0.78vw;
+      color: rgb(153, 153, 153);
+      padding: 0vw 0.7vw;
+    }
+    .navigations-languages-seperator {
+      height: 0.6vw;
+      width: 0.1vw;
+      background-color: rgb(153, 153, 153);
+    }
+    .navigations-languages-right {
+      font-size: 0.78vw;
+      color: rgb(153, 153, 153);
+      padding: 0vw 2vw 0vw 0.7vw;
+    }
+  }
 }
-.sprachenRechts {
-  width: 48%;
-  background-color: transparent;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  .spracheDE {
-    font-size: 15px;
-    color: rgb(153, 153, 153);
-    padding: 0px 12px;
-  }
-  .Trennung {
-    height: 13px;
-    width: 2px;
-    background-color: rgb(153, 153, 153);
-  }
-  .spracheEN {
-    font-size: 15px;
-    color: rgb(153, 153, 153);
-    padding: 0px 30px 0px 12px;
-  }
-}
+/*Responsive Design*/

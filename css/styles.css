@@ -8,6 +8,11 @@
   src: url("/fonts/Montserrat-SemiBold.ttf");
 }
 
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("/fonts/Montserrat-Bold.ttf");
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -28,7 +33,104 @@ li {
   list-style: none;
 }
 
-.arrow-bereich {
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navigation .navbar {
+  min-width: 55vw;
+  padding: 1vw 0.1vw 0.7vw 2.4vw;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navigation .navbar .navbar-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navigation .navbar .navbar-left .navbar-left-menu-img {
+  max-width: 100%;
+  height: 0.93vw;
+  margin-right: 1.2vw;
+}
+
+.navigation .navbar .navbar-left .navbar-left-logo-img {
+  max-width: 100%;
+  height: 0.93vw;
+}
+
+.navigation .navbar .navbar-right-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  white-space: nowrap;
+}
+
+.navigation .navbar .navbar-right-ul .nav-right-element {
+  display: inline-block;
+  font-size: 0.77vw;
+  margin: 0vw 0.7vw;
+}
+
+.navigation .navbar .navbar-right-ul .nav-right-element .andere-farbe {
+  color: #999999;
+  display: inline-block;
+}
+
+.navigation .navigations-languages {
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.navigation .navigations-languages .navigations-languages-left {
+  font-size: 0.78vw;
+  color: #999999;
+  padding: 0vw 0.7vw;
+}
+
+.navigation .navigations-languages .navigations-languages-seperator {
+  height: 0.6vw;
+  width: 0.1vw;
+  background-color: #999999;
+}
+
+.navigation .navigations-languages .navigations-languages-right {
+  font-size: 0.78vw;
+  color: #999999;
+  padding: 0vw 2vw 0vw 0.7vw;
+}
+
+/*Responsive Design*/
+.gallery-arrow {
   -ms-grid-column: 1;
   -ms-grid-column-span: 4;
   grid-column: 1/5;
@@ -44,28 +146,12 @@ li {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-bottom: 75px;
+  padding-bottom: 4vw;
 }
 
-.arrow {
-  border: solid white;
-  border-width: 0px 5px 5px 0;
-  display: inline-block;
-  padding: 20px;
+.gallery-arrow .gallery-arrow-img {
   position: absolute;
-}
-
-.down {
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-}
-
-.thick {
-  border: solid black;
-  border-width: 0px 14px 14px 0;
-  display: inline-block;
-  padding: 20px;
-  position: absolute;
+  height: 2.7vw;
 }
 
 .gallery {
@@ -75,13 +161,6 @@ li {
       grid-template-columns: 1fr 1fr 1fr 1fr;
   -ms-grid-rows: auto;
       grid-template-rows: auto;
-}
-
-.gallery img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 .gecko {
@@ -107,15 +186,15 @@ li {
           align-items: center;
 }
 
-.gecko h1 {
+.gecko .gecko-background-h1 {
   font-family: "Montserrat-Light";
-  font-size: 40px;
+  font-size: 2vw;
   color: #464646;
   text-align: center;
-  text-shadow: 2px 2px 35px white, 2px 2px 20px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 20px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 20px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 20px white, 2px 2px 35px white;
+  text-shadow: 2px 2px 35px white, 2px 2px 20px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 20px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 20px white, 2px 2px 35px white, 2px 2px 35px white;
 }
 
-.gecko h1 span {
+.gecko .gecko-background-h1 span {
   font-family: "Montserrat-SemiBold";
 }
 
@@ -129,15 +208,7 @@ li {
   background-image: url("../img-hauptseite/Layer 51.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 6vh 0vh 0vh 6vh;
-}
-
-.design h2 {
-  display: inline-block;
-  font-family: "Montserrat-SemiBold";
-  color: white;
-  font-size: 28px;
-  background-color: rgba(0, 0, 0, 0.7);
+  padding: 3vw;
 }
 
 .visualisierung {
@@ -151,15 +222,7 @@ li {
   height: 49vw;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 6vh 0vh 0vh 8vh;
-}
-
-.visualisierung h2 {
-  display: inline-block;
-  font-family: "Montserrat-SemiBold";
-  color: white;
-  font-size: 28px;
-  background-color: rgba(0, 0, 0, 0.7);
+  padding: 3vw;
 }
 
 .animation {
@@ -172,15 +235,7 @@ li {
   background-image: url("../img-hauptseite/Layer 52.png");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 6vh 0vh 0vh 6vh;
-}
-
-.animation h2 {
-  display: inline-block;
-  font-family: "Montserrat-SemiBold";
-  color: white;
-  font-size: 28px;
-  background-color: rgba(0, 0, 0, 0.7);
+  padding: 4vw;
 }
 
 .extended-reality {
@@ -193,19 +248,25 @@ li {
   background-image: url("../img-hauptseite/Layer 50.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
-  padding: 5vh 0vh 0vh 5vh;
+  padding: 3vw;
+  -webkit-transition: background-size 200ms ease;
+  transition: background-size 200ms ease;
 }
 
-.extended-reality h2 {
+.h2-property-background-img {
   display: inline-block;
   font-family: "Montserrat-SemiBold";
   color: white;
-  font-size: 28px;
+  font-size: 1.5vw;
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-.home-text-grau {
-  height: 45vh;
+.extended-reality:hover {
+  background-size: 110%;
+}
+
+.text-gray {
+  height: 25vw;
   background-color: #191919;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -218,22 +279,24 @@ li {
           align-items: center;
 }
 
-.home-text-grau div h3 {
+.text-gray .text-gray-wrapper .text-gray-wrapper-h3 {
   font-family: "Montserrat-Light";
   color: white;
-  font-size: 40px;
+  font-size: 2.2vw;
   text-align: center;
 }
 
-.bild-pferd-auto div .pferd-auto {
-  height: 100%;
-  width: 100%;
+.section-home-video .section-home-video-wrapper {
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.home-text-weiss {
-  height: 45vh;
+.section-home-video .section-home-video-wrapper .home-video {
+  height: 25vw;
+}
+
+.text-white {
+  height: 25vw;
   background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -246,115 +309,16 @@ li {
           align-items: center;
 }
 
-.home-text-weiss div h3 {
+.text-white .text-white-wrappper .text-white-wrappper-h3 {
   font-family: "Montserrat-Light";
   color: #464646;
-  font-size: 40px;
+  font-size: 2.2vw;
   text-align: center;
-}
-
-.navigation {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: absolute;
-  z-index: 999;
-  width: 100%;
-}
-
-.navbar {
-  width: 55%;
-  padding-top: 15px;
-  padding-bottom: 12.5px;
-  padding-left: 50px;
-  padding-right: 5px;
-  background-color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.navbar .navbar-left {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.navbar .navbar-left .navbar-menu-img {
-  width: auto;
-  height: 17px;
-  margin-top: 5px;
-  margin-right: 25px;
-}
-
-.navbar .navbar-left .navbar-logo-img {
-  width: 165px;
-  padding-top: 5px;
-}
-
-.navbar .nav-mitte {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  white-space: nowrap;
-  margin-top: 4px;
-}
-
-.navbar .nav-mitte .nav-li {
-  display: inline-block;
-  font-size: 14px;
-  margin: 0px 15px;
-}
-
-.navbar .nav-mitte .nav-li .andereFarbe {
-  color: #999999;
-  display: inline-block;
-}
-
-.sprachenRechts {
-  width: 48%;
-  background-color: transparent;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-.sprachenRechts .spracheDE {
-  font-size: 15px;
-  color: #999999;
-  padding: 0px 12px;
-}
-
-.sprachenRechts .Trennung {
-  height: 13px;
-  width: 2px;
-  background-color: #999999;
-}
-
-.sprachenRechts .spracheEN {
-  font-size: 15px;
-  color: #999999;
-  padding: 0px 30px 0px 12px;
 }
 
 .end {
   background-color: #191919;
-  height: 45vh;
+  height: 25vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -373,7 +337,7 @@ li {
 .footer-text {
   color: white;
   font-family: "Montserrat-Light";
-  font-size: 22px;
+  font-size: 1.2vw;
 }
 
 #footer-fraction-left {
@@ -393,13 +357,13 @@ li {
 }
 
 #footer-fraction-left .footer-company-title {
-  font-family: "Montserrat-Light";
+  font-family: "Montserrat-SemiBold";
   color: white;
-  font-weight: 900;
+  font-size: 1.2vw;
 }
 
 #footer-fraction-left .adresse {
-  margin: 60px 0px 30px 0px;
+  margin: 3vw 0vw 1.7vw 0vw;
 }
 
 #footer-fraction-middle {
@@ -430,32 +394,32 @@ li {
 }
 
 .vimeo {
-  height: 45px;
+  height: 2.5vw;
   width: auto;
-  margin: 0px 10px;
+  margin: 0vw 0.5vw;
 }
 
 .behance {
-  height: 45px;
+  height: 2.5vw;
   width: auto;
-  margin: 0px 10px;
+  margin: 0vw 0.5vw;
 }
 
 .linkedin {
-  height: 45px;
+  height: 2.5vw;
   width: auto;
-  margin: 0px 10px;
+  margin: 0vw 0.5vw;
 }
 
 .xing {
-  height: 45px;
+  height: 2.5vw;
   width: auto;
-  margin: 0px 10px;
+  margin: 0vw 0.5vw;
 }
 
 .cta {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 2vw;
 }
 
 #footer-fraction-right {
@@ -472,7 +436,7 @@ li {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 20px 0px 0px 0px;
+  margin: 3vw 0vw 0vw 0vw;
 }
 
 .footer {
