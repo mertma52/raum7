@@ -41,14 +41,11 @@
       display: none;
     }
 
-    .gecko {
-      height: 65vw;
-    }
-    .gallery {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: auto;
-    }
+  .gecko {
+    margin-top: 35px;
+    grid-column: 1/1;
+    width: 100vw;
+  }
 
     .gecko {
       grid-column: 1/1;

@@ -676,7 +676,8 @@ li {
     -ms-grid-rows: auto;
         grid-template-rows: auto;
   }
-  .navigation .gecko {
+  .gecko {
+    margin-top: 35px;
     -ms-grid-column: 1;
     grid-column: 1/1;
     width: 100vw;
