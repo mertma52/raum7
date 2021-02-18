@@ -52,8 +52,14 @@
   background-repeat: no-repeat;
   background-position: center;
   padding: 3.8vw 0vw 0vw 3.5vw;
+  -webkit-animation: design-slide-in-v2;
+  animation-name: design-slide-in-v2;
+  animation-duration: 0.5s;
+  animation-delay: 1s;
+  animation-fill-mode: both;
   transition: background-size 200ms ease;
 }
+
 .visualisierung {
   grid-column: 3/5;
   grid-row: 2/4;
@@ -64,6 +70,10 @@
   background-position: center;
   padding: 3.8vw;
   transition: background-size 200ms ease;
+  -webkit-animation: visualisierung-slide-in-v2;
+  animation-name: visualisierung-slide-in-v2;
+  animation-fill-mode: both;
+  animation-duration: 0.5s;
 }
 .animation {
   grid-column: 2/3;
@@ -73,6 +83,11 @@
   background-repeat: no-repeat;
   background-position: center;
   padding: 4vw;
+  -webkit-animation: animation-slide-in-v2;
+  animation-name: animation-slide-in-v2;
+  animation-duration: 0.5s;
+  animation-delay: 0.5s;
+  animation-fill-mode: both;
   transition: background-size 200ms ease;
 }
 .extended-reality {
@@ -83,6 +98,11 @@
   background-repeat: no-repeat;
   background-position: center;
   padding: 3vw;
+  -webkit-animation: extended-reality-slide-in-v2;
+  animation-name: extended-reality-slide-in-v2;
+  animation-duration: 0.5s;
+  animation-delay: 1.5s;
+  animation-fill-mode: both;
   transition: background-size 200ms ease;
 }
 .h2-property-background-img {
