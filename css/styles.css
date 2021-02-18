@@ -206,9 +206,12 @@ li {
   -ms-grid-row-span: 1;
   grid-row: 2/3;
   background-image: url("../img-hauptseite/Layer 51.jpg");
-  background-size: cover;
+  background-size: auto 100%;
   background-repeat: no-repeat;
+  background-position: center;
   padding: 3vw;
+  -webkit-transition: background-size 200ms ease;
+  transition: background-size 200ms ease;
 }
 
 .visualisierung {
@@ -220,9 +223,12 @@ li {
   grid-row: 2/4;
   background-image: url("../img-hauptseite/Layer 53.png");
   height: 49vw;
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
+  background-position: center;
   padding: 3vw;
+  -webkit-transition: background-size 200ms ease;
+  transition: background-size 200ms ease;
 }
 
 .animation {
@@ -233,9 +239,12 @@ li {
   -ms-grid-row-span: 1;
   grid-row: 2/3;
   background-image: url("../img-hauptseite/Layer 52.png");
-  background-size: cover;
+  background-size: auto 100%;
   background-repeat: no-repeat;
+  background-position: center;
   padding: 4vw;
+  -webkit-transition: background-size 200ms ease;
+  transition: background-size 200ms ease;
 }
 
 .extended-reality {
@@ -248,6 +257,7 @@ li {
   background-image: url("../img-hauptseite/Layer 50.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
+  background-position: center;
   padding: 3vw;
   -webkit-transition: background-size 200ms ease;
   transition: background-size 200ms ease;
@@ -259,6 +269,18 @@ li {
   color: white;
   font-size: 1.5vw;
   background-color: rgba(0, 0, 0, 0.7);
+}
+
+.design:hover {
+  background-size: auto 110%;
+}
+
+.visualisierung:hover {
+  background-size: 110%;
+}
+
+.animation:hover {
+  background-size: auto 110%;
 }
 
 .extended-reality:hover {
@@ -289,10 +311,11 @@ li {
 .section-home-video .section-home-video-wrapper {
   -o-object-fit: cover;
      object-fit: cover;
+  height: 25vw;
 }
 
 .section-home-video .section-home-video-wrapper .home-video {
-  height: 25vw;
+  width: 100%;
 }
 
 .text-white {
