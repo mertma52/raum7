@@ -101,4 +101,22 @@
             transform: translateY(0px);
   }
 }
+
+@-webkit-keyframes arrow-show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes arrow-show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 /*# sourceMappingURL=animation-slide-in.css.map */

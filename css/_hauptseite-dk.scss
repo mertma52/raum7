@@ -6,6 +6,13 @@
   align-items: center;
   justify-content: center;
   padding-bottom: 4vw;
+  position: relative;
+  z-index: 5;
+  -webkit-animation: arrow-show;
+  animation-name: arrow-show;
+  animation-fill-mode: both;
+  animation-duration: 0.5s;
+  animation-delay: 1.5s;
   .gallery-arrow-img {
     position: absolute;
     height: 2.7vw;
@@ -16,6 +23,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
+  background-color: #191919;
 }
 .gecko {
   grid-column: 1/5;

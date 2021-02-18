@@ -148,6 +148,17 @@ li {
       -ms-flex-pack: center;
           justify-content: center;
   padding-bottom: 4vw;
+  position: relative;
+  z-index: 5;
+  -webkit-animation: arrow-show;
+  -webkit-animation-name: arrow-show;
+          animation-name: arrow-show;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
 }
 
 .gallery-arrow .gallery-arrow-img {
@@ -162,6 +173,7 @@ li {
       grid-template-columns: 1fr 1fr 1fr 1fr;
   -ms-grid-rows: auto;
       grid-template-rows: auto;
+  background-color: #191919;
 }
 
 .gecko {
@@ -830,6 +842,24 @@ li {
     opacity: 1;
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
+  }
+}
+
+@-webkit-keyframes arrow-show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes arrow-show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
 /*# sourceMappingURL=styles.css.map */
