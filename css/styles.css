@@ -555,7 +555,7 @@ li {
   }
   .navigation .navbar {
     min-width: 100vw;
-    padding: 1vw 0.1vw 0.7vw 2.4vw;
+    padding: 10px;
     background-color: white;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -585,11 +585,11 @@ li {
   }
   .navigation .navbar .navbar-left .navbar-left-menu-img {
     max-width: 100%;
-    height: 1.4vw;
+    height: 10px;
   }
   .navigation .navbar .navbar-left .navbar-left-logo-img {
     max-width: 100%;
-    height: 1.4vw;
+    height: 10px;
   }
   .navigation .navbar .navbar-right-ul {
     display: none;
