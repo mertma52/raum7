@@ -749,6 +749,17 @@ li {
     padding-left: 25px;
     padding-right: 25px;
   }
+  .text-gray .text-gray-wrapper .text-gray-wrapper-h3 {
+    display: none;
+  }
+  .text-gray .text-gray-wrapper .text-gray-wrapper-h3-mobile {
+    display: block;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+  }
   .text-gray > .text-gray-wrapper > .text-gray-wrapper-h3 {
     font-size: 20px;
     line-height: 24px;
@@ -770,7 +781,7 @@ li {
   .text-white .text-white-wrappper .text-white-wrappper-h3-mobile {
     display: block;
     color: #464646;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 300;
     line-height: 24px;
     text-align: center;
