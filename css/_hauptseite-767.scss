@@ -20,6 +20,7 @@
     height: 50vw;
     background-size: 100%;
     background-position-y: top;
+    padding: 5vw 0vw 0vw 5vw;
   }
 
   .visualisierung {
@@ -28,6 +29,7 @@
     height: 50vw;
     grid-row: auto;
     background-position-y: top;
+    padding: 5vw 0vw 0vw 5vw;
   }
 
   .extended-reality {
@@ -36,6 +38,7 @@
     height: 50vw;
     grid-row: auto;
     background-size: 100%;
+    padding: 5vw 0vw 0vw 5vw;
   }
 
   .animation {
@@ -45,6 +48,7 @@
     grid-row: auto;
     background-size: 100%;
     background-position-y: 20%;
+    padding: 5vw 0vw 0vw 5vw;
   }
 
   .design:hover {
@@ -56,23 +60,23 @@
   }
 
   .gecko > .gecko-background-h1 {
-      font-size: 20px;
+    font-size: 20px;
   }
 
   .h2-property-background-img {
-      font-size: 18px;
+    font-size: 25px;
   }
 
   .text-gray {
-      height: auto;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      padding-left: 25px;
-      padding-right: 25px;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 
   .text-gray > .text-gray-wrapper > .text-gray-wrapper-h3 {
-      font-size: 20px;
-      line-height: 24px;
+    font-size: 20px;
+    line-height: 24px;
   }
 }

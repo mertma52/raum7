@@ -538,6 +538,74 @@ li {
 }
 
 @media screen and (max-width: 767px) {
+  .navigation .navbar {
+    min-width: 55vw;
+    padding: 10px;
+  }
+  .navigation .navbar .navbar-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .navigation .navbar .navbar-left .navbar-left-menu-img {
+    max-width: 100%;
+    height: 0.93vw;
+    margin-right: 1.2vw;
+  }
+  .navigation .navbar .navbar-left .navbar-left-logo-img {
+    max-width: 100%;
+    height: 0.93vw;
+  }
+  .navigation .navbar .navbar-right-ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    white-space: nowrap;
+  }
+  .navigation .navbar .navbar-right-ul .nav-right-element {
+    display: inline-block;
+    font-size: 0.77vw;
+    margin: 0vw 0.7vw;
+  }
+  .navigation .navbar .navbar-right-ul .nav-right-element .andere-farbe {
+    color: #999999;
+    display: inline-block;
+  }
+  .navigation .navigations-languages {
+    background-color: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .navigation .navigations-languages .navigations-languages-left {
+    font-size: 0.78vw;
+    color: #999999;
+    padding: 0vw 0.7vw;
+    font-weight: 600;
+  }
+  .navigation .navigations-languages .navigations-languages-seperator {
+    height: 0.6vw;
+    width: 0.1vw;
+    background-color: #999999;
+  }
+  .navigation .navigations-languages .navigations-languages-right {
+    font-size: 0.78vw;
+    color: #999999;
+    padding: 0vw 2vw 0vw 0.7vw;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .gallery-arrow {
     display: none;
   }
@@ -562,6 +630,7 @@ li {
     height: 50vw;
     background-size: 100%;
     background-position-y: top;
+    padding: 5vw 0vw 0vw 5vw;
   }
   .visualisierung {
     -ms-grid-column: 1;
@@ -570,6 +639,7 @@ li {
     height: 50vw;
     grid-row: auto;
     background-position-y: top;
+    padding: 5vw 0vw 0vw 5vw;
   }
   .extended-reality {
     -ms-grid-column: 1;
@@ -578,6 +648,7 @@ li {
     height: 50vw;
     grid-row: auto;
     background-size: 100%;
+    padding: 5vw 0vw 0vw 5vw;
   }
   .animation {
     -ms-grid-column: 1;
@@ -587,6 +658,7 @@ li {
     grid-row: auto;
     background-size: 100%;
     background-position-y: 20%;
+    padding: 5vw 0vw 0vw 5vw;
   }
   .design:hover {
     background-size: 110%;
@@ -598,7 +670,7 @@ li {
     font-size: 20px;
   }
   .h2-property-background-img {
-    font-size: 18px;
+    font-size: 25px;
   }
   .text-gray {
     height: auto;
