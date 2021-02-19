@@ -65,7 +65,6 @@
   -webkit-animation: design-slide-in-v2;
   animation-name: design-slide-in-v2;
   animation-duration: 0.5s;
-  animation-delay: 1s;
   animation-fill-mode: both;
   transition: background-size 200ms ease;
 }
@@ -84,6 +83,7 @@
   animation-name: visualisierung-slide-in-v2;
   animation-fill-mode: both;
   animation-duration: 0.5s;
+  animation-delay: 1s;
 }
 .animation {
   grid-column: 2/3;

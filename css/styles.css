@@ -230,8 +230,6 @@ li {
           animation-name: design-slide-in-v2;
   -webkit-animation-duration: 0.5s;
           animation-duration: 0.5s;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   -webkit-transition: background-size 200ms ease;
@@ -260,6 +258,8 @@ li {
           animation-fill-mode: both;
   -webkit-animation-duration: 0.5s;
           animation-duration: 0.5s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 .animation {
@@ -544,7 +544,7 @@ li {
 
 @media screen and (max-width: 1024px) {
   .gecko {
-    margin-top: 65px;
+    margin-top: 64px;
   }
   .navigation {
     display: -webkit-box;
@@ -559,7 +559,7 @@ li {
   }
   .navigation .navbar {
     min-width: 100vw;
-    padding: 20px 20px 20px 40px;
+    padding: 0px;
     background-color: white;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -590,16 +590,52 @@ li {
   .navigation .navbar .navbar-left .navbar-left-menu-img {
     max-width: 100%;
     height: 20px;
+    margin: 20px 20px 20px 40px;
   }
   .navigation .navbar .navbar-left .navbar-left-logo-img {
     max-width: 100%;
     height: 20px;
+    margin: 20px 20px 20px 40px;
   }
   .navigation .navbar .navbar-right-ul {
     display: none;
   }
   .navigation .navigations-languages {
     display: none;
+  }
+  .gallery-arrow {
+    display: none;
+  }
+  .navigation > .navbar {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .navbar-mobile {
+    -ms-flex-preferred-size: 100vw;
+        flex-basis: 100vw;
+    background-color: white;
+    width: 100vw;
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .li-nav-burger-home {
+    border-top: 1px solid #999999;
+  }
+  .nav-mobile-element {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #999999;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .nav-mobile-element a {
+    color: #999999;
   }
 }
 
@@ -655,10 +691,12 @@ li {
   .navigation .navbar .navbar-left .navbar-left-menu-img {
     max-width: 100%;
     height: 15px;
+    margin: 20px 20px 17px 20px;
   }
   .navigation .navbar .navbar-left .navbar-left-logo-img {
     max-width: 100%;
     height: 15px;
+    margin: 20px 20px 17px 20px;
   }
   .navigation .navbar .navbar-right-ul {
     display: none;
@@ -680,12 +718,18 @@ li {
         -ms-flex-align: center;
             align-items: center;
   }
+  .li-nav-burger-home {
+    border-top: 1px solid #999999;
+  }
   .nav-mobile-element {
     width: 100%;
     text-align: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #999999;
     padding-top: 15px;
     padding-bottom: 15px;
+  }
+  .nav-mobile-element a {
+    color: #999999;
   }
 }
 
