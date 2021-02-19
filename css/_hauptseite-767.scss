@@ -2,81 +2,43 @@
   .gallery-arrow {
     display: none;
   }
-  .gallery {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-  }
-
-  .gecko {
-    grid-column: 1/1;
-    width: 100vw;
-  }
-
-  .design {
-    grid-column: 1/1;
-    grid-row: auto;
-    width: 100vw;
-    height: 50vw;
-    background-size: 100%;
-    background-position-y: top;
-    padding: 5vw 0vw 0vw 5vw;
-  }
-
-  .visualisierung {
-    grid-column: 1/1;
-    width: 100vw;
-    height: 50vw;
-    grid-row: auto;
-    background-position-y: top;
-    padding: 5vw 0vw 0vw 5vw;
-  }
-
-  .extended-reality {
-    grid-column: 1/1;
-    width: 100vw;
-    height: 50vw;
-    grid-row: auto;
-    background-size: 100%;
-    padding: 5vw 0vw 0vw 5vw;
-  }
-
-  .animation {
-    grid-column: 1/1;
-    width: 100vw;
-    height: 50vw;
-    grid-row: auto;
-    background-size: 100%;
-    background-position-y: 20%;
-    padding: 5vw 0vw 0vw 5vw;
-  }
-
-  .design:hover {
-    background-size: 110%;
-  }
-
-  .animation:hover {
-    background-size: 110%;
-  }
-
-  .gecko > .gecko-background-h1 {
-    font-size: 20px;
-  }
-
-  .h2-property-background-img {
-    font-size: 18px;
-  }
-
-  .text-gray {
-    height: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 25px;
-    padding-right: 25px;
-  }
-
-  .text-gray > .text-gray-wrapper > .text-gray-wrapper-h3 {
-    font-size: 20px;
-    line-height: 24px;
+  .navigation {
+    display: flex;
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    justify-content: space-between;
+    //Linker Bereich der Navbar
+    .navbar {
+      min-width: 100vw;
+      padding: 1vw 0.1vw 0.7vw 2.4vw;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .navbar-left {
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        .navbar-left-menu-img {
+          max-width: 100%;
+          height: 1.4vw;
+        }
+        .navbar-left-logo-img {
+          max-width: 100%;
+          height: 1.4vw;
+        }
+      }
+      //Rechter Bereich der Navigation
+      .navbar-right-ul {
+        display: none;
+      }
+    }
+    //Rechter Bereich der Navbar
+    .navigations-languages {
+      display: none;
+    }
   }
 }

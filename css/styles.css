@@ -609,79 +609,60 @@ li {
   .gallery-arrow {
     display: none;
   }
-  .gallery {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    -ms-grid-rows: auto;
-        grid-template-rows: auto;
+  .navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
-  .gecko {
-    -ms-grid-column: 1;
-    grid-column: 1/1;
-    width: 100vw;
+  .navigation .navbar {
+    min-width: 100vw;
+    padding: 1vw 0.1vw 0.7vw 2.4vw;
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
-  .design {
-    -ms-grid-column: 1;
-    grid-column: 1/1;
-    grid-row: auto;
-    width: 100vw;
-    height: 50vw;
-    background-size: 100%;
-    background-position-y: top;
-    padding: 5vw 0vw 0vw 5vw;
+  .navigation .navbar .navbar-left {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
-  .visualisierung {
-    -ms-grid-column: 1;
-    grid-column: 1/1;
-    width: 100vw;
-    height: 50vw;
-    grid-row: auto;
-    background-position-y: top;
-    padding: 5vw 0vw 0vw 5vw;
+  .navigation .navbar .navbar-left .navbar-left-menu-img {
+    max-width: 100%;
+    height: 1.4vw;
   }
-  .extended-reality {
-    -ms-grid-column: 1;
-    grid-column: 1/1;
-    width: 100vw;
-    height: 50vw;
-    grid-row: auto;
-    background-size: 100%;
-    padding: 5vw 0vw 0vw 5vw;
+  .navigation .navbar .navbar-left .navbar-left-logo-img {
+    max-width: 100%;
+    height: 1.4vw;
   }
-  .animation {
-    -ms-grid-column: 1;
-    grid-column: 1/1;
-    width: 100vw;
-    height: 50vw;
-    grid-row: auto;
-    background-size: 100%;
-    background-position-y: 20%;
-    padding: 5vw 0vw 0vw 5vw;
+  .navigation .navbar .navbar-right-ul {
+    display: none;
   }
-  .design:hover {
-    background-size: 110%;
-  }
-  .animation:hover {
-    background-size: 110%;
-  }
-  .gecko > .gecko-background-h1 {
-    font-size: 20px;
-  }
-  .h2-property-background-img {
-    font-size: 18px;
-  }
-  .text-gray {
-    height: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 25px;
-    padding-right: 25px;
-  }
-  .text-gray > .text-gray-wrapper > .text-gray-wrapper-h3 {
-    font-size: 20px;
-    line-height: 24px;
+  .navigation .navigations-languages {
+    display: none;
   }
 }
 /*# sourceMappingURL=styles.css.map */
