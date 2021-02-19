@@ -699,40 +699,86 @@ li {
   .design {
     -ms-grid-column: 1;
     grid-column: 1/1;
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
     grid-row: auto;
     width: 100vw;
     height: 50vw;
     background-size: 100%;
     background-position-y: top;
     padding: 5vw 0vw 0vw 5vw;
+    -webkit-animation: design-slide-in-v2;
+    -webkit-animation-name: design-slide-in-v2;
+            animation-name: design-slide-in-v2;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
   }
   .visualisierung {
     -ms-grid-column: 1;
     grid-column: 1/1;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
     width: 100vw;
     height: 50vw;
     grid-row: auto;
     background-position-y: top;
     padding: 5vw 0vw 0vw 5vw;
+    -webkit-animation: visualisierung-slide-in-v2;
+    -webkit-animation-name: visualisierung-slide-in-v2;
+            animation-name: visualisierung-slide-in-v2;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
   }
   .extended-reality {
     -ms-grid-column: 1;
     grid-column: 1/1;
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
     width: 100vw;
     height: 50vw;
     grid-row: auto;
     background-size: 100%;
     padding: 5vw 0vw 0vw 5vw;
+    -webkit-animation: extended-reality-slide-in-v2;
+    -webkit-animation-name: extended-reality-slide-in-v2;
+            animation-name: extended-reality-slide-in-v2;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
   }
   .animation {
     -ms-grid-column: 1;
     grid-column: 1/1;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
     width: 100vw;
     height: 50vw;
     grid-row: auto;
     background-size: 100%;
     background-position-y: 20%;
     padding: 5vw 0vw 0vw 5vw;
+    -webkit-animation: animation-slide-in-v2;
+    -webkit-animation-name: animation-slide-in-v2;
+            animation-name: animation-slide-in-v2;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
   }
   .design:hover {
     background-size: 110%;
