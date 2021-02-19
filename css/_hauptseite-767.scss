@@ -161,12 +161,21 @@
     .section-home-video-wrapper {
       object-fit: cover;
       height: auto;
+      position: relative;
       .home-video {
         display: none;
       }
       .home-video-mobile {
         display: inline-block;
         width: 100%;
+      }
+      .playbutton {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        display: block;
+        height: 60px;
       }
     }
   }

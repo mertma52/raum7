@@ -380,6 +380,10 @@ li {
   display: none;
 }
 
+.section-home-video .section-home-video-wrapper .playbutton {
+  display: none;
+}
+
 .text-white {
   height: 25vw;
   background-color: white;
@@ -837,6 +841,7 @@ li {
     -o-object-fit: cover;
        object-fit: cover;
     height: auto;
+    position: relative;
   }
   .section-home-video .section-home-video-wrapper .home-video {
     display: none;
@@ -844,6 +849,15 @@ li {
   .section-home-video .section-home-video-wrapper .home-video-mobile {
     display: inline-block;
     width: 100%;
+  }
+  .section-home-video .section-home-video-wrapper .playbutton {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    display: block;
+    height: 60px;
   }
 }
 
