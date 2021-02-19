@@ -969,15 +969,128 @@ li {
   }
 }
 
-.footer {
-  width: 75%;
-}
-
-.footer .footer-wrapper {
-  width: 100%;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
+@media screen and (max-width: 767px) {
+  .end {
+    background-color: #191919;
+    height: 400px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .footer-text {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+  }
+  #footer-fraction-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #footer-fraction-left .footer-company-title {
+    color: white;
+    font-size: 20px;
+  }
+  #footer-fraction-left .adresse {
+    margin: 0px 0px 10px 0px;
+  }
+  #footer-fraction-left .country {
+    margin: 0px 0px 0px 0px;
+  }
+  #footer-fraction-middle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  #footer-fraction-middle .social-icons-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .vimeo {
+    height: 35px;
+    width: auto;
+    margin: 20px 6px;
+  }
+  .behance {
+    height: 35px;
+    width: auto;
+    margin: 20px 6px;
+  }
+  .linkedin {
+    height: 35px;
+    width: auto;
+    margin: 20px 6px;
+  }
+  .xing {
+    height: 35px;
+    width: auto;
+    margin: 20px 6px;
+  }
+  .cta {
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+  }
+  #footer-fraction-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0px 0px 0px 0px;
+  }
+  .footer {
+    width: 100%;
+  }
+  .footer .footer-wrapper {
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
