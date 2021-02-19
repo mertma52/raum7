@@ -605,6 +605,8 @@ li {
   }
   .gecko {
     height: 65vw;
+    background-image: url("../img-hauptseite/audi-gecko.jpg");
+    margin-top: 50px;
   }
   .gallery {
     display: -ms-grid;
