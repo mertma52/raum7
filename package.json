@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "lottie-web": "^5.7.6"
+  },
+  "name": "raum7",
+  "description": "Raum7 Webprojekt",
+  "version": "1.0.0",
+  "main": "navigation.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mertma52/raum7.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mertma52/raum7/issues"
+  },
+  "homepage": "https://github.com/mertma52/raum7#readme"
+}
