@@ -1,44 +1,55 @@
 @media screen and (max-width: 767px) {
-    .gallery {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-      }
-
-    .gecko {
-        grid-column: 1/1;
-        width: 100vw;
-    }
-
-    .design {
-        grid-column: 1/1;
-        grid-row: auto;
-        width: 100vw;
-        height: 35vw;
-        background-size: 100%;
-    }
-
-    .visualisierung {
-        grid-column: 1/1;
-        width: 100vw;
-        height:35vw;
-        grid-row: auto;
-    }
-
-    .extended-reality {
-        grid-column: 1/1;
-        width: 100vw;
-        height: 50vw;
-        grid-row: auto;
-        background-size: 100%;
-    }
-
-    .animation {
-        grid-column: 1/1;
-        width: 100vw;
-        height: 65vw;
-        grid-row: auto;
-        background-size: 100%;
-    }
+  .gallery-arrow {
+    display: none;
   }
-  
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .gecko {
+    grid-column: 1/1;
+    width: 100vw;
+  }
+
+  .design {
+    grid-column: 1/1;
+    grid-row: auto;
+    width: 100vw;
+    height: 50vw;
+    background-size: 100%;
+    background-position-y: top;
+  }
+
+  .visualisierung {
+    grid-column: 1/1;
+    width: 100vw;
+    height: 50vw;
+    grid-row: auto;
+    background-position-y: top;
+  }
+
+  .extended-reality {
+    grid-column: 1/1;
+    width: 100vw;
+    height: 50vw;
+    grid-row: auto;
+    background-size: 100%;
+  }
+
+  .animation {
+    grid-column: 1/1;
+    width: 100vw;
+    height: 50vw;
+    grid-row: auto;
+    background-size: 100%;
+    background-position-y: 20%;
+  }
+  .design:hover {
+    background-size: 110%;
+  }
+  .animation:hover {
+    background-size: 110%;
+  }
+}

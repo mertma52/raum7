@@ -538,6 +538,9 @@ li {
 }
 
 @media screen and (max-width: 767px) {
+  .gallery-arrow {
+    display: none;
+  }
   .gallery {
     display: -ms-grid;
     display: grid;
@@ -556,15 +559,17 @@ li {
     grid-column: 1/1;
     grid-row: auto;
     width: 100vw;
-    height: 35vw;
+    height: 50vw;
     background-size: 100%;
+    background-position-y: top;
   }
   .visualisierung {
     -ms-grid-column: 1;
     grid-column: 1/1;
     width: 100vw;
-    height: 35vw;
+    height: 50vw;
     grid-row: auto;
+    background-position-y: top;
   }
   .extended-reality {
     -ms-grid-column: 1;
@@ -578,9 +583,16 @@ li {
     -ms-grid-column: 1;
     grid-column: 1/1;
     width: 100vw;
-    height: 65vw;
+    height: 50vw;
     grid-row: auto;
     background-size: 100%;
+    background-position-y: 20%;
+  }
+  .design:hover {
+    background-size: 110%;
+  }
+  .animation:hover {
+    background-size: 110%;
   }
 }
 /*# sourceMappingURL=styles.css.map */
