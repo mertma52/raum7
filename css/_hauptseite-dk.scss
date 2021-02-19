@@ -51,7 +51,7 @@
   background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 3vw;
+  padding: 3.8vw 0vw 0vw 3.5vw;
   transition: background-size 200ms ease;
 }
 .visualisierung {
@@ -62,7 +62,7 @@
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 3vw;
+  padding: 3.8vw;
   transition: background-size 200ms ease;
 }
 .animation {
@@ -87,7 +87,7 @@
 }
 .h2-property-background-img {
   display: inline-block;
-  font-family: "Montserrat-SemiBold";
+  font-weight: 600;
   color: white;
   font-size: 1.5vw;
   background-color: rgba(0, 0, 0, 0.7);
@@ -116,7 +116,7 @@
       color: white;
       font-size: 2.2vw;
       text-align: center;
-      font-weight: 300;
+      font-weight: 400;
     }
   }
 }
