@@ -1,0 +1,62 @@
+@media screen and (max-width: 767px) {
+  .navigation {
+    //Linker Bereich der Navbar
+    .navbar {
+      min-width: 55vw;
+      padding: 10px;
+      .navbar-left {
+        display: flex;
+        align-items: center;
+        .navbar-left-menu-img {
+          max-width: 100%;
+          height: 0.93vw;
+          margin-right: 1.2vw;
+        }
+        .navbar-left-logo-img {
+          max-width: 100%;
+          height: 0.93vw;
+        }
+      }
+      //Rechter Bereich der Navigation
+      .navbar-right-ul {
+        display: flex;
+        white-space: nowrap;
+
+        .nav-right-element {
+          display: inline-block;
+          font-size: 0.77vw;
+          margin: 0vw 0.7vw;
+          .andere-farbe {
+            color: rgb(153, 153, 153);
+            display: inline-block;
+          }
+        }
+      }
+    }
+    //Rechter Bereich der Navbar
+    .navigations-languages {
+      background-color: transparent;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+
+      .navigations-languages-left {
+        font-size: 0.78vw;
+        color: rgb(153, 153, 153);
+        padding: 0vw 0.7vw;
+        font-weight: 600;
+      }
+      .navigations-languages-seperator {
+        height: 0.6vw;
+        width: 0.1vw;
+        background-color: rgb(153, 153, 153);
+      }
+      .navigations-languages-right {
+        font-size: 0.78vw;
+        color: rgb(153, 153, 153);
+        padding: 0vw 2vw 0vw 0.7vw;
+        font-weight: 600;
+      }
+    }
+  }
+}
