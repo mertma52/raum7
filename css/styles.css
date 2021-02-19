@@ -910,4 +910,16 @@ li {
     opacity: 1;
   }
 }
+
+.footer {
+  width: 75%;
+}
+
+.footer .footer-wrapper {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
 /*# sourceMappingURL=styles.css.map */
