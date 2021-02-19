@@ -34,40 +34,64 @@
 
   .design {
     grid-column: 1/1;
+    order: 3;
     grid-row: auto;
     width: 100vw;
     height: 50vw;
     background-size: 100%;
     background-position-y: top;
     padding: 5vw 0vw 0vw 5vw;
+    -webkit-animation: design-slide-in-v2;
+    animation-name: design-slide-in-v2;
+    animation-duration: 0.5s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
   }
 
   .visualisierung {
     grid-column: 1/1;
+    order: 2;
     width: 100vw;
     height: 50vw;
     grid-row: auto;
     background-position-y: top;
     padding: 5vw 0vw 0vw 5vw;
+    -webkit-animation: visualisierung-slide-in-v2;
+    animation-name: visualisierung-slide-in-v2;
+    animation-fill-mode: both;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
   }
 
   .extended-reality {
     grid-column: 1/1;
+    order: 4;
     width: 100vw;
     height: 50vw;
     grid-row: auto;
     background-size: 100%;
     padding: 5vw 0vw 0vw 5vw;
+    -webkit-animation: extended-reality-slide-in-v2;
+    animation-name: extended-reality-slide-in-v2;
+    animation-duration: 0.5s;
+    animation-delay: 1.5s;
+    animation-fill-mode: both;
   }
 
   .animation {
     grid-column: 1/1;
+    order: 1;
     width: 100vw;
     height: 50vw;
     grid-row: auto;
     background-size: 100%;
     background-position-y: 20%;
     padding: 5vw 0vw 0vw 5vw;
+    -webkit-animation: animation-slide-in-v2;
+    animation-name: animation-slide-in-v2;
+    animation-duration: 0.5s;
+
+    animation-fill-mode: both;
   }
 
   .design:hover {
@@ -88,6 +112,19 @@
     padding-bottom: 50px;
     padding-left: 25px;
     padding-right: 25px;
+    .text-gray-wrapper {
+      .text-gray-wrapper-h3 {
+        display: none;
+      }
+      .text-gray-wrapper-h3-mobile {
+        display: block;
+        color: white;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: center;
+      }
+    }
   }
 
   .text-gray > .text-gray-wrapper > .text-gray-wrapper-h3 {
@@ -113,7 +150,7 @@
       .text-white-wrappper-h3-mobile {
         display: block;
         color: #464646;
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 300;
         line-height: 24px;
         text-align: center;
