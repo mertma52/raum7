@@ -5,9 +5,6 @@
   .gecko {
     height: 65vw;
     background-image: url("../img-hauptseite/audi-gecko.jpg");
-<<<<<<< Updated upstream
-    margin-top: 50px;
-=======
     margin-top: 40px;
     padding: 0vw 0vw 12vw 0vw;
     .gecko-background-h1 {
@@ -15,12 +12,13 @@
       font-weight: 400;
       color: #464646;
       text-align: center;
-      text-shadow: none;
+      text-shadow: 2px 2px 15px white, 2px 2px 20px white, 2px 2px 15px white,
+        2px 2px 20px white, 2px 2px 35px white, 2px 2px 35px white,
+        2px 2px 20px white, 2px 2px 35px white, 2px 2px 35px white;
       span {
         font-weight: 700;
       }
     }
->>>>>>> Stashed changes
   }
 
   .gallery {
@@ -108,5 +106,31 @@
     padding-bottom: 50px;
     padding-left: 25px;
     padding-right: 25px;
+    .text-white-wrappper {
+      .text-white-wrappper-h3 {
+        display: none;
+      }
+      .text-white-wrappper-h3-mobile {
+        display: block;
+        color: #464646;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: center;
+      }
+    }
+  }
+  .section-home-video {
+    .section-home-video-wrapper {
+      object-fit: cover;
+      height: auto;
+      .home-video {
+        display: none;
+      }
+      .home-video-mobile {
+        display: inline-block;
+        width: 100%;
+      }
+    }
   }
 }

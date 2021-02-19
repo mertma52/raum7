@@ -204,7 +204,9 @@ li {
   font-weight: 400;
   color: #464646;
   text-align: center;
-  text-shadow: 2px 2px 35px white, 2px 2px 20px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 20px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 20px white, 2px 2px 35px white, 2px 2px 35px white;
+  text-shadow: 2px 2px 15px white, 2px 2px 20px white, 2px 2px 15px white, 2px 2px 20px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 20px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 20px white, 2px 2px 35px white, 2px 2px 35px white;
+  position: relative;
+  z-index: 99;
 }
 
 .gecko .gecko-background-h1 span {
@@ -359,6 +361,10 @@ li {
   font-weight: 400;
 }
 
+.text-gray .text-gray-wrapper .text-gray-wrapper-h3-mobile {
+  display: none;
+}
+
 .section-home-video .section-home-video-wrapper {
   -o-object-fit: cover;
      object-fit: cover;
@@ -367,6 +373,10 @@ li {
 
 .section-home-video .section-home-video-wrapper .home-video {
   width: 100%;
+}
+
+.section-home-video .section-home-video-wrapper .home-video-mobile {
+  display: none;
 }
 
 .text-white {
@@ -388,6 +398,10 @@ li {
   font-size: 2.2vw;
   text-align: center;
   font-weight: 300;
+}
+
+.text-white .text-white-wrappper .text-white-wrappper-h3-mobile {
+  display: none;
 }
 
 .end {
@@ -663,7 +677,7 @@ li {
     font-weight: 400;
     color: #464646;
     text-align: center;
-    text-shadow: none;
+    text-shadow: 2px 2px 15px white, 2px 2px 20px white, 2px 2px 15px white, 2px 2px 20px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 20px white, 2px 2px 35px white, 2px 2px 35px white;
   }
   .gecko .gecko-background-h1 span {
     font-weight: 700;
@@ -749,6 +763,29 @@ li {
     padding-bottom: 50px;
     padding-left: 25px;
     padding-right: 25px;
+  }
+  .text-white .text-white-wrappper .text-white-wrappper-h3 {
+    display: none;
+  }
+  .text-white .text-white-wrappper .text-white-wrappper-h3-mobile {
+    display: block;
+    color: #464646;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+  }
+  .section-home-video .section-home-video-wrapper {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: auto;
+  }
+  .section-home-video .section-home-video-wrapper .home-video {
+    display: none;
+  }
+  .section-home-video .section-home-video-wrapper .home-video-mobile {
+    display: inline-block;
+    width: 100%;
   }
 }
 
