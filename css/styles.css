@@ -557,6 +557,7 @@ li {
   }
   .navigation .navbar .navbar-left .navbar-left-logo-img {
     max-width: 100%;
+    width: 100px;
     height: 0.93vw;
   }
   .navigation .navbar .navbar-right-ul {
@@ -663,6 +664,94 @@ li {
   }
   .navigation .navigations-languages {
     display: none;
+  }
+  .navigation .gecko {
+    height: 65vw;
+  }
+  .navigation .gallery {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+  }
+  .navigation .gecko {
+    -ms-grid-column: 1;
+    grid-column: 1/1;
+    width: 100vw;
+  }
+  .navigation .design {
+    -ms-grid-column: 1;
+    grid-column: 1/1;
+    grid-row: auto;
+    width: 100vw;
+    height: 50vw;
+    background-size: 100%;
+    background-position-y: top;
+    padding: 5vw 0vw 0vw 5vw;
+  }
+  .navigation .visualisierung {
+    -ms-grid-column: 1;
+    grid-column: 1/1;
+    width: 100vw;
+    height: 50vw;
+    grid-row: auto;
+    background-position-y: top;
+    padding: 5vw 0vw 0vw 5vw;
+  }
+  .navigation .extended-reality {
+    -ms-grid-column: 1;
+    grid-column: 1/1;
+    width: 100vw;
+    height: 50vw;
+    grid-row: auto;
+    background-size: 100%;
+    padding: 5vw 0vw 0vw 5vw;
+  }
+  .navigation .animation {
+    -ms-grid-column: 1;
+    grid-column: 1/1;
+    width: 100vw;
+    height: 50vw;
+    grid-row: auto;
+    background-size: 100%;
+    background-position-y: 20%;
+    padding: 5vw 0vw 0vw 5vw;
+  }
+  .navigation .design:hover {
+    background-size: 110%;
+  }
+  .navigation .animation:hover {
+    background-size: 110%;
+  }
+  .navigation .gecko > .gecko-background-h1 {
+    font-size: 20px;
+  }
+  .navigation .h2-property-background-img {
+    font-size: 18px;
+  }
+  .navigation .text-gray {
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .navigation .text-gray > .text-gray-wrapper > .text-gray-wrapper-h3 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .navigation .text-white .text-white-wrappper .text-white-wrappper-h3 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .navigation .text-white {
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 }
 /*# sourceMappingURL=styles.css.map */

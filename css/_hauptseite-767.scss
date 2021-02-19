@@ -40,5 +40,99 @@
     .navigations-languages {
       display: none;
     }
+
+    .gecko {
+      height: 65vw;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+    }
+
+    .gecko {
+      grid-column: 1/1;
+      width: 100vw;
+    }
+
+    .design {
+      grid-column: 1/1;
+      grid-row: auto;
+      width: 100vw;
+      height: 50vw;
+      background-size: 100%;
+      background-position-y: top;
+      padding: 5vw 0vw 0vw 5vw;
+    }
+
+    .visualisierung {
+      grid-column: 1/1;
+      width: 100vw;
+      height: 50vw;
+      grid-row: auto;
+      background-position-y: top;
+      padding: 5vw 0vw 0vw 5vw;
+    }
+
+    .extended-reality {
+      grid-column: 1/1;
+      width: 100vw;
+      height: 50vw;
+      grid-row: auto;
+      background-size: 100%;
+      padding: 5vw 0vw 0vw 5vw;
+    }
+
+    .animation {
+      grid-column: 1/1;
+      width: 100vw;
+      height: 50vw;
+      grid-row: auto;
+      background-size: 100%;
+      background-position-y: 20%;
+      padding: 5vw 0vw 0vw 5vw;
+    }
+
+    .design:hover {
+      background-size: 110%;
+    }
+
+    .animation:hover {
+      background-size: 110%;
+    }
+
+    .gecko > .gecko-background-h1 {
+      font-size: 20px;
+    }
+
+    .h2-property-background-img {
+      font-size: 18px;
+    }
+
+    .text-gray {
+      height: auto;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+
+    .text-gray > .text-gray-wrapper > .text-gray-wrapper-h3 {
+      font-size: 20px;
+      line-height: 24px;
+    }
+
+    .text-white .text-white-wrappper .text-white-wrappper-h3 {
+      font-size: 20px;
+      line-height: 24px;
+    }
+
+    .text-white {
+      height: auto;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      padding-left: 25px;
+      padding-right: 25px;
+    }
   }
 }
