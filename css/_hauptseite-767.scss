@@ -5,7 +5,22 @@
   .gecko {
     height: 65vw;
     background-image: url("../img-hauptseite/audi-gecko.jpg");
+<<<<<<< Updated upstream
     margin-top: 50px;
+=======
+    margin-top: 40px;
+    padding: 0vw 0vw 12vw 0vw;
+    .gecko-background-h1 {
+      font-size: 16px;
+      font-weight: 400;
+      color: #464646;
+      text-align: center;
+      text-shadow: none;
+      span {
+        font-weight: 700;
+      }
+    }
+>>>>>>> Stashed changes
   }
 
   .gallery {
@@ -63,10 +78,6 @@
 
   .animation:hover {
     background-size: 110%;
-  }
-
-  .gecko > .gecko-background-h1 {
-    font-size: 20px;
   }
 
   .h2-property-background-img {
