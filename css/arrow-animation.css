@@ -1,17 +1,21 @@
 @-webkit-keyframes arrow-up-down {
   from {
-    top: 50px;
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
   }
   to {
-    top: 0px;
+    -webkit-transform: translatey(-25px);
+            transform: translatey(-25px);
   }
 }
 @keyframes arrow-up-down {
   from {
-    top: 50px;
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
   }
   to {
-    top: 0px;
+    -webkit-transform: translatey(-25px);
+            transform: translatey(-25px);
   }
 }
 /*# sourceMappingURL=arrow-animation.css.map */

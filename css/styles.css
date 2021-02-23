@@ -186,6 +186,18 @@ body::-webkit-scrollbar-thumb {
 .gallery-arrow .gallery-arrow-img {
   position: absolute;
   height: 2.7vw;
+  -webkit-animation-name: arrow-up-down;
+          animation-name: arrow-up-down;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
 }
 
 .gallery {
@@ -1385,19 +1397,23 @@ body::-webkit-scrollbar-thumb {
 
 @-webkit-keyframes arrow-up-down {
   from {
-    top: 50px;
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
   }
   to {
-    top: 0px;
+    -webkit-transform: translatey(-25px);
+            transform: translatey(-25px);
   }
 }
 
 @keyframes arrow-up-down {
   from {
-    top: 50px;
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
   }
   to {
-    top: 0px;
+    -webkit-transform: translatey(-25px);
+            transform: translatey(-25px);
   }
 }
 /*# sourceMappingURL=styles.css.map */

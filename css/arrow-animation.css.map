@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,UAAU,CAAV,aAAU;EACN,IAAI;IACA,GAAG,EAAE,IAAI;;EAGb,EAAE;IACE,GAAG,EAAE,GAAG",
+    "mappings": "AAAA,UAAU,CAAV,aAAU;EACN,IAAI;IACA,SAAS,EAAE,eAAe;;EAG9B,EAAE;IACE,SAAS,EAAE,iBAAiB",
     "sources": [
         "arrow-animation.scss"
     ],
