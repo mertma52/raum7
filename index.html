@@ -180,9 +180,9 @@
             
         detail.setAttribute("data-aos-delay","0");
         var delayedObj = document.querySelectorAll(".aos-animate");
-        for (i = 0; i < delayedObj.length; i++) { 
+        setTimeout(() => {  for (i = 0; i < delayedObj.length; i++) { 
             delayedObj[i].setAttribute("data-aos-delay","0");
-        }
+        }; }, 2000);
         console.log("lel");
         console.log('animated in', detail);
         });
