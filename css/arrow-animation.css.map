@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,UAAU,CAAV,aAAU;EACN,IAAI;IACA,GAAG,EAAE,IAAI;;EAGb,EAAE;IACE,GAAG,EAAE,GAAG",
+    "sources": [
+        "arrow-animation.scss"
+    ],
+    "names": [],
+    "file": "arrow-animation.css"
+}

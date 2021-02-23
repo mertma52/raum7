@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,UAAU,CAAV,OAAU;EACN,IAAI;IACE,OAAO,EAAE,CAAC;IACV,SAAS,EAAE,iBAAiB;;EAGlC,EAAE;IACE,OAAO,EAAE,CAAC;IACV,SAAS,EAAE,eAAe;;;;AAIlC,AAAA,kBAAkB,CAAC;EACjB,iBAAiB,EAAE,OAAO;EAC1B,cAAc,EAAE,OAAO;EACvB,mBAAmB,EAAE,IAAI;EACzB,kBAAkB,EAAE,IAAI;EACxB,eAAe,EAAE,EAAE;CACpB",
+    "sources": [
+        "scroll-animation.scss"
+    ],
+    "names": [],
+    "file": "scroll-animation.css"
+}

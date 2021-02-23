@@ -16,7 +16,7 @@ function checkMenuState() {
     } else if (menuState == "closed" && isMobile < 1025 ) {
         navMenu.style.display = "flex";
         navMenu.setAttribute("data-menuOpen", "open");
-        navMenuIcon.src="./icons und Logos/close.svg";
+        navMenuIcon.src="./icons und Logos/close-cross 2.svg";
         console.log("menu-open");
     }
 }
