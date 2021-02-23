@@ -3,19 +3,27 @@
     display: none;
   }
   .gecko {
-    height: 65vw;
-    background-image: url("../img-hauptseite/audi-gecko.jpg");
-    background-position: 0% 0% 0% 80%;
-    margin-top: 30px;
-    padding: 0vw 0vw 12vw 0vw;
+    height: 85vw;
+    background-image: url("../img-hauptseite/Gecko.jpg");
+    background-size: 100%;
+    background-position: 0% 0%;
+    margin-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding: 0vw !important;
     .gecko-background-h1 {
       font-size: 16px;
       font-weight: 400;
+      margin-bottom: 50px;
       color: #464646;
       text-align: center;
       span {
         font-weight: 700;
       }
+    }
+    img {
+      margin-bottom: 60px;
+      height:30vw;
     }
   }
 
