@@ -93,7 +93,7 @@
        <div class="animation" data-aos="fade-up" data-aos-delay="500"  data-aos-once="true" data-aos-duration="750">
            <h2 class="h2-property-background-img">ANIMATION</h2>
        </div>
-       <div class="visualisierung" data-aos="fade-up" data-aos-delay="750" data-aos-id="reset-delay" data-aos-once="true" data-aos-duration="750">
+       <div class="visualisierung" data-aos="fade-up" data-aos-delay="750" data-aos-once="true" data-aos-duration="750">
            <h2 class="h2-property-background-img">VISUALISIERUNG</h2>
        </div>
        <div class="extended-reality" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
@@ -176,9 +176,7 @@
            AOS.init();
      </script>
      <script>
-        document.addEventListener('aos:in:reset-delay', ({ detail }) => {
-            
-        detail.setAttribute("data-aos-delay","0");
+        document.addEventListener('aos:in', ({ detail }) => {
         var delayedObj = document.querySelectorAll(".aos-animate");
         setTimeout(() => {  for (i = 0; i < delayedObj.length; i++) { 
             delayedObj[i].setAttribute("data-aos-delay","0");
