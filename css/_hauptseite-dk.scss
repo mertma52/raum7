@@ -1,3 +1,18 @@
+body::-webkit-scrollbar {
+  width: 14px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #141618; /* color of the tracking area */
+  scrollbar-width: auto;
+}
+
+body::-webkit-scrollbar-thumb {
+  scrollbar-width: auto;
+  background-color: gray; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid #141618; /* creates padding around scroll thumb */
+}
 //arrow
 .gallery-arrow {
   grid-column: 1/5;
@@ -36,22 +51,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
   .gecko-background-h1 {
     font-size: 2.2vw;
     font-weight: 400;
     color: #464646;
     text-align: center;
-    text-shadow: 2px 2px 15px white, 2px 2px 20px white, 2px 2px 15px white,
-      2px 2px 20px white, 2px 2px 35px white, 2px 2px 35px white,
-      2px 2px 35px white, 2px 2px 35px white, 2px 2px 20px white,
-      2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white,
-      2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white,
-      2px 2px 20px white, 2px 2px 35px white, 2px 2px 35px white;
-    position: relative;
+    position: absolute;
     z-index: 99;
     span {
       font-weight: 600;
     }
+  }
+  img {
+    position: absolute;
+    width: 60vw;
+    height: 20vw;
   }
 }
 .design {
@@ -66,7 +81,7 @@
   animation-name: design-slide-in-v2;
   animation-duration: 0.5s;
   animation-fill-mode: both;
-  transition: background-size 200ms ease;
+  transition: background-size 700ms ease;
 }
 
 .visualisierung {
@@ -78,7 +93,7 @@
   background-repeat: no-repeat;
   background-position: center;
   padding: 3.8vw;
-  transition: background-size 200ms ease;
+  transition: background-size 700ms ease;
   -webkit-animation: visualisierung-slide-in-v2;
   animation-name: visualisierung-slide-in-v2;
   animation-fill-mode: both;
@@ -98,7 +113,7 @@
   animation-duration: 0.5s;
   animation-delay: 0.5s;
   animation-fill-mode: both;
-  transition: background-size 200ms ease;
+  transition: background-size 700ms ease;
 }
 .extended-reality {
   grid-column: 1/3;
@@ -113,7 +128,7 @@
   animation-duration: 0.5s;
   animation-delay: 1.5s;
   animation-fill-mode: both;
-  transition: background-size 200ms ease;
+  transition: background-size 700ms ease;
 }
 .h2-property-background-img {
   display: inline-block;
@@ -150,7 +165,7 @@
       color: white;
       font-size: 2.2vw;
       text-align: center;
-      font-weight: 400;
+      font-weight: 300;
     }
     .text-gray-wrapper-h3-mobile {
       display: none;

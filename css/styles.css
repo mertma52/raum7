@@ -36,7 +36,7 @@ li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: absolute;
+  position: fixed;
   z-index: 999;
   width: 100%;
   -webkit-box-pack: justify;
@@ -112,7 +112,7 @@ li {
 
 .navigation .navigations-languages .navigations-languages-left {
   font-size: 0.78vw;
-  color: #999999;
+  color: black;
   padding: 0vw 0.7vw;
   font-weight: 600;
 }
@@ -131,6 +131,27 @@ li {
 }
 
 /*Responsive Design*/
+body::-webkit-scrollbar {
+  width: 14px;
+  /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #141618;
+  /* color of the tracking area */
+  scrollbar-width: auto;
+}
+
+body::-webkit-scrollbar-thumb {
+  scrollbar-width: auto;
+  background-color: gray;
+  /* color of the scroll thumb */
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
+  border: 3px solid #141618;
+  /* creates padding around scroll thumb */
+}
+
 .gallery-arrow {
   -ms-grid-column: 1;
   -ms-grid-column-span: 4;
@@ -197,6 +218,7 @@ li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
 }
 
 .gecko .gecko-background-h1 {
@@ -204,13 +226,18 @@ li {
   font-weight: 400;
   color: #464646;
   text-align: center;
-  text-shadow: 2px 2px 15px white, 2px 2px 20px white, 2px 2px 15px white, 2px 2px 20px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 20px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 20px white, 2px 2px 35px white, 2px 2px 35px white;
-  position: relative;
+  position: absolute;
   z-index: 99;
 }
 
 .gecko .gecko-background-h1 span {
   font-weight: 600;
+}
+
+.gecko img {
+  position: absolute;
+  width: 60vw;
+  height: 20vw;
 }
 
 .design {
@@ -232,8 +259,8 @@ li {
           animation-duration: 0.5s;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
-  -webkit-transition: background-size 200ms ease;
-  transition: background-size 200ms ease;
+  -webkit-transition: background-size 700ms ease;
+  transition: background-size 700ms ease;
 }
 
 .visualisierung {
@@ -249,8 +276,8 @@ li {
   background-repeat: no-repeat;
   background-position: center;
   padding: 3.8vw;
-  -webkit-transition: background-size 200ms ease;
-  transition: background-size 200ms ease;
+  -webkit-transition: background-size 700ms ease;
+  transition: background-size 700ms ease;
   -webkit-animation: visualisierung-slide-in-v2;
   -webkit-animation-name: visualisierung-slide-in-v2;
           animation-name: visualisierung-slide-in-v2;
@@ -283,8 +310,8 @@ li {
           animation-delay: 0.5s;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
-  -webkit-transition: background-size 200ms ease;
-  transition: background-size 200ms ease;
+  -webkit-transition: background-size 700ms ease;
+  transition: background-size 700ms ease;
 }
 
 .extended-reality {
@@ -308,8 +335,8 @@ li {
           animation-delay: 1.5s;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
-  -webkit-transition: background-size 200ms ease;
-  transition: background-size 200ms ease;
+  -webkit-transition: background-size 700ms ease;
+  transition: background-size 700ms ease;
 }
 
 .h2-property-background-img {
@@ -359,7 +386,7 @@ li {
   color: white;
   font-size: 2.2vw;
   text-align: center;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .text-gray .text-gray-wrapper .text-gray-wrapper-h3-mobile {
@@ -451,6 +478,7 @@ li {
 #footer-fraction-left .footer-company-title {
   color: white;
   font-size: 1.2vw;
+  padding-top: 1vw;
 }
 
 #footer-fraction-left .adresse {
@@ -690,13 +718,13 @@ li {
   }
   .navigation .navbar .navbar-left .navbar-left-menu-img {
     max-width: 100%;
-    height: 15px;
-    margin: 20px 20px 17px 20px;
+    height: 20px;
+    margin: 20px 20px 17px 40px;
   }
   .navigation .navbar .navbar-left .navbar-left-logo-img {
     max-width: 100%;
-    height: 15px;
-    margin: 20px 20px 17px 20px;
+    height: 20px;
+    margin: 20px 20px 17px 40px;
   }
   .navigation .navbar .navbar-right-ul {
     display: none;
@@ -739,8 +767,9 @@ li {
   }
   .gecko {
     height: 65vw;
-    background-image: url("../img-hauptseite/audi-gecko.jpg");
-    margin-top: 40px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin-top: 30px;
     padding: 0vw 0vw 12vw 0vw;
   }
   .gecko .gecko-background-h1 {
@@ -748,7 +777,6 @@ li {
     font-weight: 400;
     color: #464646;
     text-align: center;
-    text-shadow: 2px 2px 15px white, 2px 2px 20px white, 2px 2px 15px white, 2px 2px 20px white, 2px 2px 35px white, 2px 2px 35px white, 2px 2px 20px white, 2px 2px 35px white, 2px 2px 35px white;
   }
   .gecko .gecko-background-h1 span {
     font-weight: 700;

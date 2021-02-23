@@ -4,17 +4,14 @@
   }
   .gecko {
     height: 65vw;
-    background-image: url("../img-hauptseite/audi-gecko.jpg");
-    margin-top: 40px;
+    object-fit: cover;
+    margin-top: 30px;
     padding: 0vw 0vw 12vw 0vw;
     .gecko-background-h1 {
       font-size: 16px;
       font-weight: 400;
       color: #464646;
       text-align: center;
-      text-shadow: 2px 2px 15px white, 2px 2px 20px white, 2px 2px 15px white,
-        2px 2px 20px white, 2px 2px 35px white, 2px 2px 35px white,
-        2px 2px 20px white, 2px 2px 35px white, 2px 2px 35px white;
       span {
         font-weight: 700;
       }
