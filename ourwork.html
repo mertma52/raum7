@@ -1,216 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <script src="./navigation.js"></script>
     <script src="./video.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/js/lightgallery.min.js"></script>
-    <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/css/lightgallery.min.css" />
+    <link type="text/css" rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/css/lightgallery.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
+
 <body>
-        <!--NAVIGATION-->
-        <div class="navigation">
-            <nav class="navbar">
-                    <div class="navbar-left">
-                        <a href="#" onClick = checkMenuState();>
-                            <img class="navbar-left-menu-img"  id="hamburger_btn" src="./icons und Logos/sevent-sandwich.svg" alt=""> 
-                        </a> 
-                        <a href="">
-                            <img class="navbar-left-logo-img" src="./icons und Logos/sevent-logo.svg"  alt=""> 
-                        </a> 
-                    </div>
-                    <ul class="navbar-right-ul">
-                            <li class="nav-right-element">
-                                <a href="#home">HOME</a>
-                            </li>
-                            <li class="nav-right-element">
-                                <a class="andere-farbe" href="#ourwork">OUR WORK</a>
-                            </li>
-                            <li class="nav-right-element">
-                                <a class="andere-farbe" href="#whatwedo">WHAT WE DO</a>
-                            </li>
-                            <li class="nav-right-element">
-                                <a  class="andere-farbe" href="#whoweare">WHO WE ARE</a>
-                            </li>
-                            <li class="nav-right-element">
-                                <a class="andere-farbe" href="#contactus">CONTACT US</a>
-                            </li>
-                    </ul> 
-    
-                    <ul class="navbar-mobile" id="navigation-menu-mobile" data-menuOpen="closed" >
-                        <li class="nav-mobile-element li-nav-burger-home">
-                            <a href="#home">HOME</a>
-                        </li>
-                        <li class="nav-mobile-element">
-                            <a class="andere-farbe" href="#ourwork">OUR WORK</a>
-                        </li>
-                        <li class="nav-mobile-element">
-                            <a class="andere-farbe" href="#whatwedo">WHAT WE DO</a>
-                        </li>
-                        <li class="nav-mobile-element">
-                            <a  class="andere-farbe" href="#whoweare">WHO WE ARE</a>
-                        </li>
-                        <li class="nav-mobile-element">
-                            <a class="andere-farbe" href="#contactus">CONTACT US</a>
-                        </li>
-                        <li class="nav-mobile-element">
-                            <a class="andere-farbe" href="#contactus">DE</a>
-                        </li>
-                        <li class="nav-mobile-element">
-                            <a class="andere-farbe" href="#contactus">EN</a>
-                        </li>
-                </ul> 
-    
-                </nav>
-            <div class="navigations-languages">
-                    <a class="navigations-languages-left" href="">DE</a>
-                    <div class="navigations-languages-seperator"></div>
-                    <a class="navigations-languages-right" href>EN</a> 
+    <!--NAVIGATION-->
+    <div class="navigation">
+        <nav class="navbar">
+            <div class="navbar-left">
+                <a href="#" onClick=checkMenuState();>
+                    <img class="navbar-left-menu-img" id="hamburger_btn" src="./icons und Logos/sevent-sandwich.svg"
+                        alt="">
+                </a>
+                <a href="">
+                    <img class="navbar-left-logo-img" src="./icons und Logos/sevent-logo.svg" alt="">
+                </a>
             </div>
-        </div>   
-       <!--Bildergalerie-->
+            <ul class="navbar-right-ul">
+                <li class="nav-right-element">
+                    <a href="#home">HOME</a>
+                </li>
+                <li class="nav-right-element">
+                    <a class="andere-farbe" href="#ourwork">OUR WORK</a>
+                </li>
+                <li class="nav-right-element">
+                    <a class="andere-farbe" href="#whatwedo">WHAT WE DO</a>
+                </li>
+                <li class="nav-right-element">
+                    <a class="andere-farbe" href="#whoweare">WHO WE ARE</a>
+                </li>
+                <li class="nav-right-element">
+                    <a class="andere-farbe" href="#contactus">CONTACT US</a>
+                </li>
+            </ul>
+
+            <ul class="navbar-mobile" id="navigation-menu-mobile" data-menuOpen="closed">
+                <li class="nav-mobile-element li-nav-burger-home">
+                    <a href="#home">HOME</a>
+                </li>
+                <li class="nav-mobile-element">
+                    <a class="andere-farbe" href="#ourwork">OUR WORK</a>
+                </li>
+                <li class="nav-mobile-element">
+                    <a class="andere-farbe" href="#whatwedo">WHAT WE DO</a>
+                </li>
+                <li class="nav-mobile-element">
+                    <a class="andere-farbe" href="#whoweare">WHO WE ARE</a>
+                </li>
+                <li class="nav-mobile-element">
+                    <a class="andere-farbe" href="#contactus">CONTACT US</a>
+                </li>
+                <li class="nav-mobile-element">
+                    <a class="andere-farbe" href="#contactus">DE</a>
+                </li>
+                <li class="nav-mobile-element">
+                    <a class="andere-farbe" href="#contactus">EN</a>
+                </li>
+            </ul>
+
+        </nav>
+        <div class="navigations-languages">
+            <a class="navigations-languages-left" href="">DE</a>
+            <div class="navigations-languages-seperator"></div>
+            <a class="navigations-languages-right" href>EN</a>
+        </div>
+    </div>
+    <!--Bildergalerie-->
     <div id="light-gallery-test" class="ourwork-gallery">
-                   <div class="our-work-gallery-wrapper extra kia" data-aos="slide-up" data-src="our-work-img/KIA.jpg">
-                        <img src="our-work-img/KIA.jpg" alt="">
-                        <h2 class="our-work-gallery-wrapper-h2">KIA - Imagine Concept Car Prints</h2>
-                    </div>
-                    <div class="our-work-gallery-wrapper extra cosmoto" data-aos="slide-up">
-                        <img src="our-work-img/cosmoto.jpg" alt="">
-                        <h2 class="our-work-gallery-wrapper-h2">COSMOTE TV - Idents</h2>
-                    </div>
-                    <div class="our-work-gallery-wrapper extra  nissan" data-aos="slide-up">
-                        <img src="our-work-img/Nissan.jpg" alt="">
-                        <h2 class="our-work-gallery-wrapper-h2 extra-position-nissan-corpuls" data-aos="slide-up">Nissan - Dayz TVC</h2>
-                    </div>
-                    <div class="our-work-gallery-wrapper extra  audi">
-                        <img src="our-work-img/audi.jpg" alt="">
-                        <h2 class="our-work-gallery-wrapper-h2 extra-position-xiao-audi" data-aos="slide-up">Audi - A4 Paceseter TVC</h2>
-                     </div>
-                     <!--Section second-->
-                     <div class="our-work-gallery-wrapper extra xiao">
-                        <img src="our-work-img/xiao-zhu.jpg" alt="">
-                        <h2 class="our-work-gallery-wrapper-h2 extra-position-xiao-audi" data-aos="slide-up">Xiao Zhu - Small Pig TVC</h2>
-                    </div>
-                    <div class="our-work-gallery-wrapper extra corpuls">
-                        <img src="our-work-img/corpuls.jpg" alt="">
-                        <h2 class="our-work-gallery-wrapper-h2 extra-position-nissan-corpuls" data-aos="slide-up">Corpuls - 3T Animation & Prints</h2>
-                    </div>
-                    <div class="our-work-gallery-wrapper extra seguros">
-                        <img src="our-work-img/seguros.jpg" alt="">
-                        <h2 class="our-work-gallery-wrapper-h2">Seguros Ocaso - Rolercoaster TVC</h2>
-                    </div>
-                    <div class="our-work-gallery-wrapper extra audi-formeleins">
-                        <img src="our-work-img/audi-formeleins.jpg" alt="">
-                        <h2 class="our-work-gallery-wrapper-h2">AUDI - Le Mans VR Experience</h2>
-                     </div>
-                     <!--Section third-->
-                     <div class="our-work-gallery-wrapper erdmaennchen">
-                        <img src="our-work-img/erdmaennchen.jpg" alt="">
-                    </div>
-                    <div class="our-work-gallery-wrapper cafemaschine">
-                        <img src="our-work-img/cafemaschine.jpg" alt="">
-                    </div>
-                    <div class="our-work-gallery-wrapper gecko-oben">
-                        <img src="our-work-img/gecko-oben.jpg" alt="">
-                    </div>
-                         <!--Section four-->
-                     <div class="our-work-gallery-wrapper metallleopard">
-                        <img src="our-work-img/metallleopard.jpg" alt="">
-                    </div>
-                    <div class="our-work-gallery-wrapper auto">
-                        <img src="our-work-img/auto.jpg" alt="">
-                    </div>
-                    <div class="our-work-gallery-wrapper haehnchen">
-                        <img src="our-work-img/haenchen.jpg" alt="">
-                    </div>
-                    <div class="our-work-gallery-wrapper mann-mit-essen">
-                        <img src="our-work-img/mann-mit-essen.jpg" alt="">
-                    </div>
-                    <!--Section five-->
-                    <div class="our-work-gallery-wrapper mann-der-laechelt">
-                        <img src="our-work-img/mann-der-laechelt.jpg" alt="">
-                    </div>
-                    <div class="our-work-gallery-wrapper maschine">
-                        <img src="our-work-img/maschine.jpg" alt="">
-                    </div>
-                    <div class="our-work-gallery-wrapper bmw">
-                        <img src="our-work-img/bmw.jpg" alt="">
-                    </div>
-                    <div class="our-work-gallery-wrapper animal">
-                        <img src="our-work-img/animal.jpg" alt="">
-                    </div>
-                   <!--Section six-->
-                   <div class="our-work-gallery-wrapper vw">
-                    <img src="our-work-img/vw.jpg" alt="">
-                    </div>
-                    <div class="our-work-gallery-wrapper frau-im-auto">
-                        <img src="our-work-img/frau-im-auto.jpg" alt="">
-                    </div>
-                    <div class="our-work-gallery-wrapper iceage">
-                        <img src="our-work-img/ice-age.jpg" alt="">
-                    </div>                 
+        <div class="our-work-gallery-wrapper extra kia" data-aos="slide-up" data-src="our-work-img/KIA.jpg">
+            <img src="our-work-img/KIA.jpg" alt="">
+            <h2 class="our-work-gallery-wrapper-h2">KIA - Imagine Concept Car Prints</h2>
+        </div>
+        <div class="our-work-gallery-wrapper extra cosmoto" data-aos="slide-up">
+            <img src="our-work-img/cosmoto.jpg" alt="">
+            <h2 class="our-work-gallery-wrapper-h2">COSMOTE TV - Idents</h2>
+        </div>
+        <div class="our-work-gallery-wrapper extra  nissan" data-aos="slide-up">
+            <img src="our-work-img/Nissan.jpg" alt="">
+            <h2 class="our-work-gallery-wrapper-h2 extra-position-nissan-corpuls" data-aos="slide-up">Nissan - Dayz TVC
+            </h2>
+        </div>
+        <div class="our-work-gallery-wrapper extra  audi">
+            <img src="our-work-img/audi.jpg" alt="">
+            <h2 class="our-work-gallery-wrapper-h2 extra-position-xiao-audi" data-aos="slide-up">Audi - A4 Paceseter TVC
+            </h2>
+        </div>
+        <!--Section second-->
+        <div class="our-work-gallery-wrapper extra xiao">
+            <img src="our-work-img/xiao-zhu.jpg" alt="">
+            <h2 class="our-work-gallery-wrapper-h2 extra-position-xiao-audi" data-aos="slide-up">Xiao Zhu - Small Pig
+                TVC</h2>
+        </div>
+        <div class="our-work-gallery-wrapper extra corpuls">
+            <img src="our-work-img/corpuls.jpg" alt="">
+            <h2 class="our-work-gallery-wrapper-h2 extra-position-nissan-corpuls" data-aos="slide-up">Corpuls - 3T
+                Animation & Prints</h2>
+        </div>
+        <div class="our-work-gallery-wrapper extra seguros">
+            <img src="our-work-img/seguros.jpg" alt="">
+            <h2 class="our-work-gallery-wrapper-h2">Seguros Ocaso - Rolercoaster TVC</h2>
+        </div>
+        <div class="our-work-gallery-wrapper extra audi-formeleins">
+            <img src="our-work-img/audi-formeleins.jpg" alt="">
+            <h2 class="our-work-gallery-wrapper-h2">AUDI - Le Mans VR Experience</h2>
+        </div>
+        <!--Section third-->
+        <div class="our-work-gallery-wrapper erdmaennchen">
+            <img src="our-work-img/erdmaennchen.jpg" alt="">
+        </div>
+        <div class="our-work-gallery-wrapper cafemaschine">
+            <img src="our-work-img/cafemaschine.jpg" alt="">
+        </div>
+        <div class="our-work-gallery-wrapper gecko-oben">
+            <img src="our-work-img/gecko-oben.jpg" alt="">
+        </div>
+        <!--Section four-->
+        <div class="our-work-gallery-wrapper metallleopard">
+            <img src="our-work-img/metallleopard.jpg" alt="">
+        </div>
+        <div class="our-work-gallery-wrapper auto">
+            <img src="our-work-img/auto.jpg" alt="">
+        </div>
+        <div class="our-work-gallery-wrapper haehnchen">
+            <img src="our-work-img/haenchen.jpg" alt="">
+        </div>
+        <div class="our-work-gallery-wrapper mann-mit-essen">
+            <img src="our-work-img/mann-mit-essen.jpg" alt="">
+        </div>
+        <!--Section five-->
+        <div class="our-work-gallery-wrapper mann-der-laechelt">
+            <img src="our-work-img/mann-der-laechelt.jpg" alt="">
+        </div>
+        <div class="our-work-gallery-wrapper maschine">
+            <img src="our-work-img/maschine.jpg" alt="">
+        </div>
+        <div class="our-work-gallery-wrapper bmw">
+            <img src="our-work-img/bmw.jpg" alt="">
+        </div>
+        <div class="our-work-gallery-wrapper animal">
+            <img src="our-work-img/animal.jpg" alt="">
+        </div>
+        <!--Section six-->
+        <div class="our-work-gallery-wrapper vw">
+            <img src="our-work-img/vw.jpg" alt="">
+        </div>
+        <div class="our-work-gallery-wrapper frau-im-auto">
+            <img src="our-work-img/frau-im-auto.jpg" alt="">
+        </div>
+        <div class="our-work-gallery-wrapper iceage">
+            <img src="our-work-img/ice-age.jpg" alt="">
+        </div>
     </div>
     <section class="text-white">
         <div class="text-white-wrappper">
-           <h3 class="text-white-wrappper-h3">Die Projekte sind von SEVENT oder Jörg Hannemann <br>
-            komplett oder in Teilbereichen umgesetzt. Kontaktieren Sie uns <br>
-            für nähere Informationen.</h3>
-           <h3 class="text-white-wrappper-h3-mobile">Mit Leidenschaft und<br> langjähriger Erfahrung 
-            realisieren wir<br> innovative Projekte für <br>Agenturen und Industrie. <br>
-           Wir erschaffen Ästhetik für die Sinne.
-           </h3> 
-        </div> 
-     </section>
-       <!--Foooter-->
-       <section class="end">
-        <div class="footer">
-           <div class="footer-wrapper"> 
-               <div id="footer-fraction-left">
-                   <h2 class="footer-company-title">SEVENT</h2>
-                   <p class="footer-text adresse">
-                       Franz-Siegele-Weg 4<br>
-                       86919 Utting am Ammersee
-                   </p>
-                   <p class="footer-text country">GERMANY</p>
-               </div>
-               <div id="footer-fraction-middle">
-                   <div class="social-icons-wrapper">
-                    <a href="https://vimeo.com/joerghannemann" target="_blank"> <img class="vimeo" src="./icons und Logos/icon-vimeo.svg" alt=""></a>
-                    <a href="https://www.behance.net/joerg6b96" target="_blank"><img class="behance" src="./icons und Logos/icon-behance.svg" alt=""></a>
-                    <a href="https://de.linkedin.com/in/j%C3%B6rg-hannemann-87b98943" target="_blank"><img class="linkedin" src="./icons und Logos/icon-linkedin.svg" alt=""></a>
-                   <a href="https://www.xing.com/profile/Joerg_Hannemann3" target="_blank"> <img  class="xing" src="./icons und Logos/icon-xing.svg" alt=""></a>
-                   </div>
-                   <div class="cta">
-                   <a href="tel:+49 (0)8806 306070"class="footer-link"> <p class="footer-text"> +49 (0)8806 306070</p> </a>
-                   <a href="mailto:mail@sevent.studio"class="footer-link"> <p class="footer-text">mail@sevent.studio </p> </a>
-                    </div>
-               </div>
-                   <div id="footer-fraction-right">
-                   <a href=""class="footer-link"> <p class="footer-text"> Imprint</p> </a>
-                   <a href=""class="footer-link"> <p class="footer-text"> Privacy Policy</p> </a>
-                    </div>
-               </div>
-           </div>
+            <h3 class="text-white-wrappper-h3">Die Projekte sind von SEVENT oder Jörg Hannemann <br>
+                komplett oder in Teilbereichen umgesetzt. Kontaktieren Sie uns <br>
+                für nähere Informationen.</h3>
+            <h3 class="text-white-wrappper-h3-mobile">Mit Leidenschaft und<br> langjähriger Erfahrung
+                realisieren wir<br> innovative Projekte für <br>Agenturen und Industrie. <br>
+                Wir erschaffen Ästhetik für die Sinne.
+            </h3>
         </div>
     </section>
-        <script type="text/javascript">
-            $(document).ready(function() {
-                $("#light-gallery-test").lightGallery({
-                    download: false, 
-                    counter: false
-                }); 
+    <!--Foooter-->
+    <section class="end">
+        <div class="footer">
+            <div class="footer-wrapper">
+                <div id="footer-fraction-left">
+                    <h2 class="footer-company-title">SEVENT</h2>
+                    <p class="footer-text adresse">
+                        Franz-Siegele-Weg 4<br>
+                        86919 Utting am Ammersee
+                    </p>
+                    <p class="footer-text country">GERMANY</p>
+                </div>
+                <div id="footer-fraction-middle">
+                    <div class="social-icons-wrapper">
+                        <a href="https://vimeo.com/joerghannemann" target="_blank"> <img class="vimeo"
+                                src="./icons und Logos/icon-vimeo.svg" alt=""></a>
+                        <a href="https://www.behance.net/joerg6b96" target="_blank"><img class="behance"
+                                src="./icons und Logos/icon-behance.svg" alt=""></a>
+                        <a href="https://de.linkedin.com/in/j%C3%B6rg-hannemann-87b98943" target="_blank"><img
+                                class="linkedin" src="./icons und Logos/icon-linkedin.svg" alt=""></a>
+                        <a href="https://www.xing.com/profile/Joerg_Hannemann3" target="_blank"> <img class="xing"
+                                src="./icons und Logos/icon-xing.svg" alt=""></a>
+                    </div>
+                    <div class="cta">
+                        <a href="tel:+49 (0)8806 306070" class="footer-link">
+                            <p class="footer-text"> +49 (0)8806 306070</p>
+                        </a>
+                        <a href="mailto:mail@sevent.studio" class="footer-link">
+                            <p class="footer-text">mail@sevent.studio </p>
+                        </a>
+                    </div>
+                </div>
+                <div id="footer-fraction-right">
+                    <a href="" class="footer-link">
+                        <p class="footer-text"> Imprint</p>
+                    </a>
+                    <a href="" class="footer-link">
+                        <p class="footer-text"> Privacy Policy</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#light-gallery-test").lightGallery({
+                download: false,
+                counter: false
             });
-        </script>
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-          AOS.init();
+        });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
 </body>
+
 </html>
