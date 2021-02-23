@@ -176,14 +176,15 @@
            AOS.init();
      </script>
      <script>
+         if (window.innerHeight > 500) {
         document.addEventListener('aos:in', ({ detail }) => {
         var delayedObj = document.querySelectorAll(".aos-animate");
         setTimeout(() => {  for (i = 0; i < delayedObj.length; i++) { 
             delayedObj[i].setAttribute("data-aos-delay","0");
         }; }, 2000);
-        console.log("lel");
         console.log('animated in', detail);
         });
+    }
      </script>
 </body>
 </html>
