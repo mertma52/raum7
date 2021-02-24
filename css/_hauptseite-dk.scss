@@ -82,7 +82,9 @@ body::-webkit-scrollbar-thumb {
       font-weight: 600;
     }
   }
-
+  .gecko-background-h1-mobile {
+    display: none;
+  }
   img {
     position: absolute;
     width: 60vw;

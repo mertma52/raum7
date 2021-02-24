@@ -247,6 +247,10 @@ body::-webkit-scrollbar-thumb {
   font-weight: 600;
 }
 
+.gecko .gecko-background-h1-mobile {
+  display: none;
+}
+
 .gecko img {
   position: absolute;
   width: 60vw;
@@ -780,6 +784,24 @@ body::-webkit-scrollbar-thumb {
     -ms-grid-column: 1;
     grid-column: 1/1;
     width: 100vw;
+    padding: 0px;
+  }
+  .gecko .gecko-background-h1 {
+    display: none;
+  }
+  .gecko .gecko-background-h1-mobile {
+    display: block;
+    font-size: 4.5vw;
+    font-weight: 400;
+    color: #464646;
+    text-align: center;
+    position: absolute;
+    z-index: 99;
+    padding-bottom: 40px;
+  }
+  .gecko .gecko-background-h1-mobile span {
+    display: block;
+    font-weight: 600;
   }
   .design {
     -ms-grid-column: 1;
@@ -1104,13 +1126,14 @@ body::-webkit-scrollbar-thumb {
   }
   #footer-fraction-left .footer-company-title {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 600;
   }
   #footer-fraction-left .adresse {
     margin: 0px 0px 10px 0px;
   }
   #footer-fraction-left .country {
-    margin: 0px 0px 0px 0px;
+    margin: 12px 0px 12px 0px;
   }
   #footer-fraction-middle {
     display: -webkit-box;
@@ -1138,24 +1161,24 @@ body::-webkit-scrollbar-thumb {
             align-items: flex-start;
   }
   .vimeo {
-    height: 35px;
+    height: 45px;
     width: auto;
-    margin: 20px 6px;
+    margin: 25px 6px;
   }
   .behance {
-    height: 35px;
+    height: 45px;
     width: auto;
-    margin: 20px 6px;
+    margin: 25px 6px;
   }
   .linkedin {
-    height: 35px;
+    height: 45px;
     width: auto;
-    margin: 20px 6px;
+    margin: 25px 6px;
   }
   .xing {
-    height: 35px;
+    height: 45px;
     width: auto;
-    margin: 20px 6px;
+    margin: 25px 6px;
   }
   .cta {
     text-align: center;
