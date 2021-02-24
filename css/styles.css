@@ -146,7 +146,7 @@ body::-webkit-scrollbar-thumb {
   scrollbar-width: auto;
   background-color: gray;
   /* color of the scroll thumb */
-  border-radius: 20px;
+  border-radius: 0px;
   /* roundness of the scroll thumb */
   border: 3px solid #141618;
   /* creates padding around scroll thumb */
@@ -188,8 +188,8 @@ body::-webkit-scrollbar-thumb {
   height: 2.7vw;
   -webkit-animation-name: arrow-up-down;
           animation-name: arrow-up-down;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-iteration-count: infinite;
@@ -534,7 +534,7 @@ body::-webkit-scrollbar-thumb {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 3vw 0vw 0vw 0vw;
+  margin: 2.5vw 0vw 0vw 0vw;
 }
 
 .footer {

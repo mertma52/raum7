@@ -13,7 +13,7 @@ body::-webkit-scrollbar-thumb {
   scrollbar-width: auto;
   background-color: gray;
   /* color of the scroll thumb */
-  border-radius: 20px;
+  border-radius: 0px;
   /* roundness of the scroll thumb */
   border: 3px solid #141618;
   /* creates padding around scroll thumb */
@@ -41,7 +41,7 @@ body::-webkit-scrollbar-thumb {
     position: absolute;
     height: 2.7vw;
     animation-name: arrow-up-down;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-direction: alternate;
