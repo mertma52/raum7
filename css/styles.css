@@ -651,8 +651,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  body {
-    overflow-x: hidden;
+  body::-webkit-scrollbar {
+    display: none;
   }
   .gallery-arrow {
     display: none;
@@ -748,11 +748,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media screen and (max-width: 767px) {
-  body {
-    overflow-x: hidden;
-  }
-  .gallery-arrow {
+  body::-webkit-scrollbar {
     display: none;
+  }
+  .scroller {
+    overflow-y: scroll;
+    scrollbar-color: #c2d2e4;
   }
   .gecko {
     height: 85vw;
