@@ -67,10 +67,12 @@
   grid-column: 3/5;
 }
 .our-work-gallery-wrapper img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
   display: block;
+  transition: transform 700ms ease;
+  object-position: 100% auto;
 }
 .extra {
   position: relative;
@@ -93,4 +95,62 @@
 .extra-position-xiao-audi {
   bottom: 7%;
   left: 7%;
+}
+.our-work-gallery-wrapper > img:hover {
+  transform: scale(1.1);
+}
+
+.our-work-gallery-wrapper {
+  overflow: hidden;
+}
+.kia-second {
+  display: none;
+}
+.kia-third {
+  display: none;
+}
+.kia-four {
+  display: none;
+}
+.kia-five {
+  display: none;
+}
+.gecko-second {
+  display: none;
+}
+.gecko-third {
+  display: none;
+}
+.gecko-four {
+  display: none;
+}
+.gecko-five {
+  display: none;
+}
+.maschine-second {
+  display: none;
+}
+.maschine-third {
+  display: none;
+}
+.maschine-four {
+  display: none;
+}
+.vw-second {
+  display: none;
+}
+.cafemaschine-second {
+  display: none;
+}
+.cafemaschine-third {
+  display: none;
+}
+.cafemaschine-four {
+  display: none;
+}
+.cafemaschine-five {
+  display: none;
+}
+.cafemaschine-six {
+  display: none;
 }
