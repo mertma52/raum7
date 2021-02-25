@@ -652,7 +652,7 @@ body::-webkit-scrollbar-thumb {
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   body {
-    overflow-y: hidden;
+    overflow-x: hidden;
   }
   .gallery-arrow {
     display: none;
@@ -749,7 +749,7 @@ body::-webkit-scrollbar-thumb {
 
 @media screen and (max-width: 767px) {
   body {
-    overflow-y: hidden;
+    overflow-x: hidden;
   }
   .gallery-arrow {
     display: none;
