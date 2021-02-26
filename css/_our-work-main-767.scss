@@ -1,0 +1,183 @@
+@media screen and (max-width: 767px) {
+  .ourwork-gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  /*Erste Section*/
+  .kia {
+    grid-column: 1/1;
+    grid-row: auto;
+  }
+  .cosmoto {
+    grid-column: 1/1;
+    grid-row: auto;
+  }
+  .nissan {
+    grid-column: 1/1;
+    grid-row: auto;
+  }
+  .audi {
+    grid-column: 1/1;
+    grid-row: auto;
+  }
+  /*Zweite Section*/
+  .xiao {
+    display: none;
+  }
+  .seguros {
+    display: none;
+  }
+  .corpuls {
+    grid-column: 1/1;
+    grid-row: auto;
+  }
+  .audi-formeleins {
+    display: none;
+  }
+  /*Dritte Section*/
+  .erdmaennchen {
+    display: none;
+  }
+  .cafemaschine {
+    display: none;
+  }
+  .light-gallery-gecko-wrapper {
+    display: none;
+  }
+
+  .metallleopard {
+    display: none;
+  }
+  .auto {
+    display: none;
+  }
+  .animal {
+    display: none;
+  }
+  .bmw {
+    display: none;
+  }
+  .mann-der-laechelt {
+    display: none;
+  }
+  .maschine {
+    display: none;
+  }
+  .haehnchen {
+    display: none;
+  }
+  .mann-mit-essen {
+    display: none;
+  }
+  .light-gallery-vw-wrapper {
+    display: none;
+  }
+  .frau-im-auto {
+    display: none;
+  }
+  .iceage {
+    display: none;
+  }
+  iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    display: block;
+  }
+  .our-work-gallery-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    display: block;
+    transition: transform 700ms ease;
+  }
+  .extra {
+    position: relative;
+  }
+  .our-work-gallery-wrapper-h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 15%;
+    left: 15%;
+    padding: 2px 5px;
+  }
+  .extra-position-nissan-corpuls {
+    bottom: 15%;
+    left: 7%;
+  }
+  .extra-position-xiao-audi {
+    bottom: 7%;
+    left: 7%;
+  }
+  .our-work-gallery-wrapper > img:hover {
+    transform: scale(1.1);
+  }
+
+  .our-work-gallery-wrapper {
+    overflow: hidden;
+  }
+  .kia-second {
+    display: none;
+  }
+  .kia-third {
+    display: none;
+  }
+  .kia-four {
+    display: none;
+  }
+  .kia-five {
+    display: none;
+  }
+  .gecko-second {
+    display: none;
+  }
+  .gecko-third {
+    display: none;
+  }
+  .gecko-four {
+    display: none;
+  }
+  .gecko-five {
+    display: none;
+  }
+  .maschine-second {
+    display: none;
+  }
+  .maschine-third {
+    display: none;
+  }
+  .maschine-four {
+    display: none;
+  }
+  .vw-second {
+    display: none;
+  }
+  .cafemaschine-second {
+    display: none;
+  }
+  .cafemaschine-third {
+    display: none;
+  }
+  .cafemaschine-four {
+    display: none;
+  }
+  .cafemaschine-five {
+    display: none;
+  }
+  .cafemaschine-six {
+    display: none;
+  }
+  .light-gallery-cafe {
+    grid-column: 1/3;
+    grid-row: 6/7;
+  }
+  .mobile-our-work {
+    bottom: 8%;
+    left: 7%;
+  }
+}

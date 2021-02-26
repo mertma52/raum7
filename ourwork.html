@@ -14,6 +14,9 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/js/lightgallery.min.js"></script>
+    <!-- Include lg-video.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lg-video/1.4.0/lg-video.js"></script>
+    <script src="https://player.vimeo.com/api/player.js"></script>
     <link type="text/css" rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/css/lightgallery.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -82,150 +85,193 @@
         </div>
     </div>
     <!--Bildergalerie-->
-    <div id="light-gallery-test" class="ourwork-gallery">
-        <div class="our-work-gallery-wrapper extra kia" data-src="our-work-img/KIA.jpg" data-aos="fade-up" data-aos-delay="250" data-aos-once="true" data-aos-duration="750" >
-            <img src="our-work-img/KIA.jpg" width="50vw" height="auto" alt="">
-            <h2 class="our-work-gallery-wrapper-h2">KIA - Imagine Concept Car Prints</h2>
+    <div class="ourwork-gallery">
+       <div class="light-gallery-wrapper-kia" id="light-gallery-test" >
+            <div class="our-work-gallery-wrapper extra kia" data-src="our-work-img/KIA.jpg" data-aos="fade-up" data-aos-delay="250" data-aos-once="true" data-aos-duration="750" >
+                <img src="our-work-img/KIA.jpg"  alt="">
+                <h2 class="our-work-gallery-wrapper-h2 mobile-our-work">KIA - Imagine Concept Car Prints</h2>
+            </div>
+            <div class="our-work-gallery-wrapper extra kia kia-second" data-src="our-work-img/kia-second.jpg" data-aos="fade-up" data-aos-delay="250" data-aos-once="true" data-aos-duration="750" >
+                <img src="our-work-img/KIA.jpg" alt="">
+            </div>
+            <div class="our-work-gallery-wrapper extra kia kia-third" data-src="our-work-img/kia-third.jpg" data-aos="fade-up" data-aos-delay="250" data-aos-once="true" data-aos-duration="750" >
+                <img src="our-work-img/KIA.jpg" alt="">
+            </div>
+            <div class="our-work-gallery-wrapper extra kia kia-four" data-src="our-work-img/kia-four.jpg" data-aos="fade-up" data-aos-delay="250" data-aos-once="true" data-aos-duration="750" >
+                <img src="our-work-img/KIA.jpg" alt="">
+            </div>
+            <div class="our-work-gallery-wrapper extra kia kia-five" data-src="our-work-img/kia-five.jpg" data-aos="fade-up" data-aos-delay="250" data-aos-once="true" data-aos-duration="750" >
+                <img src="our-work-img/KIA.jpg" alt="">
+            </div>
+       </div>
+       <div class="cosmoto" id="light-gallery-cosmoto">
+            <div class="our-work-gallery-wrapper extra" data-vimeo-url="https://vimeo.com/206428238" data-src="https://vimeo.com/206428238" data-aos="fade-up" data-aos-delay="500" data-aos-once="true" data-aos-duration="750" >
+                <img src="our-work-img/cosmoto.jpg" alt="">
+            <h2 class="our-work-gallery-wrapper-h2 mobile-our-work">COSMOTE TV - Idents</h2> 
+            </div>
         </div>
-        <div class="our-work-gallery-wrapper extra kia kia-second" data-src="our-work-img/kia-second.jpg" data-aos="fade-up" data-aos-delay="250" data-aos-once="true" data-aos-duration="750" >
-            <img src="our-work-img/KIA.jpg" alt="">
+        <div class="nissan" id="light-gallery-nissan">
+            <div class="our-work-gallery-wrapper extra" data-vimeo-url="https://vimeo.com/50947997" data-src="https://vimeo.com/50947997" data-aos="fade-up" data-aos-delay="750" data-aos-once="true" data-aos-duration="750">
+                <img src="our-work-img/Nissan.jpg" alt="">
+                <h2 class="our-work-gallery-wrapper-h2 extra-position-nissan-corpuls">Nissan - Dayz TVC</h2> 
+            </div>
         </div>
-        <div class="our-work-gallery-wrapper extra kia kia-third" data-src="our-work-img/kia-third.jpg" data-aos="fade-up" data-aos-delay="250" data-aos-once="true" data-aos-duration="750" >
-            <img src="our-work-img/KIA.jpg" alt="">
-        </div>
-        <div class="our-work-gallery-wrapper extra kia kia-four" data-src="our-work-img/kia-four.jpg" data-aos="fade-up" data-aos-delay="250" data-aos-once="true" data-aos-duration="750" >
-            <img src="our-work-img/KIA.jpg" alt="">
-        </div>
-        <div class="our-work-gallery-wrapper extra kia kia-five" data-src="our-work-img/kia-five.jpg" data-aos="fade-up" data-aos-delay="250" data-aos-once="true" data-aos-duration="750" >
-            <img src="our-work-img/KIA.jpg" alt="">
-        </div>
-        <div class="our-work-gallery-wrapper extra cosmoto" data-aos="fade-up" data-aos-delay="500" data-aos-once="true" data-aos-duration="750" >
-            <img src="our-work-img/cosmoto.jpg" alt="">
-          <!--  <h2 class="our-work-gallery-wrapper-h2">COSMOTE TV - Idents</h2> -->
-        </div>
-        <div class="our-work-gallery-wrapper extra  nissan" data-aos="fade-up" data-aos-delay="750" data-aos-once="true" data-aos-duration="750">
-            <img src="our-work-img/Nissan.jpg" alt="">
-            <h2 class="our-work-gallery-wrapper-h2 extra-position-nissan-corpuls" data-aos="slide-up">Nissan - Dayz TVC
-            </h2>
-        </div>
-        <div class="our-work-gallery-wrapper extra  audi" data-aos="fade-up" data-aos-delay="1000" data-aos-once="true" data-aos-duration="750">
-            <img src="our-work-img/audi.jpg" alt="">
-            <h2 class="our-work-gallery-wrapper-h2 extra-position-xiao-audi" data-aos="slide-up">Audi - A4 Paceseter TVC
-            </h2>
+        <div class="audi" id="light-gallery-audi">
+            <div class="our-work-gallery-wrapper extra" data-vimeo-url="https://vimeo.com/50947997" data-src="https://vimeo.com/50947997"  data-aos="fade-up" data-aos-delay="1000" data-aos-once="true" data-aos-duration="750">
+                <img src="our-work-img/audi.jpg" alt="">
+                <h2 class="our-work-gallery-wrapper-h2 extra-position-xiao-audi" data-aos="slide-up">Audi - A4 Paceseter TVC
+                </h2>
+            </div>
         </div>
         <!--Section second-->
-        <div class="our-work-gallery-wrapper extra xiao" data-aos="fade-up" data-aos-delay="1150" data-aos-once="true" data-aos-duration="750">
-            <img src="our-work-img/xiao-zhu.jpg" alt="">
-            <h2 class="our-work-gallery-wrapper-h2 extra-position-xiao-audi" data-aos="slide-up">Xiao Zhu - Small Pig
-                TVC</h2>
+        <div class="xiao" id="light-gallery-xiao">
+            <div class="our-work-gallery-wrapper extra" data-vimeo-url="https://vimeo.com/221608086" data-src="https://vimeo.com/221608086" data-aos="fade-up" data-aos-delay="1150" data-aos-once="true" data-aos-duration="750">
+                <img src="our-work-img/xiao-zhu.jpg" alt="">
+                <h2 class="our-work-gallery-wrapper-h2 extra-position-xiao-audi" data-aos="slide-up">Xiao Zhu - Small Pig
+                    TVC</h2>
+            </div>
         </div>
-        <div class="our-work-gallery-wrapper extra corpuls" data-aos="fade-up" data-aos-delay="1250" data-aos-once="true" data-aos-duration="750">
+        <div class="corpuls" id="light-gallery-corpuls">
+        <div class="our-work-gallery-wrapper extra" data-vimeo-url="https://vimeo.com/515670778" data-src="https://vimeo.com/515670778"  data-aos="fade-up" data-aos-delay="1250" data-aos-once="true" data-aos-duration="750">
             <img src="our-work-img/corpuls.jpg" alt="">
             <h2 class="our-work-gallery-wrapper-h2 extra-position-nissan-corpuls" data-aos="slide-up">Corpuls - 3T
                 Animation & Prints</h2>
         </div>
-        <div class="our-work-gallery-wrapper extra seguros" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
-            <img src="our-work-img/seguros.jpg" alt="">
-            <h2 class="our-work-gallery-wrapper-h2">Seguros Ocaso - Rolercoaster TVC</h2>
         </div>
-        <div class="our-work-gallery-wrapper extra audi-formeleins" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
-            <img src="our-work-img/audi-formeleins.jpg" alt="">
-            <h2 class="our-work-gallery-wrapper-h2">AUDI - Le Mans VR Experience</h2>
+        <div class="seguros" id="light-gallery-seguros">
+            <div class="our-work-gallery-wrapper extra" data-vimeo-url="https://vimeo.com/263534034" data-src="https://vimeo.com/263534034"  data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+                <img src="our-work-img/seguros.jpg" alt="">
+                <h2 class="our-work-gallery-wrapper-h2">Seguros Ocaso - Rolercoaster TVC</h2>
+            </div>
         </div>
+        <div class="audi-formeleins" id="light-gallery-audi-formeleins">
+            <div class="our-work-gallery-wrapper extra" data-vimeo-url="https://vimeo.com/206433153" data-src="https://vimeo.com/206433153"  data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+                <img src="our-work-img/audi-formeleins.jpg" alt="">
+                <h2 class="our-work-gallery-wrapper-h2">AUDI - Le Mans VR Experience</h2>
+            </div>
+         </div>
         <!--Section third-->
-        <div class="our-work-gallery-wrapper erdmaennchen" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
-            <img src="our-work-img/erdmaennchen.jpg" alt="">
+        <div class="erdmaennchen" id="light-gallery-audi-erdmaennchen">
+            <div class="our-work-gallery-wrapper" data-vimeo-url="https://vimeo.com/50978101" data-src="https://vimeo.com/50978101" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+                <img src="our-work-img/erdmaennchen.jpg" alt="">
+            </div>
         </div>
-        <div class="our-work-gallery-wrapper cafemaschine"  data-src="our-work-img/cafemaschine.jpg" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
-            <img src="our-work-img/cafemaschine.jpg" alt="">
+        <div class="light-gallery-cafe" id="light-gallery-cafemaschine" >
+            <div class="our-work-gallery-wrapper cafemaschine"  data-src="our-work-img/cafemaschine.jpg" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+                <img src="our-work-img/cafemaschine.jpg" alt="">
+            </div>
+            <div class="our-work-gallery-wrapper cafemaschine-second"  data-src="our-work-img/wmf-9000-s-kaffeemaschine-01.jpg" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+                <img src="our-work-img/cafemaschine.jpg" alt="">
+            </div>
+            <div class="our-work-gallery-wrapper cafemaschine-third"  data-src="our-work-img/wmf-9000-s-kaffeemaschine-02.jpg" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+                <img src="our-work-img/cafemaschine.jpg" alt="">
+            </div>
+            <div class="our-work-gallery-wrapper cafemaschine-four"  data-src="our-work-img/wmf-9000-s-kaffeemaschine-03.jpg" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+                <img src="our-work-img/cafemaschine.jpg" alt="">
+            </div>
+            <div class="our-work-gallery-wrapper cafemaschine-five"  data-src="our-work-img/wmf-9000-s-kaffeemaschine-04.jpg" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+                <img src="our-work-img/cafemaschine.jpg" alt="">
+            </div>
+            <div class="our-work-gallery-wrapper cafemaschine-six"  data-src="our-work-img/wmf-9000-s-kaffeemaschine-05.jpg" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+                <img src="our-work-img/cafemaschine.jpg" alt="">
+            </div>
         </div>
-        <div class="our-work-gallery-wrapper cafemaschine-second"  data-src="our-work-img/wmf-9000-s-kaffeemaschine-01.jpg" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
-            <img src="our-work-img/cafemaschine.jpg" alt="">
-        </div>
-        <div class="our-work-gallery-wrapper cafemaschine-third"  data-src="our-work-img/wmf-9000-s-kaffeemaschine-02.jpg" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
-            <img src="our-work-img/cafemaschine.jpg" alt="">
-        </div>
-        <div class="our-work-gallery-wrapper cafemaschine-four"  data-src="our-work-img/wmf-9000-s-kaffeemaschine-03.jpg" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
-            <img src="our-work-img/cafemaschine.jpg" alt="">
-        </div>
-        <div class="our-work-gallery-wrapper cafemaschine-five"  data-src="our-work-img/wmf-9000-s-kaffeemaschine-04.jpg" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
-            <img src="our-work-img/cafemaschine.jpg" alt="">
-        </div>
-        <div class="our-work-gallery-wrapper cafemaschine-six"  data-src="our-work-img/wmf-9000-s-kaffeemaschine-05.jpg" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
-            <img src="our-work-img/cafemaschine.jpg" alt="">
-        </div>
-        <div class="our-work-gallery-wrapper gecko-oben" data-src="our-work-img/gecko-oben.jpg" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
-            <img src="our-work-img/gecko-oben.jpg" alt="">
-        </div>
-        <div class="our-work-gallery-wrapper gecko-oben gecko-second" data-src="our-work-img/audi-gecko_01.jpg" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
-            <img src="our-work-img/gecko-oben.jpg" alt="">
-        </div>
-        <div class="our-work-gallery-wrapper gecko-oben gecko-third" data-src="our-work-img/audi-gecko_02.jpg" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
-            <img src="our-work-img/gecko-oben.jpg" alt="">
-        </div>
-        <div class="our-work-gallery-wrapper gecko-oben gecko-four" data-src="our-work-img/audi-gecko_03.jpg" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
-            <img src="our-work-img/gecko-oben.jpg" alt="">
-        </div>
-        <div class="our-work-gallery-wrapper gecko-oben gecko-five" data-src="our-work-img/audi-gecko_04.jpg" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
-            <img src="our-work-img/gecko-oben.jpg" alt="">
+        <div class="light-gallery-gecko-wrapper" id="light-gallery-gecko">
+            <div class="our-work-gallery-wrapper gecko-oben" data-src="our-work-img/gecko-oben.jpg" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+                <img src="our-work-img/gecko-oben.jpg" alt="">
+            </div>
+            <div class="our-work-gallery-wrapper gecko-oben gecko-second" data-src="our-work-img/audi-gecko_01.jpg" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+                <img src="our-work-img/gecko-oben.jpg" alt="">
+            </div>
+            <div class="our-work-gallery-wrapper gecko-oben gecko-third" data-src="our-work-img/audi-gecko_02.jpg" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+                <img src="our-work-img/gecko-oben.jpg" alt="">
+            </div>
+            <div class="our-work-gallery-wrapper gecko-oben gecko-four" data-src="our-work-img/audi-gecko_03.jpg" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+                <img src="our-work-img/gecko-oben.jpg" alt="">
+            </div>
+            <div class="our-work-gallery-wrapper gecko-oben gecko-five" data-src="our-work-img/audi-gecko_04.jpg" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+                <img src="our-work-img/gecko-oben.jpg" alt="">
+            </div>
         </div>
         <!--Section four-->
-        <div class="our-work-gallery-wrapper metallleopard" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
-            <img src="our-work-img/metallleopard.jpg" alt="">
+        <div class="metallleopard" id="light-gallery-metallleopard">
+            <div class="our-work-gallery-wrapper" data-vimeo-url="https://vimeo.com/206411239" data-src="https://vimeo.com/206411239" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+                <img src="our-work-img/metallleopard.jpg" alt="">
+            </div>
         </div>
-        <div class="our-work-gallery-wrapper auto" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
-            <img src="our-work-img/auto.jpg" alt="">
-        </div>
-        <div class="our-work-gallery-wrapper haehnchen" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
-            <img src="our-work-img/haenchen.jpg" alt="">
-        </div>
-        <div class="our-work-gallery-wrapper mann-mit-essen" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
-            <img src="our-work-img/mann-mit-essen.jpg" alt="">
+        <div class="auto" id="light-gallery-auto">
+            <div class="our-work-gallery-wrapper" data-vimeo-url="https://vimeo.com/206419150" data-src="https://vimeo.com/206419150 data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+                <img src="our-work-img/auto.jpg" alt="">
+            </div>
+         </div>
+         <div class="haehnchen" id="light-gallery-haenchen">
+            <div class="our-work-gallery-wrapper haehnchen" data-vimeo-url="https://vimeo.com/50947428" data-src="https://vimeo.com/50947428" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+                <img src="our-work-img/haenchen.jpg" alt="">
+            </div>
+         </div>
+         <div class="mann-mit-essen" id="light-gallery-mann-mit-essen">
+            <div class="our-work-gallery-wrapper mann-mit-essen" data-vimeo-url="https://vimeo.com/206415402" data-src="https://vimeo.com/206415402" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+                <img src="our-work-img/mann-mit-essen.jpg" alt="">
+            </div>
         </div>
         <!--Section five-->
-        <div class="our-work-gallery-wrapper mann-der-laechelt" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
-            <img src="our-work-img/mann-der-laechelt.jpg" alt="">
+        <div class="mann-der-laechelt" id="light-gallery-mann-der-laechelt">
+            <div class="our-work-gallery-wrapper" data-vimeo-url="https://vimeo.com/50937251" data-src="https://vimeo.com/50937251" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+                <img src="our-work-img/mann-der-laechelt.jpg" alt="">
+            </div>
+         </div>
+        <div class="light-gallery-lexus-wrapper" id="light-gallery-lexus">
+            <div class="our-work-gallery-wrapper maschine" data-src="our-work-img/maschine.jpg"  data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+                <img src="our-work-img/maschine.jpg" alt="">
+            </div>
+            <div class="our-work-gallery-wrapper maschine-second" data-src="our-work-img/lexus-ls-01.jpg"  data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+                <img src="our-work-img/maschine.jpg" alt="">
+            </div>
+            <div class="our-work-gallery-wrapper maschine-third" data-src="our-work-img/lexus-ls-02.jpg"  data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+                <img src="our-work-img/maschine.jpg" alt="">
+            </div>
+            <div class="our-work-gallery-wrapper maschine-four" data-src="our-work-img/lexus-ls-03.jpg"  data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+                <img src="our-work-img/maschine.jpg" alt="">
+            </div>
         </div>
-        <div class="our-work-gallery-wrapper maschine" data-src="our-work-img/maschine.jpg"  data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
-            <img src="our-work-img/maschine.jpg" alt="">
-        </div>
-        <div class="our-work-gallery-wrapper maschine-second" data-src="our-work-img/lexus-ls-01.jpg"  data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
-            <img src="our-work-img/maschine.jpg" alt="">
-        </div>
-        <div class="our-work-gallery-wrapper maschine-third" data-src="our-work-img/lexus-ls-02.jpg"  data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
-            <img src="our-work-img/maschine.jpg" alt="">
-        </div>
-        <div class="our-work-gallery-wrapper maschine-four" data-src="our-work-img/lexus-ls-03.jpg"  data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
-            <img src="our-work-img/maschine.jpg" alt="">
-        </div>
-        <div class="our-work-gallery-wrapper bmw"  data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
-            <img src="our-work-img/bmw.jpg" alt="">
-        </div>
-        <div class="our-work-gallery-wrapper animal" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+        <div class="bmw" id="light-gallery-bmw">
+            <div class="our-work-gallery-wrapper"  data-vimeo-url="https://vimeo.com/50978100" data-src="https://vimeo.com/50978100" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+                <img src="our-work-img/bmw.jpg" alt="">
+            </div>
+      </div>
+      <div class="animal" id="light-gallery-animal">
+        <div class="our-work-gallery-wrapper"  data-vimeo-url="https://vimeo.com/50946077" data-src="https://vimeo.com/50946077" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
             <img src="our-work-img/animal.jpg" alt="">
         </div>
+      </div>
         <!--Section six-->
-        <div class="our-work-gallery-wrapper vw" data-src="our-work-img/vw.jpg"  data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
-            <img src="our-work-img/vw.jpg" alt="">
+        <div class="light-gallery-vw-wrapper" id="light-gallery-vw">
+            <div class="our-work-gallery-wrapper vw" data-src="our-work-img/vw.jpg"  data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+                <img src="our-work-img/vw.jpg" alt="">
+            </div>
+            <div class="our-work-gallery-wrapper vw-second" data-src="our-work-img/vw-california-xxl.jpg"  data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+                <img src="our-work-img/vw.jpg" alt="">
+            </div>
         </div>
-        <div class="our-work-gallery-wrapper vw-second" data-src="our-work-img/vw-california-xxl.jpg"  data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
-            <img src="our-work-img/vw.jpg" alt="">
+        <div class="frau-im-auto" id="light-gallery-frau-im-auto">
+        <div class="our-work-gallery-wrapper" data-vimeo-url="https://vimeo.com/50946083" data-src="https://vimeo.com/50946083" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+            <img src="our-work-img/frau-im-auto.jpg" alt="">
         </div>
-        <div class="our-work-gallery-wrapper frau-im-auto" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
-            <img src="our-work-img/frau-im-auto.jpg" alt="" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
-        </div>
-        <div class="our-work-gallery-wrapper iceage" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+    </div>
+    <div class="iceage" id="light-gallery-iceage">
+        <div class="our-work-gallery-wrapper iceage" data-vimeo-url="https://vimeo.com/50947431" data-src="https://vimeo.com/50947431" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
             <img src="our-work-img/ice-age.jpg" alt="">
         </div>
     </div>
+ </div>
     <section class="text-white" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
         <div class="text-white-wrappper">
             <h3 class="text-white-wrappper-h3">Die Projekte sind von SEVENT oder Jörg Hannemann <br>
                 komplett oder in Teilbereichen umgesetzt. Kontaktieren Sie uns <br>
                 für nähere Informationen.</h3>
-            <h3 class="text-white-wrappper-h3-mobile">Mit Leidenschaft und<br> langjähriger Erfahrung
-                realisieren wir<br> innovative Projekte für <br>Agenturen und Industrie. <br>
-                Wir erschaffen Ästhetik für die Sinne.
+            <h3 class="text-white-wrappper-h3-mobile">Die Projekte sind von SEVENT oder <br> Jörg Hannemann  
+                komplett oder in<br>Teilbereichen umgesetzt.<br> Kontaktieren Sie uns 
+                für nähere<br>Informationen.
             </h3>
         </div>
     </section>
@@ -280,8 +326,135 @@
                 counter: false
             });
         });
+        $(document).ready(function () {
+            $("#light-gallery-cafemaschine").lightGallery({
+                download: false,
+                counter: false
+            });
+        });
+        $(document).ready(function () {
+            $("#light-gallery-gecko").lightGallery({
+                download: false,
+                counter: false
+            });
+        });
+        $(document).ready(function () {
+            $("#light-gallery-lexus").lightGallery({
+                download: false,
+                counter: false
+            });
+        });
+        $(document).ready(function () {
+            $("#light-gallery-vw").lightGallery({
+                download: false,
+                counter: false
+            });
+        });
+        
+        $(document).ready(function () {
+            $("#light-gallery-cosmoto").lightGallery({
+                videojs: true,
+                counter: false
+            });
+        });
+        $(document).ready(function () {
+            $("#light-gallery-nissan").lightGallery({
+                videojs: true,
+                counter: false
+            });
+        });
+        $(document).ready(function () {
+            $("#light-gallery-audi").lightGallery({
+                videojs: true,
+                counter: false
+            });
+        });
+        $(document).ready(function () {
+            $("#light-gallery-xiao").lightGallery({
+                videojs: true,
+                counter: false
+            });
+        });
+        $(document).ready(function () {
+            $("#light-gallery-corpuls").lightGallery({
+                videojs: true,
+                counter: false
+            });
+        });
+        $(document).ready(function () {
+            $("#light-gallery-seguros").lightGallery({
+                videojs: true,
+                counter: false
+            });
+        });
+        $(document).ready(function () {
+            $("#light-gallery-audi-formeleins").lightGallery({
+                videojs: true,
+                counter: false
+            });
+        });
+        $(document).ready(function () {
+            $("#light-gallery-audi-erdmaennchen").lightGallery({
+                videojs: true,
+                counter: false
+            });
+        });
+        $(document).ready(function () {
+            $("#light-gallery-audi-metallleopard").lightGallery({
+                videojs: true,
+                counter: false
+            });
+        });$(document).ready(function () {
+            $("#light-gallery-auto").lightGallery({
+                videojs: true,
+                counter: false
+            });
+        });
+        $(document).ready(function () {
+            $("#light-gallery-haenchen").lightGallery({
+                videojs: true,
+                counter: false
+            });
+        });
+        $(document).ready(function () {
+            $("#light-gallery-mann-mit-essen").lightGallery({
+                videojs: true,
+                counter: false
+            });
+        });
+        $(document).ready(function () {
+            $("#light-gallery-mann-der-laechelt").lightGallery({
+                videojs: true,
+                counter: false
+            });
+        });
+        $(document).ready(function () {
+            $("#light-gallery-bmw").lightGallery({
+                videojs: true,
+                counter: false
+            });
+        });
+        $(document).ready(function () {
+            $("#light-gallery-animal").lightGallery({
+                videojs: true,
+                counter: false
+            });
+        });
+        $(document).ready(function () {
+            $("#light-gallery-frau-im-auto").lightGallery({
+                videojs: true,
+                counter: false
+            });
+        });
+        $(document).ready(function () {
+            $("#light-gallery-iceage").lightGallery({
+                videojs: true,
+                counter: false
+            });
+        });
     </script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     
     <script>
         AOS.init();
     </script>
