@@ -23,67 +23,77 @@
   }
   /*Zweite Section*/
   .xiao {
-    display: none;
+    grid-column: 1/1;
+    grid-row: auto;
   }
   .seguros {
-    display: none;
+    grid-column: 1/1;
+    grid-row: auto;
   }
   .corpuls {
     grid-column: 1/1;
     grid-row: auto;
   }
   .audi-formeleins {
-    display: none;
+    grid-column: 1/1;
+    grid-row: auto;
   }
   /*Dritte Section*/
   .erdmaennchen {
-    display: none;
-  }
-  .cafemaschine {
-    display: none;
+    grid-column: 1/1;
+    grid-row: auto;
   }
   .light-gallery-gecko-wrapper {
-    display: none;
+    grid-column: 1/1;
+    grid-row: auto;
   }
-
   .metallleopard {
-    display: none;
+    grid-column: 1/1;
+    grid-row: auto;
   }
   .auto {
-    display: none;
+    grid-column: 1/1;
+    grid-row: auto;
   }
   .animal {
-    display: none;
+    grid-column: 1/1;
+    grid-row: auto;
   }
   .bmw {
-    display: none;
+    grid-column: 1/1;
+    grid-row: auto;
   }
   .mann-der-laechelt {
-    display: none;
+    grid-column: 1/1;
+    grid-row: auto;
   }
-  .maschine {
-    display: none;
+  .light-gallery-lexus-wrapper {
+    grid-column: 1/1;
+    grid-row: auto;
+  }
+  .light-gallery-cafe {
+    grid-column: 1/1;
+    grid-row: auto;
   }
   .haehnchen {
-    display: none;
+    grid-column: 1/1;
+    grid-row: auto;
   }
   .mann-mit-essen {
-    display: none;
+    grid-column: 1/1;
+    grid-row: auto;
   }
   .light-gallery-vw-wrapper {
-    display: none;
+    grid-column: 1/1;
+    grid-row: auto;
   }
   .frau-im-auto {
-    display: none;
+    grid-column: 1/1;
+    grid-row: auto;
   }
   .iceage {
-    display: none;
-  }
-  iframe {
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
-    display: block;
+    grid-column: 1/1;
+    grid-row: auto;
   }
   .our-work-gallery-wrapper img {
     width: 100%;
@@ -111,7 +121,7 @@
     left: 7%;
   }
   .extra-position-xiao-audi {
-    bottom: 7%;
+    bottom: 9%;
     left: 7%;
   }
   .our-work-gallery-wrapper > img:hover {
@@ -171,10 +181,6 @@
   }
   .cafemaschine-six {
     display: none;
-  }
-  .light-gallery-cafe {
-    grid-column: 1/3;
-    grid-row: 6/7;
   }
   .mobile-our-work {
     bottom: 8%;
