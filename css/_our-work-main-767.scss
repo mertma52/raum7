@@ -1,0 +1,190 @@
+@media screen and (max-width: 767px) {
+  .ourwork-gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  /*Erste Section*/
+  .kia {
+    grid-column: 1/1;
+    grid-row: auto;
+  }
+  .cosmoto {
+    grid-column: 1/1;
+    grid-row: auto;
+  }
+  .nissan {
+    grid-column: 1/1;
+    grid-row: auto;
+  }
+  .audi {
+    grid-column: 1/1;
+    grid-row: auto;
+  }
+  /*Zweite Section*/
+  .xiao {
+    grid-column: 1/1;
+    grid-row: auto;
+  }
+  .seguros {
+    grid-column: 1/1;
+    grid-row: auto;
+  }
+  .corpuls {
+    grid-column: 1/1;
+    grid-row: auto;
+  }
+  .audi-formeleins {
+    grid-column: 1/1;
+    grid-row: auto;
+  }
+  /*Dritte Section*/
+  .erdmaennchen {
+    grid-column: 1/1;
+    grid-row: auto;
+  }
+  .light-gallery-gecko-wrapper {
+    grid-column: 1/1;
+    grid-row: auto;
+  }
+  .metallleopard {
+    grid-column: 1/1;
+    grid-row: auto;
+  }
+  .auto {
+    grid-column: 1/1;
+    grid-row: auto;
+  }
+  .animal {
+    grid-column: 1/1;
+    grid-row: auto;
+  }
+  .bmw {
+    grid-column: 1/1;
+    grid-row: auto;
+  }
+  .mann-der-laechelt {
+    grid-column: 1/1;
+    grid-row: auto;
+  }
+  .light-gallery-lexus-wrapper {
+    grid-column: 1/1;
+    grid-row: auto;
+  }
+  .light-gallery-cafe {
+    grid-column: 1/1;
+    grid-row: auto;
+  }
+  .haehnchen {
+    grid-column: 1/1;
+    grid-row: auto;
+  }
+  .mann-mit-essen {
+    grid-column: 1/1;
+    grid-row: auto;
+  }
+  .light-gallery-vw-wrapper {
+    grid-column: 1/1;
+    grid-row: auto;
+  }
+  .frau-im-auto {
+    grid-column: 1/1;
+    grid-row: auto;
+  }
+  .iceage {
+    grid-column: 1/1;
+    grid-row: auto;
+  }
+  .our-work-gallery-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    display: block;
+    transition: transform 700ms ease;
+  }
+  .extra {
+    position: relative;
+  }
+  .our-work-gallery-wrapper-h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 15%;
+    left: 15%;
+    padding: 2px 5px;
+  }
+  .extra-position-nissan-corpuls {
+    bottom: 15%;
+    left: 7%;
+  }
+  .extra-position-xiao-audi {
+    bottom: 9%;
+    left: 7%;
+  }
+  .our-work-gallery-wrapper > img:hover {
+    transform: scale(1.1);
+  }
+
+  .our-work-gallery-wrapper {
+    overflow: hidden;
+  }
+  .kia-second {
+    display: none;
+  }
+  .kia-third {
+    display: none;
+  }
+  .kia-four {
+    display: none;
+  }
+  .kia-five {
+    display: none;
+  }
+  .gecko-second {
+    display: none;
+  }
+  .gecko-third {
+    display: none;
+  }
+  .gecko-four {
+    display: none;
+  }
+  .gecko-five {
+    display: none;
+  }
+  .maschine-second {
+    display: none;
+  }
+  .maschine-third {
+    display: none;
+  }
+  .maschine-four {
+    display: none;
+  }
+  .vw-second {
+    display: none;
+  }
+  .cafemaschine-second {
+    display: none;
+  }
+  .cafemaschine-third {
+    display: none;
+  }
+  .cafemaschine-four {
+    display: none;
+  }
+  .cafemaschine-five {
+    display: none;
+  }
+  .cafemaschine-six {
+    display: none;
+  }
+  .mobile-our-work {
+    bottom: 8%;
+    left: 7%;
+  }
+  //hier koennte das mit der width stehen..
+}
