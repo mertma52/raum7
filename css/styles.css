@@ -322,7 +322,7 @@ li {
 }
 
 .design:hover {
-  background-size: auto 110%;
+  background-size: 110%;
 }
 
 .visualisierung:hover {
@@ -330,7 +330,7 @@ li {
 }
 
 .animation:hover {
-  background-size: auto 110%;
+  background-size: 110%;
 }
 
 .extended-reality:hover {
