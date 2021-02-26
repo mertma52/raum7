@@ -1480,6 +1480,14 @@ body::-webkit-scrollbar-thumb {
   grid-row: 6/7;
 }
 
+div.lg-backdrop.in {
+  background-color: rgba(0, 0, 0, 0.95);
+}
+
+.lg-toolbar {
+  opacity: 1 !important;
+}
+
 @-webkit-keyframes fade-in {
   from {
     opacity: 0;
