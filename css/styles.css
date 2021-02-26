@@ -1777,5 +1777,8 @@ div.lg-backdrop.in {
     bottom: 8%;
     left: 7%;
   }
+  .lg-complete {
+    width: 80%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
