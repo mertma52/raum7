@@ -1174,7 +1174,7 @@ li {
   }
 }
 
-@media screen and (max-width: 920px) and (min-width: 767px) {
+@media screen and (max-width: 1000px) and (min-width: 700px) {
   .lg-video {
     width: 80%;
   }
