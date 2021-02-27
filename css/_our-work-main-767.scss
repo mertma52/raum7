@@ -189,7 +189,8 @@
   //hier koennte das mit der width stehen..
 }
 @media screen and (max-width: 767px) {
-  .lg-video {
-    width: 0%;
+  .lg-video-cont > .lg-video {
+    width: 80% !important;
+    transform: translateX(12.5%);
   }
 }
