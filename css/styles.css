@@ -1777,8 +1777,11 @@ div.lg-backdrop.in {
     bottom: 8%;
     left: 7%;
   }
-  .lg-complete {
-    width: 20%;
+}
+
+@media screen and (max-width: 767px) {
+  .lg-video {
+    width: 0%;
   }
 }
 /*# sourceMappingURL=styles.css.map */

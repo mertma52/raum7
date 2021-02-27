@@ -186,7 +186,10 @@
     bottom: 8%;
     left: 7%;
   }
-  .lg-complete {
-    width: 20%;
+  //hier koennte das mit der width stehen..
+}
+@media screen and (max-width: 767px) {
+  .lg-video {
+    width: 0%;
   }
 }
