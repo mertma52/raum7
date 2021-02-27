@@ -1173,4 +1173,10 @@ li {
         grid-template-columns: 1fr;
   }
 }
+
+@media screen and (max-width: 920px) and (min-width: 767px) {
+  .lg-video {
+    width: 80%;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
