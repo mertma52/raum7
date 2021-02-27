@@ -1778,12 +1778,4 @@ div.lg-backdrop.in {
     left: 7%;
   }
 }
-
-@media screen and (max-width: 1024px) {
-  .lg-video-cont > .lg-video {
-    width: 80% !important;
-    -webkit-transform: translateX(12.5%);
-            transform: translateX(12.5%);
-  }
-}
 /*# sourceMappingURL=styles.css.map */
