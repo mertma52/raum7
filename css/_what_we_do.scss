@@ -1,0 +1,108 @@
+.what-we-do-section {
+  height: 31vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.what-we-do-first-section-wrapper {
+  width: 49.5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 7vw;
+}
+.what-we-do-first-section-wrapper-h2 {
+}
+.what-we-do-first-section-wrapper-h3 {
+  grid-column: 1/2;
+}
+.what-we-do-first-section-wrapper-paragraph-first {
+  grid-column: 1/2;
+}
+.what-we-do-first-section-wrapper-paragraph-second {
+  grid-column: 2/3;
+}
+//Allgemein
+.h2-what-we-do {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 2.2vw;
+  color: #464646;
+}
+.h3-what-we-do {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 2.2vw;
+  color: #464646;
+  margin-bottom: 1vw;
+}
+.p-what-we-do {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 0.93vw;
+  line-height: 1.5vw;
+  white-space: nowrap;
+  color: black;
+}
+.p-margin-right {
+  margin-right: 3.7vw;
+}
+//Veraenderung
+.section-home-video {
+  .section-home-video-wrapper-black {
+    object-fit: cover;
+    height: 25vw;
+    background-color: #191919;
+
+    .home-video {
+      width: 100%;
+    }
+
+    .home-video-mobile {
+      display: none;
+    }
+
+    .playbutton {
+      display: none;
+    }
+  }
+}
+.what-we-do-section-black {
+  height: 31vw;
+  width: 100%;
+  background-color: #191919;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.white {
+  color: white;
+}
+//Mobile Version verstecken
+
+.what-we-do-first-section-wrapper-mobile-white-first {
+  display: none;
+}
+.what-we-do-first-section-wrapper-mobile-white-second {
+  display: none;
+}
+.wrapper-reverse {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper-reverse-black {
+  display: flex;
+  flex-direction: column;
+  background-color: #191919;
+}
+.section-home-video-wrapper-white-mobile {
+  display: none;
+}
+.section-home-video-wrapper-black-mobile {
+  display: none;
+}
+.margin-bottom {
+  display: none;
+}

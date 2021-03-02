@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+        <!--NAVIGATION-->
+        <div class="navigation">
+            <nav class="navbar">
+                <div class="navbar-left">
+                    <a href="#" onClick=checkMenuState();>
+                        <img class="navbar-left-menu-img" id="hamburger_btn" src="./icons und Logos/sevent-sandwich.svg"
+                            alt="">
+                    </a>
+                    <a href="">
+                        <img class="navbar-left-logo-img" src="./icons und Logos/sevent-logo.svg" alt="">
+                    </a>
+                </div>
+                <ul class="navbar-right-ul">
+                    <li class="nav-right-element">
+                        <a href="#home">HOME</a>
+                    </li>
+                    <li class="nav-right-element">
+                        <a class="andere-farbe" href="#ourwork">OUR WORK</a>
+                    </li>
+                    <li class="nav-right-element">
+                        <a class="andere-farbe" href="#whatwedo">WHAT WE DO</a>
+                    </li>
+                    <li class="nav-right-element">
+                        <a class="andere-farbe" href="#whoweare">WHO WE ARE</a>
+                    </li>
+                    <li class="nav-right-element">
+                        <a class="andere-farbe" href="#contactus">CONTACT US</a>
+                    </li>
+                </ul>
+    
+                <ul class="navbar-mobile" id="navigation-menu-mobile" data-menuOpen="closed">
+                    <li class="nav-mobile-element li-nav-burger-home">
+                        <a href="#home">HOME</a>
+                    </li>
+                    <li class="nav-mobile-element">
+                        <a class="andere-farbe" href="#ourwork">OUR WORK</a>
+                    </li>
+                    <li class="nav-mobile-element">
+                        <a class="andere-farbe" href="#whatwedo">WHAT WE DO</a>
+                    </li>
+                    <li class="nav-mobile-element">
+                        <a class="andere-farbe" href="#whoweare">WHO WE ARE</a>
+                    </li>
+                    <li class="nav-mobile-element">
+                        <a class="andere-farbe" href="#contactus">CONTACT US</a>
+                    </li>
+                    <li class="nav-mobile-element">
+                        <a class="andere-farbe" href="#contactus">DE</a>
+                    </li>
+                    <li class="nav-mobile-element">
+                        <a class="andere-farbe" href="#contactus">EN</a>
+                    </li>
+                </ul>
+    
+            </nav>
+            <div class="navigations-languages">
+                <a class="navigations-languages-left" href="">DE</a>
+                <div class="navigations-languages-seperator"></div>
+                <a class="navigations-languages-right" href>EN</a>
+            </div>
+        </div>
+     <div class="wrapper-reverse">
+        <section class="what-we-do-section">
+            <div class="what-we-do-first-section-wrapper">
+                <h2 class="what-we-do-first-section-wrapper-h2 h2-what-we-do">Animation</h2>
+                <h3 class="what-we-do-first-section-wrapper-h3 h3-what-we-do"># macht lebendig</h3>
+                <p class="what-we-do-first-section-wrapper-paragraph-first p-margin-right p-what-we-do">Unser Studio haucht Filmen Leben ein.
+                     Vom ersten Entwurf <br>bis zum fertigen Film sind wir mit Leidenschaft dabei und<br> kreieren packende Storys. Mittels revolutionärer<br> 
+                    Technologien definieren wir die Standards neu und <br>
+                    begeistern mit eindrucksvollen Animationen, Effekten <br>
+                    und Szenen, die Emotionen wecken.</p>
+                    <p class="what-we-do-first-section-wrapper-mobile-white-first ">
+                        Unser Studio haucht Filmen Leben ein.
+                       Vom<br>ersten Entwurf bis zum fertigen Film sind wir<br> mit Leidenschaft dabei und kreieren packende<br> Storys. Mittels revolutionärer
+                       Technologien<br> definieren wir die Standards neu und <br>
+                       begeistern mit eindrucksvollen<br>Animationen, Effekten 
+                       und Szenen, die<br>Emotionen wecken. </p>            
+                <p class="what-we-do-first-section-wrapper-paragraph-second p-what-we-do">
+                    SEVENT produziert Computer Generated Images (CGI),<br> Visual Effects (VFX), Motion Design und On-Air Design für TV,<br>
+                    Feature-, Dokumentar- und Werbefilm. Ebenso erstellen wir<br>Produkt- und Charakteranimationen.
+                    Von Anfang bis Ende<br> erstellen wir flexible Lösungen für Teilbereiche als auch für <br> komplette Produktionen.
+                </p>
+                <p class="what-we-do-first-section-wrapper-mobile-white-second">
+                    SEVENT produziert Computer Generated<br>Images (CGI), Visual Effects (VFX), Motion<br>Design und On-Air Design für TV,<br>
+                    Feature-, Dokumentar- und Werbefilm. Ebenso<br>erstellen wir Produkt- und Charakteranimationen.<br>
+                    Von Anfang bis Ende erstellen wir flexible<br>Lösungen für Teilbereiche als auch für<br>komplette Produktionen.
+                    </p>
+            </div>
+        </section>
+        <!--Section Video-->
+        <section class="section-home-video" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+            <div class="section-home-video-wrapper-black">
+                <video class="home-video" autoplay loop plays-inline muted
+                    src="./img-hauptseite/Home-Reel-Desktop.mp4"></video>
+
+                <video class="home-video-mobile" poster="./poster-mobile.png" onClick="displayVideoButton()"
+                    id="mobile-video" data-videoState="paused" loop playsinline muted
+                    src="./img-hauptseite/Home-Reel-Mobile.mp4"></video>
+                <img class="playbutton" onClick="playVideo()" id="video-play-btn" src="./play-v2.svg" alt=""
+                    style="transition: opacity 1s;">
+            </div>
+            <!--Mobile-->
+            <div class="section-home-video-wrapper-white-mobile margin-top">
+                <video class="home-video" autoplay loop plays-inline muted
+                    src="./img-hauptseite/Home-Reel-Desktop.mp4"></video>
+
+                <video class="home-video-mobile" poster="./poster-mobile.png" onClick="displayVideoButton()"
+                    id="mobile-video" data-videoState="paused" loop playsinline muted
+                    src="./img-hauptseite/Home-Reel-Mobile.mp4"></video>
+                <img class="playbutton" onClick="playVideo()" id="video-play-btn" src="./play-v2.svg" alt=""
+                    style="transition: opacity 1s;">
+            </div>
+        </section>
+    </div>
+        <div class="wrapper-reverse">
+        <section class="what-we-do-section-black">
+            <div class="what-we-do-first-section-wrapper">
+                <h2 class="what-we-do-first-section-wrapper-h2 h2-what-we-do white">Visualisierung</h2>
+                <h3 class="what-we-do-first-section-wrapper-h3 h3-what-we-do white"># Bilder, die berühren</h3>
+                <p class="what-we-do-first-section-wrapper-paragraph-first p-margin-right p-what-we-do white">
+                    Unser Antrieb ist es, Visuals zu kreieren, die berühren.
+                     Mit<br>Leidenschaft fürs Detail und technischer Expertise rücken<br>wir unvergleichliche Kreationen ins rechte Licht. Wir<br>
+                    visualisieren Ihre Produkte in einzigartiger Anmutung und<br>höchster Qualität. Effizient und nachhaltig erstellen wir<br>
+                    virtuelle Fotoshootings, die einen bleibenden<br>
+                    Eindruck hinterlassen. </p>
+                 <p class="what-we-do-first-section-wrapper-mobile-white-first white">
+                        Unser Antrieb ist es, Visuals zu kreieren, die<br>berühren.
+                         Mit Leidenschaft fürs Detail und<br>technischer Expertise rücken wir unvergleich-<br>liche Kreationen ins rechte Licht. Wir<br>
+                        visualisieren Ihre Produkte in einzigartiger An- <br>mutung und höchster Qualität. Effizient und<br>nachhaltig erstellen wir
+                        virtuelle Fotoshootings,<br> die einen bleibenden
+                        Eindruck hinterlassen. </p>            
+                <p class="what-we-do-first-section-wrapper-paragraph-second p-what-we-do white">
+                    Unser Spektrum erstreckt sich von der Illustration, über die<br>technisch verständliche Darstellung, bis hin zum<br>
+                    eindrucksvollen Beauty Shot. SEVENT generiert Bildmaterial<br>für Werbung, Kataloge, Konfiguratoren und vieles mehr. Zu<br>
+                    unseren Kunden gehören Agenturen und Unternehmen in<br>den Bereichen Industrie, Architektur und Medizin.
+                </p>
+                <p class="what-we-do-first-section-wrapper-mobile-white-second white">
+                    Unser Spektrum erstreckt sich von der<br>Illustration, über die technisch verständliche<br>Darstellung, bis hin zum
+                    eindrucksvollen<br>Beauty Shot. SEVENT generiert Bildmaterial für<br>Werbung, Kataloge, Konfiguratoren und vieles<br> mehr. Zu
+                    unseren Kunden gehören Agenturen<br>und Unternehmen in den Bereichen Industrie,<br> Architektur und Medizin. 
+                    </p>
+             </div>
+        </section>
+        <section class="section-home-video" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+            <div class="section-home-video-wrapper">
+                <video class="home-video" autoplay loop plays-inline muted
+                    src="./img-hauptseite/Home-Reel-Desktop.mp4"></video>
+
+                <video class="home-video-mobile" poster="./poster-mobile.png" onClick="displayVideoButton()"
+                    id="mobile-video" data-videoState="paused" loop playsinline muted
+                    src="./img-hauptseite/Home-Reel-Mobile.mp4"></video>
+                <img class="playbutton" onClick="playVideo()" id="video-play-btn" src="./play-v2.svg" alt=""
+                    style="transition: opacity 1s;">
+            </div>
+              <!--Mobile-->
+              <div class="section-home-video-wrapper-black-mobile ">
+                <video class="home-video" autoplay loop plays-inline muted
+                    src="./img-hauptseite/Home-Reel-Desktop.mp4"></video>
+
+                <video class="home-video-mobile" poster="./poster-mobile.png" onClick="displayVideoButton()"
+                    id="mobile-video" data-videoState="paused" loop playsinline muted
+                    src="./img-hauptseite/Home-Reel-Mobile.mp4"></video>
+                <img class="playbutton" onClick="playVideo()" id="video-play-btn" src="./play-v2.svg" alt=""
+                    style="transition: opacity 1s;">
+            </div>
+        </section>
+    </div>
+    </div>
+</div>
+    <div class="wrapper-reverse">
+        <section class="what-we-do-section">
+            <div class="what-we-do-first-section-wrapper">
+                <h2 class="what-we-do-first-section-wrapper-h2 h2-what-we-do">Design</h2>
+                <h3 class="what-we-do-first-section-wrapper-h3 h3-what-we-do"># mehr als ein Blickfang</h3>
+                <p class="what-we-do-first-section-wrapper-paragraph-first p-margin-right p-what-we-do">
+                    Am Anfang einer jeden großen Gestaltung steht ein großer<br> Gedanke! Ein gutes Design ist essentiell, intuitiv, innovativ<br>
+                    und dabei noch funktionell. Klare Formgebung und<br>Reduktion auf das Wesentliche macht unseren Stil<br> 
+                    unverwechselbar. Mit außergewöhnlicher dreidimensionalen<br>Vorstellungskraft setzt SEVENT Entwürfe in Form,
+                    Bild und<br>Film um. Wir entwerfen Objekte im Bereich Produkt, 
+                    </p>
+                <p class="what-we-do-first-section-wrapper-mobile-white-first">
+                    Am Anfang einer jeden großen Gestaltung<br>steht ein großer Gedanke! Ein gutes Design ist<br>essentiell, intuitiv, innovativ
+                    und dabei noch<br>funktionell. Klare Formgebung und<br>Reduktion auf das Wesentliche macht unseren<br>Stil 
+                    unverwechselbar. Mit außergewöhnlicher<br>dreidimensionalen Vorstellungskraft setzt<br>SEVENT Entwürfe in Form,
+                    Bild und Film um.<br>Wir entwerfen Objekte im Bereich Produkt, 
+                </p>
+                <p class="what-we-do-first-section-wrapper-paragraph-second p-what-we-do">
+                    Architektur und Automobil. Formen und Materialien werden<br>fotorealistisch dargestellt.
+                    Durch digitale Inszenierung<br>etablieren wir Prototypen schneller im Markt und machen<br>
+                    sie schon vor der Produktion greifbar. So unterstützen wir<br>Designer und Hersteller
+                    in der Entwicklung ihrer Produkte.<br>Auch für Commercials und Film entwickeln SEVENT<br>Konzepte 
+                    und Virtuelle Assets.
+                </p>
+                <p class="what-we-do-first-section-wrapper-mobile-white-second">
+                    Architektur und Automobil. Formen und Mate-<br>rialien werden fotorealistisch dargestellt.
+                    Durch<br>digitale Inszenierung etablieren wir Prototypen<br>schneller im Markt und machen
+                    sie schon vor<br>der Produktion greifbar. So unterstützen wir<br>Designer und Hersteller
+                    in der Entwicklung<br>ihrer Produkte.Auch für Commercials und<br>Film entwickeln SEVENT Konzepte 
+                    und Virtuelle<br>Assets.
+                </p>
+            </div>
+        </section>
+        <section class="section-home-video" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+            <div class="section-home-video-wrapper-black">
+                <video class="home-video" autoplay loop plays-inline muted
+                    src="./img-hauptseite/Home-Reel-Desktop.mp4"></video>
+
+                <video class="home-video-mobile" poster="./poster-mobile.png" onClick="displayVideoButton()"
+                    id="mobile-video" data-videoState="paused" loop playsinline muted
+                    src="./img-hauptseite/Home-Reel-Mobile.mp4"></video>
+                <img class="playbutton" onClick="playVideo()" id="video-play-btn" src="./play-v2.svg" alt=""
+                    style="transition: opacity 1s;">
+            </div>
+              <!--Mobile-->
+              <div class="section-home-video-wrapper-white-mobile">
+                <video class="home-video" autoplay loop plays-inline muted
+                    src="./img-hauptseite/Home-Reel-Desktop.mp4"></video>
+
+                <video class="home-video-mobile" poster="./poster-mobile.png" onClick="displayVideoButton()"
+                    id="mobile-video" data-videoState="paused" loop playsinline muted
+                    src="./img-hauptseite/Home-Reel-Mobile.mp4"></video>
+                <img class="playbutton" onClick="playVideo()" id="video-play-btn" src="./play-v2.svg" alt=""
+                    style="transition: opacity 1s;">
+            </div>
+        </section>
+                 </div>
+        <div class="wrapper-reverse">
+        <section class="what-we-do-section-black">
+            <div class="what-we-do-first-section-wrapper">
+                <h2 class="what-we-do-first-section-wrapper-h2 h2-what-we-do white">Extended Reality</h2>
+                <h3 class="what-we-do-first-section-wrapper-h3 h3-what-we-do white"># Dimension erschaffen</h3>
+                <p class="what-we-do-first-section-wrapper-paragraph-first p-margin-right p-what-we-do white">
+                    Werfen Sie mittels Virtual Reality einen Blick in eine völlig<br> neue Realität. Wir erschaffen visionäre,
+                    interaktive Welten im<br>digitalen Raum. Auf höchstem Immersionsgrad ermöglichen<br>wir einzigartige Erlebnisse
+                    und lassen mit innovativen<br>Konzepten eindrucksvolle Simulationen entstehen. Die<br>erweiterte Realität
+                    schließt die Lücke zwischen Bild, Film<br>und Interaktion. 
+                </p>
+                <p class="what-we-do-first-section-wrapper-mobile-white-first white">
+                    Werfen Sie mittels Virtual Reality einen Blick in<br>eine völlig neue Realität. Wir erschaffen<br>visionäre,
+                    interaktive Welten im digitalen<br>Raum. Auf höchstem Immersionsgrad<br>ermöglichen wir einzigartige Erlebnisse
+                    und<br>lassen mit innovativen Konzepten<br>eindrucksvolle Simulationen entstehen. Die<br>erweiterte Realität
+                    schließt die Lücke zwischen<br>Bild, Film und Interaktion.
+                </p>
+                <p class="what-we-do-first-section-wrapper-paragraph-second p-what-we-do white">
+                    Wir nutzen unsere langjährige Produktionserfahrung, um im<br>VR-Medium gleiche Qualitätsstandards umzusetzen.
+                    Virtual<br>Reality besticht durch vielfältige Anwendungsbereiche,<br>darunter Architektur, virtuelle Showrooms,
+                    Automobil<br>Design, Set Design und viele mehr. Entsprechend erstellen<br>wir Anwendungen im Bereich XR, VR, AR,
+                    MR, 360°-Film und<br>Rundumbild.
+                </p>
+                <p class="what-we-do-first-section-wrapper-mobile-white-second white margin-bottom">
+                    Wir nutzen unsere langjährige Produktions-<br>erfahrung, um im VR-Medium gleiche<br>Qualitätsstandards umzusetzen.
+                    Virtual Reality<br>besticht durch vielfältige Anwendungs-<br>bereiche, darunter Architektur, virtuelle Show-<br>rooms,
+                    Automobil Design, Set Design und viele<br>mehr. Entsprechend erstellen wir<br>Anwendungen im Bereich XR, VR, AR,
+                    MR,<br>360°-Film und Rundumbild.
+                    </p>
+            </div>
+        </section>
+        <section class="section-home-video" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+            <div class="section-home-video-wrapper-black">
+                <video class="home-video" autoplay loop plays-inline muted
+                    src="./img-hauptseite/Home-Reel-Desktop.mp4"></video>
+
+                <video class="home-video-mobile" poster="./poster-mobile.png" onClick="displayVideoButton()"
+                    id="mobile-video" data-videoState="paused" loop playsinline muted
+                    src="./img-hauptseite/Home-Reel-Mobile.mp4"></video>
+                <img class="playbutton" onClick="playVideo()" id="video-play-btn" src="./play-v2.svg" alt=""
+                    style="transition: opacity 1s;">
+            </div>
+                  <!--Mobile-->
+                  <div class="section-home-video-wrapper-black-mobile ">
+                    <video class="home-video" autoplay loop plays-inline muted
+                        src="./img-hauptseite/Home-Reel-Desktop.mp4"></video>
+    
+                    <video class="home-video-mobile" poster="./poster-mobile.png" onClick="displayVideoButton()"
+                        id="mobile-video" data-videoState="paused" loop playsinline muted
+                        src="./img-hauptseite/Home-Reel-Mobile.mp4"></video>
+                    <img class="playbutton" onClick="playVideo()" id="video-play-btn" src="./play-v2.svg" alt=""
+                        style="transition: opacity 1s;">
+                </div>
+        </section>
+    </div>
+        <section class="end" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+            <div class="footer">
+                <div class="footer-wrapper">
+                    <div id="footer-fraction-left">
+                        <h2 class="footer-company-title">SEVENT</h2>
+                        <p class="footer-text adresse">
+                            Franz-Siegele-Weg 4<br>
+                            86919 Utting am Ammersee
+                        </p>
+                        <p class="footer-text country">GERMANY</p>
+                    </div>
+                    <div id="footer-fraction-middle">
+                        <div class="social-icons-wrapper">
+                            <a href="https://vimeo.com/joerghannemann" target="_blank"> <img class="vimeo"
+                                    src="./icons und Logos/icon-vimeo.svg" alt=""></a>
+                            <a href="https://www.behance.net/joerg6b96" target="_blank"><img class="behance"
+                                    src="./icons und Logos/icon-behance.svg" alt=""></a>
+                            <a href="https://de.linkedin.com/in/j%C3%B6rg-hannemann-87b98943" target="_blank"><img
+                                    class="linkedin" src="./icons und Logos/icon-linkedin.svg" alt=""></a>
+                            <a href="https://www.xing.com/profile/Joerg_Hannemann3" target="_blank"> <img class="xing"
+                                    src="./icons und Logos/icon-xing.svg" alt=""></a>
+                        </div>
+                        <div class="cta">
+                            <a href="tel:+49 (0)8806 306070" class="footer-link">
+                                <p class="footer-text"> +49 (0)8806 306070</p>
+                            </a>
+                            <a href="mailto:mail@sevent.studio" class="footer-link">
+                                <p class="footer-text">mail@sevent.studio </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="footer-fraction-right">
+                        <a href="" class="footer-link">
+                            <p class="footer-text"> Imprint</p>
+                        </a>
+                        <a href="" class="footer-link">
+                            <p class="footer-text"> Privacy Policy</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+</body>
+</html>

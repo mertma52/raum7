@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="navigation">
+        <nav class="navbar">
+            <div class="navbar-left">
+                <a href="#" onClick=checkMenuState();>
+                    <img class="navbar-left-menu-img" id="hamburger_btn" src="./icons und Logos/sevent-sandwich.svg"
+                        alt="">
+                </a>
+                <a href="">
+                    <img class="navbar-left-logo-img" src="./icons und Logos/sevent-logo.svg" alt="">
+                </a>
+            </div>
+            <ul class="navbar-right-ul">
+                <li class="nav-right-element">
+                    <a href="#home">HOME</a>
+                </li>
+                <li class="nav-right-element">
+                    <a class="andere-farbe" href="#ourwork">OUR WORK</a>
+                </li>
+                <li class="nav-right-element">
+                    <a class="andere-farbe" href="#whatwedo">WHAT WE DO</a>
+                </li>
+                <li class="nav-right-element">
+                    <a class="andere-farbe" href="#whoweare">WHO WE ARE</a>
+                </li>
+                <li class="nav-right-element">
+                    <a class="andere-farbe" href="#contactus">CONTACT US</a>
+                </li>
+            </ul>
+
+            <ul class="navbar-mobile" id="navigation-menu-mobile" data-menuOpen="closed">
+                <li class="nav-mobile-element li-nav-burger-home">
+                    <a href="#home">HOME</a>
+                </li>
+                <li class="nav-mobile-element">
+                    <a class="andere-farbe" href="#ourwork">OUR WORK</a>
+                </li>
+                <li class="nav-mobile-element">
+                    <a class="andere-farbe" href="#whatwedo">WHAT WE DO</a>
+                </li>
+                <li class="nav-mobile-element">
+                    <a class="andere-farbe" href="#whoweare">WHO WE ARE</a>
+                </li>
+                <li class="nav-mobile-element">
+                    <a class="andere-farbe" href="#contactus">CONTACT US</a>
+                </li>
+                <li class="nav-mobile-element">
+                    <a class="andere-farbe" href="#contactus">DE</a>
+                </li>
+                <li class="nav-mobile-element">
+                    <a class="andere-farbe" href="#contactus">EN</a>
+                </li>
+            </ul>
+
+        </nav>
+        <div class="navigations-languages">
+            <a class="navigations-languages-left" href="">DE</a>
+            <div class="navigations-languages-seperator"></div>
+            <a class="navigations-languages-right" href>EN</a>
+        </div>
+    </div>
+    <div class="wrapper-reverse">
+        <section class="what-we-do-section-black">
+            <div class="what-we-do-first-section-wrapper">
+                <h2 class="what-we-do-first-section-wrapper-h2 h2-what-we-do white">Erfahrung</h2>
+                <h3 class="what-we-do-first-section-wrapper-h3 h3-what-we-do white"># macht uns stark</h3>
+                <p class="what-we-do-first-section-wrapper-paragraph-first p-margin-right p-what-we-do white">
+                    SEVENT ist ein Hybrid-Studio, das im Jahr 2000 von dem<br>
+                    Designer Jörg Hannemann gegründet und 2021 umfirmiert<br>
+                     wurde. Hannemann arbeitete unter anderem als Supervisor,<br>
+                     Creative Director und Producer für Größen wie VELVET<br>
+                    (Matthias Zentner) und Sehsucht (ehemals Liga01). Er bringt<br>
+                    viele Jahre an Erfahrung mit, die er in Hunderten von<br>
+                    Projekten gesammelt hat
+                 </p>
+                 <p class="what-we-do-first-section-wrapper-mobile-white-first white">
+                    SEVENT ist ein Hybrid-Studio, das im Jahr<br>2000 von dem
+                    Designer Jörg Hannemann<br>gegründet und 2021 umfirmiert
+                     wurde.<br>Hannemann arbeitete unter anderem als<br>Supervisor,
+                     Creative Director und Producer für<br>Größen wie VELVET
+                    (Matthias Zentner) und<br>Sehsucht (ehemals Liga01). Er bringt
+                    viele<br>Jahre an 
+                </p>            
+                <p class="what-we-do-first-section-wrapper-paragraph-second p-what-we-do white">
+                    und setzt gleichermaßen kreative wie technische Lösungen<br>
+                    in die Praxis um, damit Ihr Projekt die Aufmerksamkeit<br>
+                    bekommt, die es verdient. Ein Team aus hochqualifizierten<br>
+                     Artists und ein Netzwerk aus freischaffenden Profis bilden<br>
+                     die Basis von SEVENT.
+                </p>
+                <p class="what-we-do-first-section-wrapper-mobile-white-second white">
+                    Erfahrung mit, die er in Hunderten von<br>
+                    Projekten gesammelt hat und setzt<br>gleichermaßen kreative wie technische<br> Lösungen
+                    in die Praxis um, damit Ihr Projekt<br>die Aufmerksamkeit
+                    bekommt, die es<br>verdient. Ein Team aus hochqualifizierten<br>
+                     Artists und ein Netzwerk aus freischaffenden<br>Profis bilden
+                     die Basis von SEVENT.
+                    </p>
+             </div>
+        </section>
+        <section class="section-home-video" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+            <div class="section-home-video-wrapper">
+                <video class="home-video" autoplay loop plays-inline muted
+                    src="./img-hauptseite/Home-Reel-Desktop.mp4"></video>
+
+                <video class="home-video-mobile" poster="./poster-mobile.png" onClick="displayVideoButton()"
+                    id="mobile-video" data-videoState="paused" loop playsinline muted
+                    src="./img-hauptseite/Home-Reel-Mobile.mp4"></video>
+                <img class="playbutton" onClick="playVideo()" id="video-play-btn" src="./play-v2.svg" alt=""
+                    style="transition: opacity 1s;">
+            </div>
+              <!--Mobile-->
+              <div class="section-home-video-wrapper-black-mobile ">
+                <video class="home-video" autoplay loop plays-inline muted
+                    src="./img-hauptseite/Home-Reel-Desktop.mp4"></video>
+
+                <video class="home-video-mobile" poster="./poster-mobile.png" onClick="displayVideoButton()"
+                    id="mobile-video" data-videoState="paused" loop playsinline muted
+                    src="./img-hauptseite/Home-Reel-Mobile.mp4"></video>
+                <img class="playbutton" onClick="playVideo()" id="video-play-btn" src="./play-v2.svg" alt=""
+                    style="transition: opacity 1s;">
+            </div>
+        </section>
+        <div class="abstand-zum-video"></div>
+    </div>
+    </div>
+</div>
+<!--Zweite Section-->
+<div class="wrapper-reverse">
+    <section class="what-we-do-section">
+        <div class="what-we-do-first-section-wrapper">
+            <h2 class="what-we-do-first-section-wrapper-h2 h2-what-we-do">Technologie</h2>
+            <h3 class="what-we-do-first-section-wrapper-h3 h3-what-we-do"># Zukunft ist Heute</h3>
+            <p class="what-we-do-first-section-wrapper-paragraph-first p-margin-right p-what-we-do">
+                Wir realisieren innovative Ideen für Agenturen und<br>
+                Unternehmen aus verschiedenen Branchen und kreieren 3D<br>
+                Animationen, visuelle Effekte und interaktive VR-<br>
+                Anwendungen. Mit einer Kombination aus Kreativität und<br>
+                zukunftsweisender Technologie entwerfen und optimieren<br>
+                wir digitale Inhalte in höchster Qualität. 
+                </p>
+            <p class="what-we-do-first-section-wrapper-mobile-white-first">
+                Wir realisieren innovative Ideen für Agenturen<br>und
+                Unternehmen aus verschiedenen<br>Branchen und kreieren 3D
+                Animationen,<br>visuelle Effekte und interaktive VR-<br>
+                Anwendungen. Mit einer Kombination aus<br>Kreativität und
+                zukunftsweisender Technologie<br>entwerfen und optimieren
+                wir digitale Inhalte<br>in höchster Qualität. 
+            </p>
+            <p class="what-we-do-first-section-wrapper-paragraph-second p-what-we-do">
+                Getrieben von der Leidenschaft für alles Digitale und der<br>
+                Liebe zum Detail lautet unser Motto: „Kreative Arbeit<br>
+                braucht einfallsreiche Köpfe – und wir lassen es auch noch<br>gut aussehen!“
+            </p>
+            <p class="what-we-do-first-section-wrapper-mobile-white-second">
+                Getrieben von der Leidenschaft für alles Digi-<br>tale und der
+                Liebe zum Detail lautet unser<br>Motto: „Kreative Arbeit
+                braucht einfallsreiche<br>Köpfe – und wir lassen es auch noch gut ausse-<br>
+                hen!“
+            </p>
+        </div>
+    </section>
+    <section class="section-home-video" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+        <div class="section-home-video-wrapper-black">
+            <video class="home-video" autoplay loop plays-inline muted
+                src="./img-hauptseite/Home-Reel-Desktop.mp4"></video>
+
+            <video class="home-video-mobile" poster="./poster-mobile.png" onClick="displayVideoButton()"
+                id="mobile-video" data-videoState="paused" loop playsinline muted
+                src="./img-hauptseite/Home-Reel-Mobile.mp4"></video>
+            <img class="playbutton" onClick="playVideo()" id="video-play-btn" src="./play-v2.svg" alt=""
+                style="transition: opacity 1s;">
+        </div>
+          <!--Mobile-->
+          <div class="section-home-video-wrapper-white-mobile">
+            <video class="home-video" autoplay loop plays-inline muted
+                src="./img-hauptseite/Home-Reel-Desktop.mp4"></video>
+
+            <video class="home-video-mobile" poster="./poster-mobile.png" onClick="displayVideoButton()"
+                id="mobile-video" data-videoState="paused" loop playsinline muted
+                src="./img-hauptseite/Home-Reel-Mobile.mp4"></video>
+            <img class="playbutton" onClick="playVideo()" id="video-play-btn" src="./play-v2.svg" alt=""
+                style="transition: opacity 1s;">
+        </div>
+    </section>
+             </div>
+<section class="end" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+    <div class="footer">
+        <div class="footer-wrapper">
+            <div id="footer-fraction-left">
+                <h2 class="footer-company-title">SEVENT</h2>
+                <p class="footer-text adresse">
+                    Franz-Siegele-Weg 4<br>
+                    86919 Utting am Ammersee
+                </p>
+                <p class="footer-text country">GERMANY</p>
+            </div>
+            <div id="footer-fraction-middle">
+                <div class="social-icons-wrapper">
+                    <a href="https://vimeo.com/joerghannemann" target="_blank"> <img class="vimeo"
+                            src="./icons und Logos/icon-vimeo.svg" alt=""></a>
+                    <a href="https://www.behance.net/joerg6b96" target="_blank"><img class="behance"
+                            src="./icons und Logos/icon-behance.svg" alt=""></a>
+                    <a href="https://de.linkedin.com/in/j%C3%B6rg-hannemann-87b98943" target="_blank"><img
+                            class="linkedin" src="./icons und Logos/icon-linkedin.svg" alt=""></a>
+                    <a href="https://www.xing.com/profile/Joerg_Hannemann3" target="_blank"> <img class="xing"
+                            src="./icons und Logos/icon-xing.svg" alt=""></a>
+                </div>
+                <div class="cta">
+                    <a href="tel:+49 (0)8806 306070" class="footer-link">
+                        <p class="footer-text"> +49 (0)8806 306070</p>
+                    </a>
+                    <a href="mailto:mail@sevent.studio" class="footer-link">
+                        <p class="footer-text">mail@sevent.studio </p>
+                    </a>
+                </div>
+            </div>
+            <div id="footer-fraction-right">
+                <a href="" class="footer-link">
+                    <p class="footer-text"> Imprint</p>
+                </a>
+                <a href="" class="footer-link">
+                    <p class="footer-text"> Privacy Policy</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+</body>
+</html>
