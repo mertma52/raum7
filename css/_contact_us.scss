@@ -1,5 +1,30 @@
+.map-wrapper {
+  background-color: #191919;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
 .map {
-  height: auto;
-  max-width: 100%;
+  width: 100%;
   object-fit: cover;
+}
+.marker {
+  position: absolute;
+  width: 10px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .map-wrapper {
+    padding-top: 64px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .map-wrapper {
+    padding-top: 60px;
+  }
+  .map {
+    height: 100vw;
+  }
 }

@@ -2104,23 +2104,68 @@ div.lg-backdrop.in {
   }
 }
 
-.map {
-  height: auto;
-  max-width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.imprint-wrapper {
+.map-wrapper {
   background-color: #191919;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  position: relative;
+}
+
+.map {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.marker {
+  position: absolute;
+  width: 10px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .map-wrapper {
+    padding-top: 64px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .map-wrapper {
+    padding-top: 60px;
+  }
+  .map {
+    height: 100vw;
+  }
+}
+
+.map-wrapper {
+  background-color: #191919;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
 }
 
 .imprint {
