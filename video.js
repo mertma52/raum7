@@ -1,7 +1,7 @@
 
 
-function playVideo() {
-    video = document.getElementById("mobile-video");
+function playVideo(videoObject) {
+    video = videoObject;
     playBtn = document.getElementById("video-play-btn");
     var videoState = video.getAttribute("data-videoState");
     if (videoState == "paused") {
