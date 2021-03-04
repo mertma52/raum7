@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="./pace.min.js" type="text/javascript"></script>
+    <link href="./pace-master/pace-theme-default.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
@@ -23,6 +25,11 @@
 </head>
 
 <body>
+    <div class='progress' id="progress_div">
+        <div class='bar' id='bar1'></div>
+        <div class='percent' id='percent1'></div>
+      </div>
+      <input type="hidden" id="progress_width" value="0">
     <!--NAVIGATION-->
     <div class="navigation">
         <nav class="navbar">
@@ -37,19 +44,19 @@
             </div>
             <ul class="navbar-right-ul">
                 <li class="nav-right-element">
-                    <a href="#home">HOME</a>
+                    <a class="andere-farbe" href="index.html">HOME</a>
                 </li>
                 <li class="nav-right-element">
-                    <a class="andere-farbe" href="#ourwork">OUR WORK</a>
+                    <a href="ourwork.html">OUR WORK</a>
                 </li>
                 <li class="nav-right-element">
-                    <a class="andere-farbe" href="#whatwedo">WHAT WE DO</a>
+                    <a class="andere-farbe" href="what_we_do.html">WHAT WE DO</a>
                 </li>
                 <li class="nav-right-element">
-                    <a class="andere-farbe" href="#whoweare">WHO WE ARE</a>
+                    <a class="andere-farbe" href="who_we_are.html">WHO WE ARE</a>
                 </li>
                 <li class="nav-right-element">
-                    <a class="andere-farbe" href="#contactus">CONTACT US</a>
+                    <a class="andere-farbe" href="contact_us.html">CONTACT US</a>
                 </li>
             </ul>
 

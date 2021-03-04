@@ -5,6 +5,8 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  opacity: 1;
+  transition: all 700ms ease;
 }
 .what-we-do-first-section-wrapper {
   width: 49.5%;
@@ -106,3 +108,4 @@
 .margin-bottom {
   display: none;
 }
+//Navbar, weil die Schrift nicht übernommen wird
