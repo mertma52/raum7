@@ -1941,6 +1941,11 @@ div.lg-backdrop.in {
   display: none;
 }
 
+video[poster] {
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
 @media screen and (max-width: 767px) {
   .wrapper-reverse {
     display: -webkit-box;
