@@ -217,7 +217,7 @@ body::-webkit-scrollbar-thumb {
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   grid-row: 1/2;
-  background-image: url("https://res.cloudinary.com/wecreate4you/image/upload/f_auto/home/gecko-right_cuhllf.jpg");
+  background-image: url("https://res.cloudinary.com/wecreate4you/image/upload/f_auto/home/gecko-right_cuhllf.webp");
   height: 37.5vw;
   background-size: cover;
   background-repeat: no-repeat;
@@ -264,7 +264,7 @@ body::-webkit-scrollbar-thumb {
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   grid-row: 2/3;
-  background-image: url("https://res.cloudinary.com/wecreate4you/image/upload/v1614818136/home/Layer_51_nhd8cp.jpg");
+  background-image: url("https://res.cloudinary.com/wecreate4you/image/upload/f_auto/home/Layer_51_nhd8cp.webp");
   background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -280,7 +280,7 @@ body::-webkit-scrollbar-thumb {
   -ms-grid-row: 2;
   -ms-grid-row-span: 2;
   grid-row: 2/4;
-  background-image: url("https://res.cloudinary.com/wecreate4you/image/upload/v1614817756/home/Layer_53_cufvhs.jpg");
+  background-image: url("https://res.cloudinary.com/wecreate4you/image/upload/f_auto/home/Layer_53_cufvhs.webp");
   height: 49vw;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -297,7 +297,7 @@ body::-webkit-scrollbar-thumb {
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   grid-row: 2/3;
-  background-image: url("https://res.cloudinary.com/wecreate4you/image/upload/v1614817756/home/Layer_52_eyxtkn.jpg");
+  background-image: url("https://res.cloudinary.com/wecreate4you/image/upload/f_auto/home/Layer_52_eyxtkn.webp");
   background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -313,7 +313,7 @@ body::-webkit-scrollbar-thumb {
   -ms-grid-row: 3;
   -ms-grid-row-span: 1;
   grid-row: 3/4;
-  background-image: url("https://res.cloudinary.com/wecreate4you/image/upload/v1614817756/home/Layer_50_czkoow.jpg");
+  background-image: url("https://res.cloudinary.com/wecreate4you/image/upload/f_auto/home/Layer_50_czkoow.webp");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -753,7 +753,7 @@ body::-webkit-scrollbar-thumb {
   }
   .gecko {
     height: 85vw;
-    background-image: url("https://res.cloudinary.com/wecreate4you/image/upload/v1614817763/home/audi-gecko_e6sqam.jpg");
+    background-image: url("https://res.cloudinary.com/wecreate4you/image/upload/f_auto/home/audi-gecko_e6sqam.webp");
     background-size: 100%;
     background-position: 0% 0%;
     margin-top: 60px;
