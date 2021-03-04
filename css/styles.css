@@ -746,9 +746,6 @@ body::-webkit-scrollbar-thumb {
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  .nav-mobile-element a {
-    color: #999999;
-  }
 }
 
 @media screen and (max-width: 767px) {
