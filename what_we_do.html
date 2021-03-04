@@ -86,7 +86,7 @@
             </div>
         </div>
      <div class="wrapper-reverse">
-        <section class="what-we-do-section">
+        <section class="what-we-do-section" data-aos-delay="250" data-aos="fade-up" data-aos-once="true" data-aos-duration="750" >
             <div class="what-we-do-first-section-wrapper">
                 <h2 class="what-we-do-first-section-wrapper-h2 h2-what-we-do">Animation</h2>
                 <h3 class="what-we-do-first-section-wrapper-h3 h3-what-we-do"># macht lebendig</h3>
@@ -114,7 +114,7 @@
             </div>
         </section>
         <!--Section Video-->
-        <section class="section-home-video">
+        <section class="section-home-video" data-aos-delay="500" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
             <div class="section-home-video-wrapper-black">
                 <video class="home-video" autoplay loop plays-inline muted
                     src="./img-hauptseite/Home-Reel-Desktop.mp4"></video>
@@ -139,7 +139,7 @@
         </section>
     </div>
         <div class="wrapper-reverse">
-        <section class="what-we-do-section-black">
+        <section class="what-we-do-section-black" data-aos="fade-up" data-aos-once="true" data-aos-duration="750" >
             <div class="what-we-do-first-section-wrapper">
                 <h2 class="what-we-do-first-section-wrapper-h2 h2-what-we-do white">Visualisierung</h2>
                 <h3 class="what-we-do-first-section-wrapper-h3 h3-what-we-do white"># Bilder, die berühren</h3>
@@ -167,7 +167,7 @@
                     </p>
              </div>
         </section>
-        <section class="section-home-video">
+        <section class="section-home-video" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
             <div class="section-home-video-wrapper">
                 <video class="home-video" autoplay loop plays-inline muted
                     src="./img-hauptseite/Home-Reel-Desktop.mp4"></video>
@@ -179,7 +179,7 @@
                     style="transition: opacity 1s;">
             </div>
               <!--Mobile-->
-              <div class="section-home-video-wrapper-black-mobile ">
+              <div class="section-home-video-wrapper-black-mobile " data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
                 <video class="home-video" autoplay loop plays-inline muted
                     src="./img-hauptseite/Home-Reel-Desktop.mp4"></video>
 
@@ -194,7 +194,7 @@
     </div>
 </div>
     <div class="wrapper-reverse">
-        <section class="what-we-do-section">
+        <section class="what-we-do-section" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
             <div class="what-we-do-first-section-wrapper">
                 <h2 class="what-we-do-first-section-wrapper-h2 h2-what-we-do">Design</h2>
                 <h3 class="what-we-do-first-section-wrapper-h3 h3-what-we-do"># mehr als ein Blickfang</h3>
@@ -281,7 +281,7 @@
                     </p>
             </div>
         </section>
-        <section class="section-home-video">
+        <section class="section-home-video" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
             <div class="section-home-video-wrapper-black">
                 <video class="home-video" autoplay loop plays-inline muted
                     src="./img-hauptseite/Home-Reel-Desktop.mp4"></video>
@@ -293,7 +293,7 @@
                     style="transition: opacity 1s;">
             </div>
                   <!--Mobile-->
-                  <div class="section-home-video-wrapper-black-mobile ">
+                  <div class="section-home-video-wrapper-black-mobile "  data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
                     <video class="home-video" autoplay loop plays-inline muted
                         src="./img-hauptseite/Home-Reel-Desktop.mp4"></video>
     
@@ -348,5 +348,26 @@
             </div>
             </div>
         </section>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script>
+            if (window.innerHeight > 500) {
+                document.addEventListener('aos:in', ({
+                    detail
+                }) => {
+                    var delayedObj = document.querySelectorAll(".aos-animate");
+                    setTimeout(() => {
+                        for (i = 0; i < delayedObj.length; i++) {
+                            delayedObj[i].setAttribute("data-aos-delay", "0");
+                        };
+                    }, 2000);
+                    console.log('animated in', detail);
+                });
+            }
+        </script>
+
 </body>
 </html>
