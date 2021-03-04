@@ -1800,6 +1800,9 @@ div.lg-backdrop.in {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
+  opacity: 1;
+  -webkit-transition: all 700ms ease;
+  transition: all 700ms ease;
 }
 
 .what-we-do-first-section-wrapper {
