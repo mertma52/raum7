@@ -37,11 +37,14 @@
         .andere-farbe {
           color: rgb(153, 153, 153);
           display: inline-block;
+          transition: color 700ms ease;
         }
       }
     }
   }
-
+  .andere-farbe:hover {
+    color: black !important;
+  }
   //Rechter Bereich der Navbar
   .navigations-languages {
     background-color: transparent;

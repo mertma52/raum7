@@ -95,6 +95,12 @@ li {
 .navigation .navbar .navbar-right-ul .nav-right-element .andere-farbe {
   color: #999999;
   display: inline-block;
+  -webkit-transition: color 700ms ease;
+  transition: color 700ms ease;
+}
+
+.navigation .andere-farbe:hover {
+  color: black !important;
 }
 
 .navigation .navigations-languages {
