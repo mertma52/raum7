@@ -565,7 +565,7 @@ body::-webkit-scrollbar-thumb {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    position: absolute;
+    position: fixed;
     z-index: 999;
     width: 100%;
     -webkit-box-pack: justify;
