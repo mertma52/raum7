@@ -1375,7 +1375,7 @@ body::-webkit-scrollbar-thumb {
 
 .our-work-gallery-wrapper-h2 {
   font-family: "Montserrat", sans-serif;
-  font-weight: 300;
+  font-weight: 600;
   font-size: 0.92vw;
   color: white;
   background-color: rgba(0, 0, 0, 0.7);
@@ -1703,7 +1703,7 @@ div.lg-backdrop.in {
   }
   .our-work-gallery-wrapper-h2 {
     font-family: "Montserrat", sans-serif;
-    font-weight: 300;
+    font-weight: 600;
     font-size: 18px;
     color: white;
     background-color: rgba(0, 0, 0, 0.7);
