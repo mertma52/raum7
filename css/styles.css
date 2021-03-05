@@ -2185,7 +2185,7 @@ video[poster] {
   position: relative;
 }
 
-@media screen and (max-width: 3000px) {
+@media screen and (min-width: 3000px) {
   body::-webkit-scrollbar {
     width: 14px;
     /* width of the entire scrollbar */
