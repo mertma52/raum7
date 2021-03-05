@@ -1489,6 +1489,10 @@ div.lg-backdrop.in {
   opacity: 1 !important;
 }
 
+.lg-video-cont {
+  max-width: 955px !important;
+}
+
 @-webkit-keyframes fade-in {
   from {
     opacity: 0;
