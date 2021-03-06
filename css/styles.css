@@ -1511,7 +1511,8 @@ div.lg-backdrop.in {
 }
 
 .lg-video-cont {
-  max-width: 955px !important;
+  width: 80% !important;
+  max-width: none !important;
 }
 
 @-webkit-keyframes fade-in {
