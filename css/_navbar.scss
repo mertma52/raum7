@@ -34,12 +34,17 @@
         display: inline-block;
         font-size: 0.77vw;
         margin: 0vw 0.7vw;
+        transition: color 350ms ease;
         .andere-farbe {
           color: rgb(153, 153, 153);
           display: inline-block;
+          transition: color 350ms ease;
         }
       }
     }
+  }
+  .andere-farbe:hover {
+    color: #464646 !important;
   }
   //Rechter Bereich der Navbar
   .navigations-languages {
@@ -53,6 +58,7 @@
       color: black;
       padding: 0vw 0.7vw;
       font-weight: 600;
+      transition: color 350ms ease;
     }
     .navigations-languages-seperator {
       height: 0.6vw;
@@ -64,7 +70,14 @@
       color: rgb(153, 153, 153);
       padding: 0vw 2vw 0vw 0.7vw;
       font-weight: 600;
+      transition: color 350ms ease;
     }
   }
+}
+.navigations-languages-left:hover {
+  color: #464646 !important;
+}
+.navigations-languages-right:hover {
+  color: #464646 !important;
 }
 /*Responsive Design*/

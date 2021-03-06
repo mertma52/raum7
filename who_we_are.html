@@ -25,6 +25,7 @@
     <script src="./video.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <style> .playbutton {pointer-events: none}; </style>
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -59,7 +60,7 @@
                     <a class="andere-farbe" href="what_we_do.html">WHAT WE DO</a>
                 </li>
                 <li class="nav-right-element">
-                    <a href="who_we_are.html">WHO WE ARE</a>
+                    <a style="color: #464646;" href="who_we_are.html">WHO WE ARE</a>
                 </li>
                 <li class="nav-right-element">
                     <a class="andere-farbe" href="contact_us.html">CONTACT US</a>
@@ -77,7 +78,7 @@
                     <a class="andere-farbe" href="what_we_do.html">WHAT WE DO</a>
                 </li>
                 <li class="nav-mobile-element">
-                    <a style="color: black;" class="andere-farbe" href="who_we_are.html">WHO WE ARE</a>
+                    <a style="color: #464646;" class="andere-farbe" href="who_we_are.html">WHO WE ARE</a>
                 </li>
                 <li class="nav-mobile-element">
                     <a class="andere-farbe" href="contact_us.html">CONTACT US</a>
@@ -92,7 +93,7 @@
 
         </nav>
         <div class="navigations-languages">
-            <a style="color: black;" class="navigations-languages-left" href="">DE</a>
+            <a style="color: #464646;" class="navigations-languages-left" href="">DE</a>
             <div class="navigations-languages-seperator"></div>
             <a class="navigations-languages-right" href>EN</a>
         </div>
@@ -138,18 +139,18 @@
         </section>
         <section class="section-home-video" data-aos-delay="250" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
             <div class="section-home-video-wrapper">
-                <video class="home-video" autoplay loop plays-inline muted
+                <video preload="metadata" class="home-video" autoplay loop plays-inline muted
                     src="https://res.cloudinary.com/wecreate4you/video/upload/f_auto,q_auto/who-we-are/WhoWeAre-People-Desktop_gckawb.mp4"></video>
             </div>
               <!--Mobile-->
               <div class="section-home-video-wrapper-black-mobile ">
-                <video class="home-video" autoplay loop plays-inline muted
-                    src="./img-hauptseite/WhoWeAre-People-Mobile.mp4"></video>
+                <video  preload="metadata" onClick="playVideo()"  class="home-video" autoplay loop plays-inline muted
+                    src="https://res.cloudinary.com/wecreate4you/video/upload/v1614821481/who-we-are/WhoWeAre-People-Mobile_xnnxc7.mp4"></video>
 
-                <video class="home-video-mobile" poster="./poster-mobile/joerg-poster.png" onClick="displayVideoButton()"
+                <video class="home-video-mobile" preload="metadata" onClick="playVideo(this)" poster="./poster-mobile/joerg-poster.png" onClick="displayVideoButton()"
                     id="mobile-video" data-videoState="paused" loop playsinline muted
-                    src="./img-hauptseite/WhoWeAre-People-Mobile.mp4"></video>
-                <img class="playbutton" onClick="playVideo()" id="video-play-btn" src="./play-v2.svg" alt=""
+                    src="https://res.cloudinary.com/wecreate4you/video/upload/v1614821481/who-we-are/WhoWeAre-People-Mobile_xnnxc7.mp4"></video>
+                <img class="playbutton" id="video-play-btn" src="./play-v2.svg" alt=""
                     style="transition: opacity 1s;">
             </div>
         </section>
@@ -194,18 +195,18 @@
     </section>
     <section class="section-home-video" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
         <div class="section-home-video-wrapper-black">
-            <video class="home-video" autoplay loop plays-inline muted
+            <video preload="metadata" class="home-video" autoplay loop plays-inline muted
                 src="https://res.cloudinary.com/wecreate4you/video/upload/f_auto,q_auto/who-we-are/WhoWeAre-Technology-Desktop_nlhe4k.mp4"></video>
         </div>
           <!--Mobile-->
           <div class="section-home-video-wrapper-white-mobile">
-            <video class="home-video" autoplay loop plays-inline muted
-                src="./img-hauptseite/WhoWeAre-Technology-Mobile.mp4"></video>
+            <video preload="metadata" onClick="playVideo()"  class="home-video" autoplay loop plays-inline muted
+                src="https://res.cloudinary.com/wecreate4you/video/upload/v1614821471/who-we-are/WhoWeAre-Technology-Mobile_w1s3pi.mp4"></video>
 
-            <video class="home-video-mobile" poster="./poster-mobile/technologie-poster.png" onClick="displayVideoButton()"
+            <video class="home-video-mobile" preload="metadata" onClick="playVideo(this)" poster="./poster-mobile/technologie-poster.png" onClick="displayVideoButton()"
                 id="mobile-video" data-videoState="paused" loop playsinline muted
-                src="./img-hauptseite/WhoWeAre-Technology-Mobile.mp4"></video>
-            <img class="playbutton" onClick="playVideo()" id="video-play-btn" src="./play-v2.svg" alt=""
+                src="https://res.cloudinary.com/wecreate4you/video/upload/v1614821471/who-we-are/WhoWeAre-Technology-Mobile_w1s3pi.mp4"></video>
+            <img class="playbutton"  id="video-play-btn" src="./play-v2.svg" alt=""
                 style="transition: opacity 1s;">
         </div>
     </section>
@@ -243,10 +244,10 @@
             </div>
             <div id="footer-fraction-right">
                 <a href="imprint.html" class="footer-link">
-                    <p class="footer-text"> Imprint</p>
+                    <p class="footer-text">Impressum</p>
                 </a>
                 <a href="imprint.html" class="footer-link">
-                    <p class="footer-text"> Privacy Policy</p>
+                    <p class="footer-text">Datenschutz</p>
                 </a>
             </div>
         </div>
