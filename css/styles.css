@@ -241,7 +241,7 @@ body::-webkit-scrollbar-thumb {
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   grid-row: 1/2;
-  background-image: url("/raum7/img-hauptseite/geckoo.jpg");
+  background-image: url("/img-hauptseite/geckoo.jpg");
   height: 37.5vw;
   background-position: 0% 37%;
   background-size: cover;
@@ -289,7 +289,7 @@ body::-webkit-scrollbar-thumb {
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   grid-row: 2/3;
-  background-image: url("https://res.cloudinary.com/wecreate4you/image/upload/f_auto/home/Layer_51_nhd8cp.webp");
+  background-image: url("https://res.cloudinary.com/wecreate4you/image/upload/f_auto/home%202/button-extended-design_cno5co.webp");
   background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -305,7 +305,7 @@ body::-webkit-scrollbar-thumb {
   -ms-grid-row: 2;
   -ms-grid-row-span: 2;
   grid-row: 2/4;
-  background-image: url("https://res.cloudinary.com/wecreate4you/image/upload/f_auto/home/Layer_53_cufvhs.webp");
+  background-image: url("https://res.cloudinary.com/wecreate4you/image/upload/f_auto/home%202/button-extended-visualisierung_uejx8n.webp");
   height: 49vw;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -322,7 +322,7 @@ body::-webkit-scrollbar-thumb {
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   grid-row: 2/3;
-  background-image: url("https://res.cloudinary.com/wecreate4you/image/upload/f_auto/home/Layer_52_eyxtkn.webp");
+  background-image: url("https://res.cloudinary.com/wecreate4you/image/upload/f_auto/home%202/button-extended-animation_vuscyo.webp");
   background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -338,7 +338,7 @@ body::-webkit-scrollbar-thumb {
   -ms-grid-row: 3;
   -ms-grid-row-span: 1;
   grid-row: 3/4;
-  background-image: url("https://res.cloudinary.com/wecreate4you/image/upload/f_auto/home/Layer_50_czkoow.webp");
+  background-image: url("https://res.cloudinary.com/wecreate4you/image/upload/f_auto/home%202/button-extended-reality_xfjgjk.webp");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -2297,7 +2297,7 @@ video[poster] {
     -ms-grid-row: 1;
     -ms-grid-row-span: 1;
     grid-row: 1/2;
-    background-image: url("/raum7/img-hauptseite/geckoo.jpg");
+    background-image: url("/img-hauptseite/geckoo.jpg");
     height: 66vw;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2340,7 +2340,7 @@ video[poster] {
     -ms-grid-row: 2;
     -ms-grid-row-span: 1;
     grid-row: 2/3;
-    background-image: url("https://res.cloudinary.com/wecreate4you/image/upload/f_auto/home/Layer_51_nhd8cp.webp");
+    background-image: url("https://res.cloudinary.com/wecreate4you/image/upload/f_auto/home%202/button-extended-design_cno5co.webp");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -2355,7 +2355,7 @@ video[poster] {
     -ms-grid-row: 2;
     -ms-grid-row-span: 2;
     grid-row: 2/4;
-    background-image: url("https://res.cloudinary.com/wecreate4you/image/upload/f_auto/home/Layer_53_cufvhs.webp");
+    background-image: url("https://res.cloudinary.com/wecreate4you/image/upload/f_auto/home%202/button-extended-visualisierung_uejx8n.webp");
     height: 49vw;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -2371,7 +2371,7 @@ video[poster] {
     -ms-grid-row: 2;
     -ms-grid-row-span: 1;
     grid-row: 2/3;
-    background-image: url("https://res.cloudinary.com/wecreate4you/image/upload/f_auto/home/Layer_52_eyxtkn.webp");
+    background-image: url("https://res.cloudinary.com/wecreate4you/image/upload/f_auto/home%202/button-extended-animation_vuscyo.webp");
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -2386,7 +2386,7 @@ video[poster] {
     -ms-grid-row: 3;
     -ms-grid-row-span: 1;
     grid-row: 3/4;
-    background-image: url("https://res.cloudinary.com/wecreate4you/image/upload/f_auto/home/Layer_50_czkoow.webp");
+    background-image: url("https://res.cloudinary.com/wecreate4you/image/upload/f_auto/home%202/button-extended-reality_xfjgjk.webp");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
