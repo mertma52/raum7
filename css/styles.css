@@ -241,7 +241,7 @@ body::-webkit-scrollbar-thumb {
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   grid-row: 1/2;
-  background-image: url("img-hauptseite/geckoo.jpg");
+  background-image: url("raum7/img-hauptseite/geckoo.jpg");
   height: 37.5vw;
   background-position: 0% 37%;
   background-size: cover;
@@ -2297,7 +2297,7 @@ video[poster] {
     -ms-grid-row: 1;
     -ms-grid-row-span: 1;
     grid-row: 1/2;
-    background-image: url("img-hauptseite/geckoo.jpg");
+    background-image: url("raum7/img-hauptseite/geckoo.jpg");
     height: 66vw;
     background-size: cover;
     background-repeat: no-repeat;
