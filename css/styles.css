@@ -1113,7 +1113,7 @@ body::-webkit-scrollbar-thumb {
 @media screen and (max-width: 767px) {
   .end {
     background-color: #191919;
-    height: 400px;
+    height: 400px !important;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2160,6 +2160,7 @@ video[poster] {
 
 .map {
   width: 100%;
+  height: 60vh;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -2180,7 +2181,7 @@ video[poster] {
     padding-top: 60px;
   }
   .map {
-    height: 100vw;
+    height: 48vh;
   }
 }
 
