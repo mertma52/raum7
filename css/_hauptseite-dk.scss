@@ -9,7 +9,9 @@ body::-webkit-scrollbar-track {
   scrollbar-width: auto;
 }
 
-.osano-cm-widget { display: none; }
+.osano-cm-widget {
+  display: none;
+}
 
 body::-webkit-scrollbar-thumb {
   scrollbar-width: auto;
@@ -61,7 +63,7 @@ body::-webkit-scrollbar-thumb {
 .gecko {
   grid-column: 1/5;
   grid-row: 1/2;
-  background-image: url("https://res.cloudinary.com/wecreate4you/image/upload/f_auto/home/gecko-right_cuhllf.webp");
+  background-image: url("./img-hauptseite/geckoo.jpg");
   height: 37.5vw;
   background-size: cover;
   background-repeat: no-repeat;

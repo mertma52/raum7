@@ -241,7 +241,7 @@ body::-webkit-scrollbar-thumb {
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   grid-row: 1/2;
-  background-image: url("https://res.cloudinary.com/wecreate4you/image/upload/f_auto/home/gecko-right_cuhllf.webp");
+  background-image: url("./img-hauptseite/geckoo.jpg");
   height: 37.5vw;
   background-size: cover;
   background-repeat: no-repeat;
