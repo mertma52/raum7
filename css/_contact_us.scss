@@ -14,7 +14,7 @@
 }
 .marker {
   position: absolute;
-  width: 10px;
+  width: 20px;
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .map-wrapper {
@@ -27,5 +27,9 @@
   }
   .map {
     height: 40vh;
+  }
+  .marker {
+    position: absolute;
+    width: 15px;
   }
 }
