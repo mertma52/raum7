@@ -275,5 +275,55 @@
             }
         </script>
 
+
+<script src="https://player.vimeo.com/api/player.js"></script>
+<script>
+    var windowWidth = window.innerWidth;
+
+    var options9 = {
+        id: 520431881,
+        width: windowWidth,
+        loop: true,
+        autoplay: true,
+        muted: true,
+        quality: "4K"
+    };
+    var options10 = {
+        id: 520431881,
+        width: windowWidth,
+        loop: true,
+        autoplay: true,
+        muted: true
+    };
+    var options11 = {
+        id: 520431881,
+        width: windowWidth,
+        loop: true,
+        autoplay: true,
+        muted: true,
+        quality: "4K"
+    };
+    var options12 = {
+        id: 520431881,
+        width: windowWidth,
+        loop: true,
+        autoplay: true,
+        muted: true
+    };
+
+    var player9= new Vimeo.Player('design-vimeo', options9);
+    var player10= new Vimeo.Player('design-vimeo', options10);
+    var player11= new Vimeo.Player('design-vimeo', options11);
+    var player12= new Vimeo.Player('design-vimeo', options12);
+
+            player9.setVolume(0);
+            player10.setVolume(0);
+            player11.setVolume(0);
+            player12.setVolume(0);
+
+            player.on('play', function() {
+                console.log('played the video!');
+            });
+        </script>
 </body>
 </html>
