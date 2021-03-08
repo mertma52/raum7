@@ -55,7 +55,7 @@
             </div>
             <ul class="navbar-right-ul">
                 <li class="nav-right-element">
-                    <a style="color: black;"href="index.html">HOME</a>
+                    <a style="color: #464646;" href="index.html">HOME</a>
                 </li>
                 <li class="nav-right-element">
                     <a class="andere-farbe" href="ourwork.html">OUR WORK</a>
@@ -73,7 +73,7 @@
 
             <ul class="navbar-mobile" id="navigation-menu-mobile" data-menuOpen="closed">
                 <li class="nav-mobile-element li-nav-burger-home">
-                    <a href="index.html">HOME</a>
+                    <a style="color: black;" href="index.html">HOME</a>
                 </li>
                 <li class="nav-mobile-element">
                     <a class="andere-farbe" href="ourwork.html">OUR WORK</a>
@@ -146,15 +146,17 @@
     <!--Section Video-->
     <section class="section-home-video" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
         <div class="section-home-video-wrapper">
-            <video class="home-video" autoplay loop plays-inline muted
-                src="./img-hauptseite/Home-Reel-Desktop.mp4"></video>
+            <!--<video class="home-video" autoplay loop plays-inline muted
+                src="./img-hauptseite/Home-Reel-Desktop.mp4"></video>-->
+                <div class="home-video" id="home-vimeo"></div>
             </div>
             <div class="section-home-video-wrapper-white-mobile">
-            <video class="home-video-mobile" onClick="playVideo(this)" poster="./Startbilder/Home-Reel-Mobile.jpg" 
+                <div class="home-video-mobile" id="home-mobile-vimeo"></div>
+           <!-- <video class="home-video-mobile" onClick="playVideo(this)" poster="./Startbilder/Home-Reel-Mobile.jpg" 
                 id="mobile-video" data-videoState="paused" loop playsinline muted
                 src="./img-hauptseite/Home-Reel-Mobile.mp4"></video>
             <img class="playbutton"  id="video-play-btn" src="./play-v2.svg" alt=""
-                style="transition: opacity 1s;">
+                style="transition: opacity 1s;">-->
         </div>
     </section>
     <!--Section text weiss-->
@@ -252,5 +254,33 @@
            visual.setAttribute("href", "what_we_do.html#visual-video")
         }
     </script>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <script>
+        var windowWidth = window.innerWidth;
+    
+        var options1 = {
+            id: 520427672,
+            width: windowWidth,
+            loop: true,
+            autoplay: true,
+            muted: true,
+            quality: "4K"
+        };
+        var options2 = {
+            id: 520430283,
+            width: windowWidth,
+            muted: true
+        };
+    
+        var player1= new Vimeo.Player('home-vimeo', options1);
+        var player2= new Vimeo.Player('home-mobile-vimeo', options2);
+    
+                player1.setVolume(0);
+                player2.setVolume(0);
+    
+                player10.on('play', function() {
+                    console.log('played the video!');
+                });
+            </script>
 </body>
 </html>
