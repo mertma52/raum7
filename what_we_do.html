@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SEVENT - What We Do</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./aos/aos.css" />
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./navigation.js"></script>
+    
     <script src="./video.js"></script>
     <script src="https://cmp.osano.com/169lbUSQbbnoB1yVf/662f2176-c227-49c2-a5a2-1a2bb14eb288/osano.js"></script>
     <!-- Google Tag Manager -->
@@ -133,16 +135,18 @@
         <!--Section Video-->
         <section class="section-home-video" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
             <div class="section-home-video-wrapper-black">
-                <video preload="metadata" class="home-video" autoplay loop plays-inline muted
-                    src="img-hauptseite/Animation-Reel-Desktop.mp4"></video>
+                <div class="home-video" id="animation-vimeo"></div>
+               <!-- <video preload="metadata" class="home-video" autoplay loop plays-inline muted
+                    src="img-hauptseite/Animation-Reel-Desktop.mp4"></video>-->
             </div>
             <!--Mobile-->
             <div class="section-home-video-wrapper-white-mobile margin-top" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
-                <video class="home-video-mobile" preload="metadata" onClick="playVideo(this)" poster="./Startbilder/Animation-Reel-Mobile.jpg"
+                <div class="home-video-mobile" id="animation-vimeo-mobile"></div>
+            <!--   <video class="home-video-mobile" preload="metadata" onClick="playVideo(this)" poster="./Startbilder/Animation-Reel-Mobile.jpg"
                     id="mobile-video" data-videoState="paused" crossorigin="anonymous" loop playsinline muted
                     src="img-hauptseite/Animation-Reel-Mobile.mp4"></video>
                 <img style="pointer-events: none" class="playbutton" id="video-play-btn" src="./play-v2.svg" alt=""
-                    style="transition: opacity 1s;">
+                    style="transition: opacity 1s;"> -->
             </div>
         </section>
     </div>
@@ -178,19 +182,19 @@
         </section>
         <section class="section-home-video" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
             <div class="section-home-video-wrapper">
-                <video preload="metadata" class="home-video" autoplay loop plays-inline muted
-                    src="img-hauptseite/Visualisierung-Reel-Desktop.mp4"></video>
+               <div class="home-video" id="visualisierung-vimeo"></div>
             </div>
               <!--Mobile-->
               <div class="section-home-video-wrapper-black-mobile "  preload="metadata" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
-                <video class="home-video" autoplay loop plays-inline muted
+                <div class="home-video-mobile" id="visualisierung-vimeo-mobile"></div>
+               <!-- <video class="home-video" autoplay loop plays-inline muted
                     src="img-hauptseite/Visualisierung-Reel-Mobile.mp4"></video>
 
                 <video class="home-video-mobile" preload="metadata" poster="./poster-mobile/poster-visualsierung.png" onClick="playVideo(this)"
                     id="mobile-video" data-videoState="paused" crossorigin="anonymous" loop playsinline muted
                     src="img-hauptseite/Visualisierung-Reel-Mobile.mp4"></video>
                 <img class="playbutton" id="video-play-btn" src="./play-v2.svg" alt=""
-                    style="transition: opacity 1s;">
+                    style="transition: opacity 1s;"> -->
             </div>
         </section>
     </div>
@@ -238,14 +242,15 @@
             </div>
               <!--Mobile-->
               <div class="section-home-video-wrapper-white-mobile">
-                <video preload="metadata" class="home-video" preload="none" autoplay loop plays-inline muted
-                    src="img-hauptseite/Design-Reel-Mobile.mp4"></video>
+                <div class="home-video-mobile" id="design-vimeo-mobile"></div>
+                <!-- <video preload="metadata" class="home-video" preload="none" autoplay loop plays-inline muted
+                    src="img-hauptseite/Design-Reel-Mobile.mp4"></video>-->
 
-                <video class="home-video-mobile" preload="metadata" onClick="playVideo(this)" poster="./Startbilder/Design-Reel-Mobile.jpg" onClick="displayVideoButton()"
+                <!--<video class="home-video-mobile" preload="metadata" onClick="playVideo(this)" poster="./Startbilder/Design-Reel-Mobile.jpg" onClick="displayVideoButton()"
                     id="mobile-video" data-videoState="paused" crossorigin="anonymous" loop playsinline muted
                     src="img-hauptseite/Design-Reel-Mobile.mp4"></video>
                 <img class="playbutton" id="video-play-btn" src="./play-v2.svg" alt=""
-                    style="transition: opacity 1s;">
+                    style="transition: opacity 1s;">-->
             </div>
         </section>
                  </div>
@@ -282,19 +287,21 @@
         </section>
         <section class="section-home-video" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
             <div class="section-home-video-wrapper-black">
-                <video preload="metadata" class="home-video" autoplay loop plays-inline muted
-                    src="img-hauptseite/Extented-Reality-Reel-Dektop.mp4"></video>
+         <!--<video preload="metadata" class="home-video" autoplay loop plays-inline muted
+                    src="img-hauptseite/Extented-Reality-Reel-Dektop.mp4"></video> -->  
+                    <div class="home-video" id="extended-reality-vimeo"></div>
             </div>
                   <!--Mobile-->
                   <div class="section-home-video-wrapper-black-mobile " preload="metadata"  data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
-                    <video class="home-video" autoplay loop plays-inline muted
+                    <div class="home-video-mobile" id="extended-reality-vimeo-mobile"></div>
+             <!--      <video class="home-video" autoplay loop plays-inline muted
                         src="img-hauptseite/Design-Reel-Mobile.mp4"></video>
     
                     <video class="home-video-mobile" preload="metadata" onClick="playVideo(this)" poster="./Startbilder/Extented-Reality-Reel-Mobile.jpg"
                         id="mobile-video" data-videoState="paused" crossorigin="anonymous" loop playsinline muted
                         src="img-hauptseite/Design-Reel-Mobile.mp4"></video>
                     <img class="playbutton" id="video-play-btn" src="./play-v2.svg" alt=""
-                        style="transition: opacity 1s;">
+                        style="transition: opacity 1s;"> -->
                 </div>
         </section>
     </div>
@@ -367,15 +374,88 @@
             var windowWidth = window.innerWidth;
 
             var options = {
-                id: 77d538c40d,
+                id: 520431881,
                 width: windowWidth,
                 loop: true,
-                autoplay: true
+                autoplay: true,
+                muted: true,
+                quality: "4K"
+            };
+
+            var options2 = {
+                id: 520431901,
+                width: windowWidth,
+                loop: true,
+                autoplay: true,
+                muted: true
+            };
+
+            var options3 = {
+                id: 520431953,
+                width: windowWidth,
+                loop: true,
+                autoplay: true,
+                muted: true,
+                quality: "4K"
+            };
+
+            var options4 = {
+                id: 520431975,
+                width: windowWidth,
+                loop: true,
+                autoplay: true,
+                muted: true
+            };
+
+            var options5 = {
+                id: 520431110,
+                width: windowWidth,
+                loop: true,
+                autoplay: true,
+                muted: true,
+                quality: "4K"
+            };
+
+            var options6 = {
+                id: 520431833,
+                width: windowWidth,
+                loop: true,
+                autoplay: true,
+                muted: true
+            };
+            var options7 = {
+                id: 520431917,
+                width: windowWidth,
+                loop: true,
+                autoplay: true,
+                muted: true,
+                quality: "4K"
+            };
+            var options8 = {
+                id: 520431833,
+                width: windowWidth,
+                loop: true,
+                autoplay: true,
+                muted: true
             };
 
             var player = new Vimeo.Player('design-vimeo', options);
+            var player2 = new Vimeo.Player('design-vimeo-mobile', options2);
+            var player3 = new Vimeo.Player('visualisierung-vimeo', options3);
+            var player4 = new Vimeo.Player('visualisierung-vimeo-mobile', options4);
+            var player5 = new Vimeo.Player('animation-vimeo', options5);
+            var player6 = new Vimeo.Player('animation-vimeo-mobile', options6);
+            var player7 = new Vimeo.Player('extended-reality-vimeo', options7);
+            var player8 = new Vimeo.Player('extended-reality-vimeo-mobile', options8);
 
             player.setVolume(0);
+            player2.setVolume(0);
+            player3.setVolume(0);
+            player4.setVolume(0);
+            player5.setVolume(0);
+            player6.setVolume(0);
+            player7.setVolume(0);
+            player8.setVolume(0);
 
             player.on('play', function() {
                 console.log('played the video!');
