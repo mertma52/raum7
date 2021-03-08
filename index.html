@@ -117,17 +117,17 @@
             </h1>
             <img loading="lazy" src="https://res.cloudinary.com/wecreate4you/image/upload/v1614819110/home/background-headline_e8bjfn.png" alt="">
         </div>
-        <a href="what_we_do.html#design" class="design" data-aos="fade-up" data-aos-delay="250" data-aos-once="true" data-aos-duration="750">
+        <a href="what_we_do.html#design" id="design" class="design" data-aos="fade-up" data-aos-delay="250" data-aos-once="true" data-aos-duration="750">
             <h2 class="h2-property-background-img">DESIGN</h2>
         </a>
-        <a href="what_we_do.html#animation" class="animation" data-aos="fade-up" data-aos-delay="500" data-aos-once="true" data-aos-duration="750">
+        <a href="what_we_do.html#animation" id="animation" class="animation" data-aos="fade-up" data-aos-delay="500" data-aos-once="true" data-aos-duration="750">
             <h2 class="h2-property-background-img">ANIMATION</h2>
         </a>
-        <a href="what_we_do.html#visualisierung" class="visualisierung" data-aos="fade-up" data-aos-delay="750" data-aos-once="true"
+        <a href="what_we_do.html#visualisierung" id="visualisierung" class="visualisierung" data-aos="fade-up" data-aos-delay="750" data-aos-once="true"
             data-aos-duration="750">
             <h2 class="h2-property-background-img">VISUALISIERUNG</h2>
         </a>
-        <a href="what_we_do.html#extended-reality" class="extended-reality" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
+        <a href="what_we_do.html#extended-reality" id="extended-reality" class="extended-reality" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
             <h2 class="h2-property-background-img">EXTENDED-REALITY</h2>
         </a>
     </div>
@@ -237,6 +237,19 @@
                 }, 2000);
                 console.log('animated in', detail);
             });
+        }
+    </script>
+
+    <script>
+        var design = document.getElementById("design");
+        var animation = document.getElementById("animation");
+        var reality = document.getElementById("extended-reality");
+        var visual = document.getElementById("visualisierung");
+        if (window.innerHeight < 767) {
+           design.setAttribute("href", "what_we_do.html#design-video")
+           animation.setAttribute("href", "what_we_do.html#animation-video")
+           reality.setAttribute("href", "what_we_do.html#reality-video")
+           visual.setAttribute("href", "what_we_do.html#visual-video")
         }
     </script>
 </body>

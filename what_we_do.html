@@ -102,7 +102,7 @@
             </div>
         </div>
          <!--First Section-->
-     <div class="wrapper-reverse">
+     <div class="wrapper-reverse" id="animation-video">
         <section class="what-we-do-section" id="animation" data-aos="fade-up" data-aos-once="true" data-aos-duration="750" >
             <div class="what-we-do-first-section-wrapper">
                 <h2 class="what-we-do-first-section-wrapper-h2 h2-what-we-do">Animation</h2>
@@ -147,7 +147,7 @@
         </section>
     </div>
      <!--Third Section-->
-        <div class="wrapper-reverse">
+        <div class="wrapper-reverse" id="visual-video">
         <section class="what-we-do-section-black" id="visualisierung" data-aos="fade-up" data-aos-once="true" data-aos-duration="750" >
             <div class="what-we-do-first-section-wrapper">
                 <h2 class="what-we-do-first-section-wrapper-h2 h2-what-we-do white">Visualisierung</h2>
@@ -197,7 +197,7 @@
     </div>
 </div>
  <!--Section Four-->
-    <div class="wrapper-reverse">
+    <div class="wrapper-reverse" id="design-video">
         <section class="what-we-do-section" id="design" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
             <div class="what-we-do-first-section-wrapper">
                 <h2 class="what-we-do-first-section-wrapper-h2 h2-what-we-do">Design</h2>
@@ -232,8 +232,9 @@
         </section>
         <section class="section-home-video" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
             <div class="section-home-video-wrapper-black">
-                <video preload="metadata" class="home-video" autoplay loop plays-inline muted
-                    src="https://vimeo.com/520431110/77d538c40d"></video>
+                <div class="home-video" id="design-vimeo"> </div>
+                <!-- <video preload="metadata" class="home-video" autoplay loop plays-inline muted
+                    src="https://vimeo.com/520431110/77d538c40d"></video>-->
             </div>
               <!--Mobile-->
               <div class="section-home-video-wrapper-white-mobile">
@@ -248,7 +249,7 @@
             </div>
         </section>
                  </div>
-        <div class="wrapper-reverse">
+        <div class="wrapper-reverse" id="reality-video">
         <section class="what-we-do-section-black" id="extended-reality" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
             <div class="what-we-do-first-section-wrapper">
                 <h2 class="what-we-do-first-section-wrapper-h2 h2-what-we-do white">Extended Reality</h2>
@@ -359,6 +360,26 @@
                     console.log('animated in', detail);
                 });
             }
+        </script>
+
+        <script src="https://player.vimeo.com/api/player.js"></script>
+        <script>
+            var windowWidth = window.innerWidth;
+
+            var options = {
+                id: 77d538c40d,
+                width: windowWidth,
+                loop: true,
+                autoplay: true
+            };
+
+            var player = new Vimeo.Player('design-vimeo', options);
+
+            player.setVolume(0);
+
+            player.on('play', function() {
+                console.log('played the video!');
+            });
         </script>
 
 </body>
