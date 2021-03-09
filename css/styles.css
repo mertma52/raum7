@@ -2098,6 +2098,7 @@ video[poster] {
     display: block;
     position: relative;
     padding-bottom: 56.25%;
+    padding-top: 35px;
     height: 0;
     overflow: hidden;
   }
@@ -2117,8 +2118,10 @@ video[poster] {
     display: block;
     position: relative;
     padding-bottom: 56.25%;
+    padding-top: 35px;
     height: 0;
     overflow: hidden;
+    background-color: #191919;
   }
   .section-home-video .section-home-video-wrapper-black-mobile .iframe-mobile {
     position: absolute;
@@ -2140,7 +2143,7 @@ video[poster] {
 
 @media screen and (max-width: 767px) {
   .vp-center {
-    display: none;
+    background: blue !important;
   }
 }
 
