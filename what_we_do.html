@@ -380,7 +380,6 @@
             
                 windowWidth = window.innerWidth;
                 initVideo(windowWidth);
-                location.reload()
 
             }
             
@@ -391,7 +390,8 @@
                 loop: true,
                 autoplay: true,
                 muted: true,
-                quality: "4K"
+                quality: "4K",
+                responsive: true
             };
 
             console.log(options);
