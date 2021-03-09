@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SEVENT - What We Do</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="./aos/aos.css" />
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./navigation.js"></script>
@@ -372,25 +372,41 @@
         <script src="https://player.vimeo.com/api/player.js"></script>
         <script>
             var windowWidth = window.innerWidth;
+            initVideo(windowWidth);
 
+            window.addEventListener('resize', resizeVideos, false);
+
+            function resizeVideos() {
+            
+                windowWidth = window.innerWidth;
+                initVideo(windowWidth);
+                location.reload()
+
+            }
+            
+            function initVideo(width) {
             var options = {
                 id: 520431881,
-                width: windowWidth,
+                width: width,
                 loop: true,
                 autoplay: true,
                 muted: true,
                 quality: "4K"
             };
 
+            console.log(options);
+
             var options2 = {
                 id: 520431901,
-                width: windowWidth,
+                width: width,
                 muted: true
             };
 
+            console.log(options2);
+
             var options3 = {
                 id: 520431953,
-                width: windowWidth,
+                width: width,
                 loop: true,
                 autoplay: true,
                 muted: true,
@@ -399,13 +415,13 @@
 
             var options4 = {
                 id: 520431975,
-                width: windowWidth,
+                width: width,
                 muted: true
             };
 
             var options5 = {
                 id: 520431110,
-                width: windowWidth,
+                width: width,
                 loop: true,
                 autoplay: true,
                 muted: true,
@@ -414,12 +430,12 @@
 
             var options6 = {
                 id: 520431833,
-                width: windowWidth,
+                width: width,
                 muted: true
             };
             var options7 = {
                 id: 520431917,
-                width: windowWidth,
+                width: width,
                 loop: true,
                 autoplay: true,
                 muted: true,
@@ -427,11 +443,12 @@
             };
             var options8 = {
                 id: 520431934,
-                width: windowWidth,
+                width: width,
                 muted: true
             };
 
             var player = new Vimeo.Player('design-vimeo', options);
+            console.log(player);
             var player2 = new Vimeo.Player('design-vimeo-mobile', options2);
             var player3 = new Vimeo.Player('visualisierung-vimeo', options3);
             var player4 = new Vimeo.Player('visualisierung-vimeo-mobile', options4);
@@ -452,6 +469,9 @@
             player.on('play', function() {
                 console.log('played the video!');
             });
+            
+            }
+
         </script>
 
 </body>
