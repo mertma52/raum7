@@ -778,6 +778,24 @@ body::-webkit-scrollbar-thumb {
   body::-webkit-scrollbar {
     display: none;
   }
+  #visual-video:target {
+    display: block;
+    position: relative;
+    top: -10vh;
+    visibility: hidden;
+  }
+  #design-video:target {
+    display: block;
+    position: relative;
+    top: -10vh;
+    visibility: hidden;
+  }
+  #reality-video:target {
+    display: block;
+    position: relative;
+    top: -10vh;
+    visibility: hidden;
+  }
   .gecko {
     height: 85vw;
     background-image: url("https://res.cloudinary.com/wecreate4you/image/upload/f_auto/home/Gecko_nyttw9.webp");

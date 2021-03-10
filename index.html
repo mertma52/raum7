@@ -236,16 +236,23 @@
     </script>
 
     <script>
+        assignNewMobileLinks();
+        window.addEventListener('resize', assignNewMobileLinks);
+
+        function assignNewMobileLinks() {
         var design = document.getElementById("design");
         var animation = document.getElementById("animation");
         var reality = document.getElementById("extended-reality");
         var visual = document.getElementById("visualisierung");
-        if (window.innerHeight < 767) {
+        if (window.innerWidth < 767) {
            design.setAttribute("href", "what_we_do.html#design-video")
            animation.setAttribute("href", "what_we_do.html#animation-video")
            reality.setAttribute("href", "what_we_do.html#reality-video")
            visual.setAttribute("href", "what_we_do.html#visual-video")
+           console.log("links changed");
         }
+
+    }
     </script>
     <script src="https://player.vimeo.com/api/player.js"></script>
     <script>
