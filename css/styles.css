@@ -631,7 +631,7 @@ body::-webkit-scrollbar-thumb {
   .navigation .navbar .navbar-left .navbar-left-menu-img {
     max-width: 100%;
     height: 20px;
-    margin: 20px 20px 20px 40px;
+    margin: 20px 40px 20px 20px;
   }
   .navigation .navbar .navbar-left .navbar-left-logo-img {
     max-width: 100%;
@@ -2170,11 +2170,17 @@ video[poster] {
 .marker {
   position: absolute;
   width: 20px;
+  top: 42%;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .map-wrapper {
     padding-top: 64px;
+  }
+  .marker {
+    position: absolute;
+    width: 20px;
+    top: 49%;
   }
 }
 
@@ -2188,6 +2194,7 @@ video[poster] {
   .marker {
     position: absolute;
     width: 15px;
+    top: 50%;
   }
 }
 

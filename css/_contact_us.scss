@@ -15,10 +15,16 @@
 .marker {
   position: absolute;
   width: 20px;
+  top: 42%;
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .map-wrapper {
     padding-top: 64px;
+  }
+  .marker {
+    position: absolute;
+    width: 20px;
+    top: 49%;
   }
 }
 @media screen and (max-width: 767px) {
@@ -31,5 +37,6 @@
   .marker {
     position: absolute;
     width: 15px;
+    top: 50%;
   }
 }
