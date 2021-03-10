@@ -139,21 +139,11 @@
         </section>
         <section class="section-home-video" data-aos-delay="250" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
             <div class="section-home-video-wrapper">
-               <!-- <video preload="metadata" class="home-video" autoplay loop plays-inline muted
-                    src="img-hauptseite/WhoWeAre-People-Desktop.mp4"></video> -->
-                    <div class="home-video" id="people-vimeo"></div>
+                <iframe src="https://player.vimeo.com/video/520431994?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
             </div>
               <!--Mobile-->
               <div class="section-home-video-wrapper-black-mobile ">
-           <!--     <video  preload="metadata" onClick="playVideo()"  class="home-video" autoplay loop plays-inline muted
-                    src="img-hauptseite/WhoWeAre-People-Mobile.mp4"></video>
-
-                <video class="home-video-mobile" preload="metadata" onClick="playVideo(this)" poster="./Startbilder/WhoWeAre-People-Mobile.jpg" onClick="displayVideoButton()"
-                    id="mobile-video" data-videoState="paused" loop playsinline muted
-                    src="img-hauptseite/WhoWeAre-People-Mobile.mp4"></video>
-                <img class="playbutton" id="video-play-btn" src="./play-v2.svg" alt=""
-                    style="transition: opacity 1s;"> -->
-                    <div class="home-video-mobile" id="people-mobile-vimeo"></div>
+                <iframe class="iframe-mobile" src="https://player.vimeo.com/video/520432020?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="WhoWeAre-People-Mobile"></iframe>
             </div>
         </section>
         <div class="abstand-zum-video"></div>
@@ -197,21 +187,12 @@
     </section>
     <section class="section-home-video" data-aos="fade-up" data-aos-once="true" data-aos-duration="750">
         <div class="section-home-video-wrapper-black">
-         <!--  <video preload="metadata" class="home-video" autoplay loop plays-inline muted
-                src="img-hauptseite/WhoWeAre-Technology-Desktop.mp4"></video>--> 
-                <div class="home-video" id="technology-vimeo"></div>
+            <iframe src="https://player.vimeo.com/video/520432034?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="WhoWeAre-Technology-Desktop"></iframe>
         </div>
           <!--Mobile-->
           <div class="section-home-video-wrapper-white-mobile">
               <div class="home-video-mobile" id="technology-mobile-vimeo"></div>
-          <!-- <video preload="metadata" onClick="playVideo()"  class="home-video" autoplay loop plays-inline muted
-                src="img-hauptseite/WhoWeAre-Technology-Mobile.mp4"></video>
-
-            <video class="home-video-mobile" preload="metadata" onClick="playVideo(this)" poster="./Startbilder/WhoWeAre-Technology-Mobile.jpg" onClick="displayVideoButton()"
-                id="mobile-video" data-videoState="paused" loop playsinline muted
-                src="img-hauptseite/WhoWeAre-Technology-Mobile.mp4"></video>
-            <img class="playbutton"  id="video-play-btn" src="./play-v2.svg" alt=""
-                style="transition: opacity 1s;"> -->
+              <iframe src="https://player.vimeo.com/video/520436431?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="WhoWeAre-Technology-Mobile"></iframe>
         </div>
     </section>
              </div>
@@ -277,53 +258,6 @@
                     console.log('animated in', detail);
                 });
             }
-        </script>
-
-
-<script src="https://player.vimeo.com/api/player.js"></script>
-<script>
-    var windowWidth = window.innerWidth;
-
-    var options1 = {
-        id: 520431994,
-        width: windowWidth,
-        loop: true,
-        autoplay: true,
-        muted: true,
-        quality: "4K"
-    };
-    var options2 = {
-        id: 520432020,
-        width: windowWidth,
-        muted: true
-    };
-    var options3 = {
-        id: 520432034,
-        width: windowWidth,
-        loop: true,
-        autoplay: true,
-        muted: true,
-        quality: "4K"
-    };
-    var options4 = {
-        id: 520436431,
-        width: windowWidth,
-        muted: true
-    };
-
-    var player9= new Vimeo.Player('people-vimeo', options1);
-    var player10= new Vimeo.Player('people-mobile-vimeo', options2);
-    var player11= new Vimeo.Player('technology-vimeo', options3);
-    var player12= new Vimeo.Player('technology-mobile-vimeo', options4);
-
-            player9.setVolume(0);
-            player10.setVolume(0);
-            player11.setVolume(0);
-            player12.setVolume(0);
-
-            player9.on('play', function() {
-                console.log('played the video!');
-            });
         </script>
 </body>
 </html>
