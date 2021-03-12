@@ -1828,6 +1828,10 @@ div.lg-backdrop.in {
     bottom: 8%;
     left: 7%;
   }
+  .lg-video-cont {
+    width: 100% !important;
+    max-width: none !important;
+  }
 }
 
 @media screen and (min-width: 667px) and (max-width: 1024px) {

@@ -187,6 +187,10 @@
     left: 7%;
   }
   //hier koennte das mit der width stehen..
+  .lg-video-cont {
+    width: 100% !important;
+    max-width: none !important;
+  }
 }
 @media screen and (min-width: 667px) and (max-width: 1024px) {
   .lg-video-cont > .lg-video {
