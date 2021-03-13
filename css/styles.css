@@ -458,7 +458,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .ccm-widget--text::after {
-  background-color: #464646;
+  background-image: #464646;
 }
 
 .end {
