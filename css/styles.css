@@ -467,6 +467,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .ccm-widget--language-switch > select {
+  font-family: Montserrat !important;
   color: white !important;
 }
 
@@ -481,6 +482,7 @@ body::-webkit-scrollbar-thumb {
 
 .ccm-root .button.ccm--button-primary,
 .ccm-root button.ccm--button-primary {
+  font-family: Montserrat !important;
   color: #464646 !important;
   background-color: white !important;
   border-color: white !important;
@@ -491,6 +493,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .button {
+  font-family: Montserrat !important;
   color: #464646 !important;
 }
 
