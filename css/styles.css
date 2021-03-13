@@ -486,6 +486,10 @@ body::-webkit-scrollbar-thumb {
   border-color: white;
 }
 
+.ccm-link-container {
+  color: white;
+}
+
 .end {
   background-color: #191919;
   height: 25vw;
