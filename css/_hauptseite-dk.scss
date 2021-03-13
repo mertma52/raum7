@@ -236,9 +236,12 @@ body::-webkit-scrollbar-thumb {
 .ccm-modal--body {
   background-color: #464646;
 }
+.ccm-inner-overflow {
+  color: white;
+}
 .cover-scrollbar::before {
   background-color: #464646;
 }
 .ccm-widget--text::after {
-  background-image: #464646;
+  background-image: none;
 }

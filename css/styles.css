@@ -453,12 +453,16 @@ body::-webkit-scrollbar-thumb {
   background-color: #464646;
 }
 
+.ccm-inner-overflow {
+  color: white;
+}
+
 .cover-scrollbar::before {
   background-color: #464646;
 }
 
 .ccm-widget--text::after {
-  background-image: #464646;
+  background-image: none;
 }
 
 .end {
