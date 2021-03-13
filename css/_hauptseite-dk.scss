@@ -234,43 +234,43 @@ body::-webkit-scrollbar-thumb {
   }
 }
 .ccm-modal--body {
-  font-family: Montserrat;
+  font-family: Montserrat !important;
   background-color: #464646 !important;
 }
 .ccm-inner-overflow {
-  color: white;
+  color: white !important;
 }
 .cover-scrollbar::before {
-  background-color: #464646;
+  background-color: #464646 !important;
 }
 .ccm-widget--text::after {
-  background-image: none;
+  background-image: none !important;
 }
 .ccm-widget--language-switch > select {
-  color: white;
+  color: white !important;
 }
 .ccm-modal--footer {
-  background-color: #464646;
+  background-color: #464646 !important;
   color: white !important;
 }
 .ccm-widget--language-switch > select:hover {
-  color: white;
+  color: white !important;
 }
 .ccm-root .button.ccm--button-primary,
 .ccm-root button.ccm--button-primary {
-  color: #464646;
-  background-color: white;
-  border-color: white;
+  color: #464646 !important;
+  background-color: white !important;
+  border-color: white !important;
 }
 .ccm-link-container {
-  color: white;
+  color: white !important;
 }
 .button {
-  color: #464646;
+  color: #464646 !important;
 }
 .ccm-modal--footer .ccm-link-container a:link {
-  color: white;
+  color: white !important;
 }
 .ccm-root .ccm-widget--buttons button {
-  color: #464646;
+  color: #464646 !important;
 }
