@@ -2306,8 +2306,8 @@ video[poster] {
 }
 
 .imprint-wrapper {
-  width: 50%;
-  margin: auto;
+  width: 62%;
+  margin-left: 25%;
   padding-top: 150px;
   padding-bottom: 40px;
   background-color: #191919;
@@ -2659,8 +2659,8 @@ video[poster] {
 }
 
 .policy-wrapper {
-  width: 50%;
-  margin: auto;
+  width: 62%;
+  margin-left: 25%;
   padding-top: 150px;
   padding-bottom: 40px;
   background-color: #191919;
