@@ -234,6 +234,7 @@ body::-webkit-scrollbar-thumb {
   }
 }
 .ccm-modal--body {
+  font-family: Montserrat;
   background-color: #464646;
 }
 .ccm-inner-overflow {
@@ -244,4 +245,7 @@ body::-webkit-scrollbar-thumb {
 }
 .ccm-widget--text::after {
   background-image: none;
+}
+.ccm-widget--language-switch > select {
+  color: white;
 }
