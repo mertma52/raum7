@@ -259,6 +259,8 @@ body::-webkit-scrollbar-thumb {
 }
 .ccm-root .button.ccm--button-primary,
 .ccm-root button.ccm--button-primary {
+  text-shadow: none !important;
+  text-transform: none !important;
   font-family: Montserrat !important;
   color: #464646 !important;
   background-color: white !important;
@@ -286,4 +288,7 @@ body::-webkit-scrollbar-thumb {
 }
 .ccm-control-panel--purpose--description {
   color: white !important;
+}
+.ccm-widget--buttons button {
+  text-shadow: none !important;
 }
