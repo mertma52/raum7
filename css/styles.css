@@ -472,7 +472,7 @@ body::-webkit-scrollbar-thumb {
 
 .ccm-modal--footer {
   background-color: #464646;
-  color: white;
+  color: white !important;
 }
 
 .ccm-widget--language-switch > select:hover {
@@ -492,6 +492,10 @@ body::-webkit-scrollbar-thumb {
 
 .button {
   color: #464646;
+}
+
+.ccm-modal--footer .ccm-link-container a:link {
+  color: white;
 }
 
 .end {
