@@ -256,3 +256,9 @@ body::-webkit-scrollbar-thumb {
 .ccm-widget--language-switch > select:hover {
   color: white;
 }
+.ccm-root .button.ccm--button-primary,
+.ccm-root button.ccm--button-primary {
+  color: black;
+  background-color: white;
+  border-color: white;
+}

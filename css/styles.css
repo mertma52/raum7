@@ -479,6 +479,13 @@ body::-webkit-scrollbar-thumb {
   color: white;
 }
 
+.ccm-root .button.ccm--button-primary,
+.ccm-root button.ccm--button-primary {
+  color: black;
+  background-color: white;
+  border-color: white;
+}
+
 .end {
   background-color: #191919;
   height: 25vw;
