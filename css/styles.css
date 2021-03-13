@@ -498,6 +498,10 @@ body::-webkit-scrollbar-thumb {
   color: white;
 }
 
+.ccm-root .ccm-widget--buttons button {
+  color: #464646;
+}
+
 .end {
   background-color: #191919;
   height: 25vw;
