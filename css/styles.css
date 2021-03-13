@@ -453,6 +453,14 @@ body::-webkit-scrollbar-thumb {
   background-color: #464646;
 }
 
+.cover-scrollbar::before {
+  background-color: #464646;
+}
+
+.ccm-widget--text::after {
+  background-color: #464646;
+}
+
 .end {
   background-color: #191919;
   height: 25vw;
