@@ -481,13 +481,17 @@ body::-webkit-scrollbar-thumb {
 
 .ccm-root .button.ccm--button-primary,
 .ccm-root button.ccm--button-primary {
-  color: black;
+  color: #464646;
   background-color: white;
   border-color: white;
 }
 
 .ccm-link-container {
   color: white;
+}
+
+.button {
+  color: #464646;
 }
 
 .end {
