@@ -1,7 +1,7 @@
 .imprint-full {
   background-color: #191919;
 }
-.imprint-wrapper {
+.policy-wrapper {
   width: 50%;
   margin: auto;
   padding-top: 150px;
@@ -16,14 +16,19 @@
   font-size: 0.93vw;
   line-height: 1.5vw;
   h2 {
-    margin-bottom: 3vh;
+    margin-top: 30px;
   }
   h3 {
+    margin-top: 30px;
     margin-bottom: 2vh;
+  }
+  h4 {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
   }
 }
 @media screen and (max-width: 1024px) {
-  .imprint-wrapper {
+  .policy-wrapper {
     width: 90%;
     margin: auto;
     padding-top: 150px;
@@ -38,7 +43,7 @@
   }
 }
 @media screen and (max-width: 767px) {
-  .imprint-wrapper {
+  .policy-wrapper {
     width: 90%;
     margin: auto;
     padding-top: 150px;
