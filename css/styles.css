@@ -449,6 +449,10 @@ body::-webkit-scrollbar-thumb {
   display: none;
 }
 
+.ccm-modal--body {
+  background-color: #464646;
+}
+
 .end {
   background-color: #191919;
   height: 25vw;
