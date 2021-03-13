@@ -502,6 +502,19 @@ body::-webkit-scrollbar-thumb {
   color: #464646 !important;
 }
 
+.ccm-modal--header {
+  background-color: #464646 !important;
+  color: white !important;
+}
+
+.ccm-purpose-a717ff {
+  color: white !important;
+}
+
+.ccm-control-panel--purpose--description {
+  color: white !important;
+}
+
 .end {
   background-color: #191919;
   height: 25vw;
