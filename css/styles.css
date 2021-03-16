@@ -505,7 +505,8 @@ body::-webkit-scrollbar-thumb {
 
 .ccm-root .ccm-widget--buttons button {
   font-family: Montserrat !important;
-  color: #464646 !important;
+  background-color: #605e5e !important;
+  color: #ffffff !important;
   text-transform: none !important;
 }
 
