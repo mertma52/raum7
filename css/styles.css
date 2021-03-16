@@ -485,9 +485,9 @@ body::-webkit-scrollbar-thumb {
   text-shadow: none !important;
   text-transform: none !important;
   font-family: Montserrat !important;
-  color: #464646 !important;
-  background-color: white !important;
-  border-color: white !important;
+  color: #ffffff !important;
+  background-color: #00d330 !important;
+  border-color: #00d330 !important;
 }
 
 .ccm-link-container {
