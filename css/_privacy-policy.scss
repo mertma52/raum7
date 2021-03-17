@@ -4,7 +4,6 @@
 .policy-wrapper {
   width: 62%;
   margin-left: 25%;
-  padding-top: 150px;
   padding-bottom: 40px;
   background-color: #191919;
   color: white;
@@ -15,8 +14,16 @@
   position: relative;
   font-size: 0.93vw;
   line-height: 1.5vw;
+  .hidden-headline{
+    display: none;
+  }
+  .privacy-headline{
+    margin-top: 12vw;
+    font-size: 2.2vw;
+    font-weight: 600;
+  }
   h2 {
-    margin-top: 30px;
+    margin-top: 40px;
   }
   h3 {
     margin-top: 30px;
