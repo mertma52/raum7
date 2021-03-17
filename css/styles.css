@@ -1,15 +1,18 @@
-/*@font-face {
+@font-face {
   font-family: "Montserrat-Light";
   src: url("/fonts/Montserrat-Light.ttf");
 }
+
 @font-face {
   font-family: "Montserrat-SemiBold";
   src: url("/fonts/Montserrat-SemiBold.ttf");
 }
+
 @font-face {
   font-family: "Montserrat-Bold";
   src: url("/fonts/Montserrat-Bold.ttf");
-}*/
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -267,6 +270,7 @@ body::-webkit-scrollbar-thumb {
 .gecko .gecko-background-h1 {
   font-size: 2.2vw;
   font-weight: 400;
+  font-family: "Montserrat-Light";
   color: #464646;
   text-align: center;
   position: absolute;
@@ -275,6 +279,7 @@ body::-webkit-scrollbar-thumb {
 
 .gecko .gecko-background-h1 span {
   font-weight: 600;
+  font-family: "Montserrat-Bold";
 }
 
 .gecko .gecko-background-h1-mobile {
@@ -355,6 +360,7 @@ body::-webkit-scrollbar-thumb {
 .h2-property-background-img {
   display: inline-block;
   font-weight: 600;
+  font-family: "Montserrat-Bold";
   color: white;
   font-size: 1.5vw;
   background-color: rgba(0, 0, 0, 0.7);
@@ -400,6 +406,7 @@ body::-webkit-scrollbar-thumb {
   font-size: 2.2vw;
   text-align: center;
   font-weight: 300;
+  font-family: "Montserrat-Light";
 }
 
 .text-gray .text-gray-wrapper .text-gray-wrapper-h3-mobile {
@@ -443,6 +450,7 @@ body::-webkit-scrollbar-thumb {
   font-size: 2.2vw;
   text-align: center;
   font-weight: 300;
+  font-family: "Montserrat-Light";
 }
 
 .text-white .text-white-wrappper .text-white-wrappper-h3-mobile {
