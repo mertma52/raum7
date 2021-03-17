@@ -2380,6 +2380,14 @@ video[poster] {
             flex-direction: column;
     position: relative;
   }
+  .imprint-wrapper .impressum-headline {
+    margin-top: 0vw;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .imprint-wrapper h2 {
+    margin-bottom: 1vh;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -2716,7 +2724,7 @@ video[poster] {
 }
 
 .policy-wrapper h3 {
-  margin-top: 30px;
+  margin-top: 10px;
   margin-bottom: 2vh;
 }
 
@@ -2747,6 +2755,18 @@ video[poster] {
         -ms-flex-direction: column;
             flex-direction: column;
     position: relative;
+  }
+  .policy-wrapper .privacy-headline {
+    margin-top: 0vw;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .policy-wrapper h2 {
+    margin-top: 1vh;
+  }
+  .policy-wrapper h3 {
+    margin-top: 0px;
+    margin-bottom: 0vh;
   }
 }
 

@@ -42,6 +42,14 @@
     align-items: flex-start;
     flex-direction: column;
     position: relative;
+    .impressum-headline{
+      margin-top: 0vw;
+      font-size: 25px;
+      font-weight: 600;
+    }
+    h2 {
+      margin-bottom: 1vh;
+    }
   }
 }
 @media screen and (max-width: 767px) {
